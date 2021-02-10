@@ -1,0 +1,354 @@
+<style>
+	.row {
+	font-family: Arial;
+    color: black;
+    width: 100%;
+    display: table;
+    margin-bottom: -9px;
+    margin-top: 1px;
+	}
+	.carrousel {
+		font-family: Calibri;
+		/*background: #f6f6f6;*/
+		/* text-align: center;*/
+		padding: 4em 0;
+		/*max-width: 750px;*/
+		/*margin: auto;*/
+		position: relative;
+		overflow-x: hidden;
+	}
+	.slides {
+		/*background-color: #f6f6f6;*/
+	}
+	.carrousel .slides {
+		width: 200%;
+		padding-top: 0em;
+		overflow: hidden;
+		list-style: none;
+		position: relative;
+		-webkit-transition: transform .5s;
+		-moz-transition: transform .5s;
+		-o-transition: transform .5s;
+		transition: transform .5s;
+	}
+	.carrousel .slides li {
+		width: 50%;
+		position: relative;
+		float: left;
+	}
+	.Terr img {
+		width: 2em;
+    height: 2em;
+    /* margin-bottom: 0px; */
+    /* object-fit: cover; */
+    /* border-radius: 50%; */
+	}
+	.carrousel .slidesNavigation {
+		text-align: center;
+		    top: 1em;
+		position: absolute;
+		width: 100%;
+	}
+	.carrousel input {
+		display: none;
+	}
+	.carrousel .slidesNavigation label {
+		margin: 10px;
+		display: inline-block;
+	}
+	#radio-1:checked ~ .slides {
+		padding: 1px;
+		transform: translateX(0%);
+	}
+	#radio-2:checked ~ .slides {
+		padding: 1px;
+		transform: translateX(-50%);
+	}
+	.carrousel .slidesNavigation label:hover {
+		cursor: pointer;
+	}
+	.carrousel #radio-1:checked ~ .slidesNavigation label#dotForRadio-1,
+	.carrousel #radio-2:checked ~ .slidesNavigation label#dotForRadio-2,
+	.carrousel #radio-3:checked ~ .slidesNavigation label#dotForRadio-3,
+	.carrousel #radio-4:checked ~ .slidesNavigation label#dotForRadio-4 {
+
+		font-weight: bold;
+		color: white;
+		transform: scale(1.2);
+		box-shadow: 0 4px 18px 0 rgba(0, 0, 0, 0.2), 0 6px 40px 0 rgba(0, 0, 0, 0.19);
+		background: rgb(11, 148, 246);
+		background: linear-gradient(180deg, rgba(11, 148, 246, 1) 0%, rgba(24, 22, 88, 1) 100%);
+	}
+	.tablehead {
+		font-family: Arial;
+		color: #f2f2f2;
+		height: 30px;
+		width: 100%;
+		background-image: linear-gradient(#0070c0, #221F7A);
+		display: table;
+		border-radius: 3px;
+		/*box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);*/
+	}
+	.details {
+		/*height: 570px;*/
+		overflow-y: auto;
+	}
+	.rank {
+		padding-left: 5px;
+		width: 20%;
+	}
+	.Name {
+		width: 62%;
+		text-align: center;
+	}
+	.Terr {
+		text-align:center;
+	}
+	.Name1 {
+		width: 70%;
+		text-align:center;
+	}
+	.Terr1 {
+		width: 30%;
+		text-align:center;
+	}
+	.invisible {
+		visibility: hidden !important;
+	}
+	.no_display {
+		display: none !important;
+	}
+
+	.Terr1 img{
+		margin-right:10px;
+		width: 2em;
+    height: 2em;
+	}
+	.heading{	
+	text-align: center;
+	background-color:#0658AA; 
+	/*padding: 7px;*/
+	font-size: 10px;
+	}
+	.inline_block{
+	display:inline-block;
+	vertical-align: middle;
+	}
+	.heading_description{
+	padding: 5px;
+	text-align:center;
+	font-size:1.5em;
+	font-weight:bold;
+	color:white;
+	width: 75%;
+	}
+	.trophy_image{
+	background-color: white;
+    border-radius: 50%;
+	    margin: 5px;
+	}
+	.trophy_image img{
+	width: 4em;
+	height: 4em;
+	object-fit: cover;
+	border-radius: 50%;
+	vertical-align: middle;
+	padding: 5px;
+	}
+	.more_link{
+	position:absolute;
+	right: 0em;
+	top: 0em;
+	    font-size: 10px;
+	}
+	.Leaderboard {
+    margin-bottom: -90px;
+}
+.rank, .Name, .Terr, .Name1, .Terr1{
+display: table-cell; 
+
+}
+.head{
+vertical-align:middle;
+}
+</style>
+
+<div  class="Leaderboard">
+	
+	<div class="carrousel">
+		
+		<div class="more_link">
+		<a href="https://www.example.com" target="_blank">Navigate to Chairman's Circle leaderboard</a>
+		</div>
+		
+		<input type="radio" name="slides" id="radio-1" checked>
+		<input type="radio" name="slides" id="radio-2">
+		<div class="heading">
+			<div class="trophy_image inline_block">
+				<img src="https://img.icons8.com/emoji/452/trophy-emoji.png"/>
+			</div>
+			<div class="heading_description inline_block">
+				August-2020 Chairman's Circle
+			</div>
+		</div>
+		<ul class="slides">
+			<li class="slide">
+				<div class="tablehead">
+					<div class="rank invisible head" style="">Rank</div>
+					<div class="Name head" >Name</div>
+					<div class="Terr head" >Rank</div>
+				</div>
+				<div class="details">
+					<div class="row">
+						<div class="rank" style="">Rank 1</div>
+						<div class="Name" >Orlando Todd</div>
+						<div class="Terr" ><img class="image_trophy" src="https://cdn1.iconfinder.com/data/icons/education-colors/100/03-512.png"></div>
+					</div>
+					<hr class="line" style="border-top: 1px dashed #DCDCDC; border-bottom: 0px">
+					<div class="row">
+						<div class="rank" >Rank 2</div>
+						<div class="Name" >Orlando Todd</div>
+						<div class="Terr" ><img class="image_trophy" src="https://cdn4.iconfinder.com/data/icons/trophy-and-awards-1/64/Icon_Trophy_Awards_Cup_Silver-512.png" ></div>
+					</div>
+					<hr class="line" style="border-top: 1px dashed #DCDCDC; border-bottom: 0px">
+					<div class="row">
+						<div class="rank" >Rank 3</div>
+						<div class="Name" >Orlando Todd</div>
+						<div class="Terr" ><img class="image_trophy" src="https://cdn2.iconfinder.com/data/icons/pretty-office-part-7/256/cup_bronze-512.png" ></div>
+					</div>
+					<hr class="line" style="border-top: 1px dashed #DCDCDC; border-bottom: 0px">
+						<div class="row">
+						<div class="rank" >Rank 4</div>
+						<div class="Name" >Orlando Todd</div>
+						<div class="Terr" ><img class="image_trophy" src="https://cdn1.iconfinder.com/data/icons/hawcons/32/700384-icon-15-trophy-512.png" ></div>
+					</div>
+					<hr class="line" style="border-top: 1px dashed #DCDCDC; border-bottom: 0px">
+					<div class="row">
+						<div class="rank" >Rank 5</div>
+						<div class="Name" >Orlando Todd</div>
+						<div class="Terr" ><img class="image_trophy" src="https://cdn1.iconfinder.com/data/icons/hawcons/32/700384-icon-15-trophy-512.png" ></div>
+					</div>
+					<hr class="line" style="border-top: 1px dashed #DCDCDC; border-bottom: 0px">
+					<div class="row">
+						<div class="rank" >Rank 6</div>
+						<div class="Name" >Orlando Todd</div>
+						<div class="Terr" ><img class="image_trophy" src="https://cdn1.iconfinder.com/data/icons/hawcons/32/700384-icon-15-trophy-512.png" ></div>
+					</div>
+					<hr class="line" style="border-top: 1px dashed #DCDCDC; border-bottom: 0px">
+					<div class="row">
+						<div class="rank" >Rank 7</div>
+						<div class="Name" >Orlando Todd</div>
+						<div class="Terr" ><img class="image_trophy" src="https://cdn1.iconfinder.com/data/icons/hawcons/32/700384-icon-15-trophy-512.png" ></div>
+					</div>
+					<hr class="line" style="border-top: 1px dashed #DCDCDC; border-bottom: 0px">
+					<div class="row">
+						<div class="rank" >Rank 8</div>
+						<div class="Name" >Orlando Todd</div>
+						<div class="Terr" ><img class="image_trophy" src="https://cdn1.iconfinder.com/data/icons/hawcons/32/700384-icon-15-trophy-512.png" ></div>
+					</div>
+					<hr class="line" style="border-top: 1px dashed #DCDCDC; border-bottom: 0px">
+					<div class="row">
+						<div class="rank" >Rank 9</div>
+						<div class="Name" >Orlando Todd</div>
+						<div class="Terr" ><img class="image_trophy" src="https://cdn1.iconfinder.com/data/icons/hawcons/32/700384-icon-15-trophy-512.png" ></div>
+					</div>
+					<hr class="line" style="border-top: 1px dashed #DCDCDC; border-bottom: 0px">
+					<div class="row">
+						<div class="rank" >Rank 10</div>
+						<div class="Name" >Orlando Todd</div>
+						<div class="Terr" ><img class="image_trophy" src="https://cdn1.iconfinder.com/data/icons/hawcons/32/700384-icon-15-trophy-512.png" ></div>
+					</div>
+					<hr class="line" style="border-top: 1px dashed #DCDCDC; border-bottom: 0px">
+				</div>
+			</li>
+			<li class="slide">	
+				<div class="tablehead" style="">
+					<div class="rank no_display head" >Rank</div>
+					<div class="Name1 head" >Name</div>
+					<div class="Terr1 head" >Gain in Rank</div>
+				</div>
+				<div class="details" style="">
+					<div class="row">
+						<div class="rank no_display" >Rank 1</div>
+						<div class="Name1" >Orlando Todd</div>
+						<div class="Terr1" ><img class="image_arrow" src="https://img.icons8.com/metro/344/26e07f/long-arrow-up.png" ><b>53</b></div>
+					</div>
+					<hr class="line" style="border-top: 1px dashed #DCDCDC; border-bottom: 0px">
+					<div class="row">
+						<div class="rank no_display" >Rank 2</div>
+						<div class="Name1" >Orlando Todd</div>
+						<div class="Terr1" ><img class="image_arrow" src="https://img.icons8.com/metro/344/26e07f/long-arrow-up.png" ><b>53</b></div>
+					</div>
+					<hr class="line" style="border-top: 1px dashed #DCDCDC; border-bottom: 0px">
+					<div class="row">
+						<div class="rank no_display" >Rank 3</div>
+						<div class="Name1" >Orlando Todd</div>
+						<div class="Terr1" ><img class="image_arrow" src="https://img.icons8.com/metro/344/26e07f/long-arrow-up.png" ><b>53</b></div>
+					</div>
+					<hr class="line" style="border-top: 1px dashed #DCDCDC; border-bottom: 0px">
+					<div class="row">
+						<div class="rank no_display" >Rank 4</div>
+						<div class="Name1" >Orlando Todd</div>
+						<div class="Terr1" ><img class="image_arrow" src="https://img.icons8.com/metro/344/26e07f/long-arrow-up.png" ><b>53</b></div>
+					</div>
+					<hr class="line" style="border-top: 1px dashed #DCDCDC; border-bottom: 0px">
+					<div class="row">
+						<div class="rank no_display" >Rank 5</div>
+						<div class="Name1" >Orlando Todd</div>
+						<div class="Terr1" ><img class="image_arrow" src="https://img.icons8.com/metro/344/26e07f/long-arrow-up.png" ><b>53</b></div>
+					</div>
+					<hr class="line" style="border-top: 1px dashed #DCDCDC; border-bottom: 0px">
+					<div class="row">
+						<div class="rank no_display" >Rank 6</div>
+						<div class="Name1" >Orlando Todd</div>
+						<div class="Terr1" ><img class="image_arrow" src="https://img.icons8.com/metro/344/26e07f/long-arrow-up.png" ><b>53</b></div>
+					</div>
+					<hr class="line" style="border-top: 1px dashed #DCDCDC; border-bottom: 0px">
+					<div class="row">
+						<div class="rank no_display" >Rank 7</div>
+						<div class="Name1" >Orlando Todd</div>
+						<div class="Terr1" ><img class="image_arrow" src="https://img.icons8.com/metro/344/26e07f/long-arrow-up.png" ><b>53</b></div>
+					</div>
+					<hr class="line" style="border-top: 1px dashed #DCDCDC; border-bottom: 0px">
+					<div class="row">
+						<div class="rank no_display" >Rank 8</div>
+						<div class="Name1" >Orlando Todd</div>
+						<div class="Terr1" ><img class="image_arrow" src="https://img.icons8.com/metro/344/26e07f/long-arrow-up.png" ><b>53</b></div>
+					</div>
+					<hr class="line" style="border-top: 1px dashed #DCDCDC; border-bottom: 0px">
+					<div class="row">
+						<div class="rank no_display" >Rank 9</div>
+						<div class="Name1" >Orlando Todd</div>
+						<div class="Terr1" ><img class="image_arrow" src="https://img.icons8.com/metro/344/26e07f/long-arrow-up.png" ><b>53</b></div>
+					</div>
+					<hr class="line" style="border-top: 1px dashed #DCDCDC; border-bottom: 0px">
+					<div class="row">
+						<div class="rank no_display" >Rank 10</div>
+						<div class="Name1" >Orlando Todd</div>
+						<div class="Terr1" ><img class="image_arrow" src="https://img.icons8.com/metro/344/26e07f/long-arrow-up.png" ><b>53</b></div>
+					</div>
+					<hr class="line" style="border-top: 1px dashed #DCDCDC; border-bottom: 0px">
+				</div>
+			</li>					
+		</ul>
+					
+		<div class="slidesNavigation">			
+			<label for="radio-1" id="dotForRadio-1" style="    background-color: #e1e9ef;
+    border-radius: 9px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 5px;
+    padding-right: 5px;
+    vertical-align: middle;
+    box-shadow: 0 4px 8px 0 rgb(0 0 0 / 20%), 0 6px 20px 0 rgb(0 0 0 / 0%);">Leaderboard</label>
+			<label for="radio-2" id="dotForRadio-2" style="    background-color: #e1e9ef;
+    border-radius: 9px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 5px;
+    padding-right: 5px;
+    vertical-align: middle;
+    box-shadow: 0 4px 8px 0 rgb(0 0 0 / 20%), 0 6px 20px 0 rgb(0 0 0 / 0%);">In the Moment</label>
+		</div>
+	</div>
+</div>

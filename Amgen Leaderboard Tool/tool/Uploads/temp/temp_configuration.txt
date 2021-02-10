@@ -1,0 +1,701 @@
+USERID	REP_ID	TERR_ID	PRODUCT_ID	ROLE_ID	TEAM_ID	BUSINESS_UNIT_ID	METRIC_VALUE_1	METRIC_CAPTION_1	METRIC_COLOUR_1	METRIC_VALUE_2	METRIC_CAPTION_2	METRIC_COLOUR_2	METRIC_VALUE_3	METRIC_CAPTION_3	METRIC_COLOUR_3	METRIC_VALUE_4	METRIC_CAPTION_4	METRIC_COLOUR_4	ID	DELETED
+bridgett@amgen.com	98277	B3G001	EVENITY	PSR	BLUE BASE	BCBU	15	Absolute Volume	Black	-19.79%	Percent Volume Growth	Red	104	Final Rank	Black				bridgett@amgen.comEVENITY	
+brwells@amgen.com	129245	B5B008	PROLIA	PSR	BLUE BASE	BCBU	455.2	Sales	Black	33070.14%	Goals	Black	1.326994553	Attainment	Black				brwells@amgen.comPROLIA	
+brwells@amgen.com	129245	B5B008	EVENITY	PSR	BLUE BASE	BCBU	36	Absolute Volume	Black	75.00%	Percent Volume Growth	Green	40	Final Rank	Black				brwells@amgen.comEVENITY	
+bshapira@amgen.com	219914	B1C004	PROLIA	PSR	BLUE BASE	BCBU	313.1447863	Sales	Black	34030.24%	Goals	Black	0.887121632	Attainment	Black				bshapira@amgen.comPROLIA	
+bshapira@amgen.com	219914	B1C004	EVENITY	PSR	BLUE BASE	BCBU	21.699145	Absolute Volume	Black	142.59%	Percent Volume Growth	Green	83	Final Rank	Black				bshapira@amgen.comEVENITY	
+btate@amgen.com	269922	B4E009	PROLIA	PSR	BLUE BASE	BCBU	260.96	Sales	Black	21812.94%	Goals	Black	1.153354154	Attainment	Black				btate@amgen.comPROLIA	
+btate@amgen.com	269922	B4E009	EVENITY	PSR	BLUE BASE	BCBU	2	Absolute Volume	Black	-50.64%	Percent Volume Growth	Red	138	Final Rank	Black				btate@amgen.comEVENITY	
+caalexan@amgen.com	126331	B3A003	PROLIA	PSR	BLUE BASE	BCBU	283.7696155	Sales	Black	25730.22%	Goals	Black	1.063225498	Attainment	Black				caalexan@amgen.comPROLIA	
+caalexan@amgen.com	126331	B3A003	EVENITY	PSR	BLUE BASE	BCBU	56.038462	Absolute Volume	Black	36.11%	Percent Volume Growth	Green	12	Final Rank	Black				caalexan@amgen.comEVENITY	
+ccorazza@amgen.com	250547	B3C008	PROLIA	PSR	BLUE BASE	BCBU	272.45	Sales	Black	29300.49%	Goals	Black	0.896427019	Attainment	Black				ccorazza@amgen.comPROLIA	
+ccorazza@amgen.com	250547	B3C008	EVENITY	PSR	BLUE BASE	BCBU	16	Absolute Volume	Black	-1.28%	Percent Volume Growth	Red	84	Final Rank	Black				ccorazza@amgen.comEVENITY	
+cerichar@amgen.com	151443	B1J006	PROLIA	PSR	BLUE BASE	BCBU	186.5052565	Sales	Black	26838.32%	Goals	Black	0.66994428	Attainment	Black				cerichar@amgen.comPROLIA	
+cerichar@amgen.com	151443	B1J006	EVENITY	PSR	BLUE BASE	BCBU	5.141026	Absolute Volume	Black	174.32%	Percent Volume Growth	Green	131	Final Rank	Black				cerichar@amgen.comEVENITY	
+cevans02@amgen.com	253994	B2D004	PROLIA	PSR	BLUE BASE	BCBU	407.9532053	Sales	Black	41949.96%	Goals	Black	0.937522572	Attainment	Black				cevans02@amgen.comPROLIA	
+cevans02@amgen.com	253994	B2D004	EVENITY	PSR	BLUE BASE	BCBU	69.812821	Absolute Volume	Black	29.44%	Percent Volume Growth	Green	24	Final Rank	Black				cevans02@amgen.comEVENITY	
+cfujihar@amgen.com	206362	B5J002	PROLIA	PSR	BLUE BASE	BCBU	630.325	Sales	Black	45688.59%	Goals	Black	1.330024728	Attainment	Black				cfujihar@amgen.comPROLIA	
+cfujihar@amgen.com	206362	B5J002	EVENITY	PSR	BLUE BASE	BCBU	70.7	Absolute Volume	Black	84.26%	Percent Volume Growth	Green	3	Final Rank	Black				cfujihar@amgen.comEVENITY	
+cgolden@amgen.com	110750	B4H002	PROLIA	PSR	BLUE BASE	BCBU	383.345	Sales	Black	28270.20%	Goals	Black	1.307265857	Attainment	Black				cgolden@amgen.comPROLIA	
+cgolden@amgen.com	110750	B4H002	EVENITY	PSR	BLUE BASE	BCBU	30.7	Absolute Volume	Black	11.80%	Percent Volume Growth	Green	109	Final Rank	Black				cgolden@amgen.comEVENITY	
+cgordon@amgen.com	211434	B2D008	PROLIA	PSR	BLUE BASE	BCBU	225.58	Sales	Black	21456.66%	Goals	Black	1.013541359	Attainment	Black				cgordon@amgen.comPROLIA	
+cgordon@amgen.com	211434	B2D008	EVENITY	PSR	BLUE BASE	BCBU	2	Absolute Volume	Black	-62.26%	Percent Volume Growth	Red	140	Final Rank	Black				cgordon@amgen.comEVENITY	
+chelfenb@amgen.com	210041	B1J003	PROLIA	PSR	BLUE BASE	BCBU	187.2	Sales	Black	23128.67%	Goals	Black	0.780293613	Attainment	Black				chelfenb@amgen.comPROLIA	
+chelfenb@amgen.com	210041	B1J003	EVENITY	PSR	BLUE BASE	BCBU	15	Absolute Volume	Black	30.07%	Percent Volume Growth	Green	68	Final Rank	Black				chelfenb@amgen.comEVENITY	
+childree@amgen.com	149673	B4E001	PROLIA	PSR	BLUE BASE	BCBU	212.1525	Sales	Black	18610.28%	Goals	Black	1.099001098	Attainment	Black				childree@amgen.comPROLIA	
+childree@amgen.com	149673	B4E001	EVENITY	PSR	BLUE BASE	BCBU	45.25	Absolute Volume	Black	9.86%	Percent Volume Growth	Green	71	Final Rank	Black				childree@amgen.comEVENITY	
+chlange@amgen.com	132566	B3D002	PROLIA	PSR	BLUE BASE	BCBU	301.32	Sales	Black	31124.06%	Goals	Black	0.933328924	Attainment	Black				chlange@amgen.comPROLIA	
+chlange@amgen.com	132566	B3D002	EVENITY	PSR	BLUE BASE	BCBU	28	Absolute Volume	Black	79.67%	Percent Volume Growth	Green	16	Final Rank	Black				chlange@amgen.comEVENITY	
+chodge02@amgen.com	273699	B4D201	PROLIA	PSR	BLUE BASE	BCBU	1671.093462	Sales	Black	137838.64%	Goals	Black	1.16877985	Attainment	Black				chodge02@amgen.comPROLIA	
+chodge02@amgen.com	273699	B4D201	EVENITY	PSR	BLUE BASE	BCBU	55.6634615	Absolute Volume	Black	40.98%	Percent Volume Growth	Green	9	Final Rank	Black				chodge02@amgen.comEVENITY	
+cirwin@amgen.com	150530	B3C009	PROLIA	PSR	BLUE BASE	BCBU	181	Sales	Black	22160.92%	Goals	Black	0.787396974	Attainment	Black				cirwin@amgen.comPROLIA	
+cirwin@amgen.com	150530	B3C009	EVENITY	PSR	BLUE BASE	BCBU	7	Absolute Volume	Black	-2.36%	Percent Volume Growth	Red	119	Final Rank	Black				cirwin@amgen.comEVENITY	
+cknowles@amgen.com	149909	B3H007	PROLIA	PSR	BLUE BASE	BCBU	302.146795	Sales	Black	32121.09%	Goals	Black	0.906840061	Attainment	Black				cknowles@amgen.comPROLIA	
+cknowles@amgen.com	149909	B3H007	EVENITY	PSR	BLUE BASE	BCBU	22.98718	Absolute Volume	Black	17.15%	Percent Volume Growth	Green	59	Final Rank	Black				cknowles@amgen.comEVENITY	
+clair01@amgen.com	203591	B5A002	PROLIA	PSR	BLUE BASE	BCBU	447.36	Sales	Black	42591.95%	Goals	Black	1.012587484	Attainment	Black				clair01@amgen.comPROLIA	
+clair01@amgen.com	203591	B5A002	EVENITY	PSR	BLUE BASE	BCBU	71	Absolute Volume	Black	20.50%	Percent Volume Growth	Green	37	Final Rank	Black				clair01@amgen.comEVENITY	
+conyer@amgen.com	150919	B1J005	PROLIA	PSR	BLUE BASE	BCBU	214.99	Sales	Black	20446.85%	Goals	Black	1.013665553	Attainment	Black				conyer@amgen.comPROLIA	
+conyer@amgen.com	150919	B1J005	EVENITY	PSR	BLUE BASE	BCBU	12	Absolute Volume	Black	24.19%	Percent Volume Growth	Green	158	Final Rank	Black				conyer@amgen.comEVENITY	
+corral@amgen.com	126502	B4C002	PROLIA	PSR	BLUE BASE	BCBU	392.2576283	Sales	Black	33430.44%	Goals	Black	1.13118145	Attainment	Black				corral@amgen.comPROLIA	
+corral@amgen.com	126502	B4C002	EVENITY	PSR	BLUE BASE	BCBU	56.870513	Absolute Volume	Black	16.24%	Percent Volume Growth	Green	47	Final Rank	Black				corral@amgen.comEVENITY	
+cortezm@amgen.com	149139	B4J001	PROLIA	PSR	BLUE BASE	BCBU	390.8649145	Sales	Black	32555.82%	Goals	Black	1.157446658	Attainment	Black				cortezm@amgen.comPROLIA	
+cortezm@amgen.com	149139	B4J001	EVENITY	PSR	BLUE BASE	BCBU	56.419658	Absolute Volume	Black	45.53%	Percent Volume Growth	Green	21	Final Rank	Black				cortezm@amgen.comEVENITY	
+cpetrung@amgen.com	253720	B3A001	PROLIA	PSR	BLUE BASE	BCBU	216.48	Sales	Black	18980.25%	Goals	Black	1.099559472	Attainment	Black				cpetrung@amgen.comPROLIA	
+cpetrung@amgen.com	253720	B3A001	EVENITY	PSR	BLUE BASE	BCBU	14.6	Absolute Volume	Black	23.27%	Percent Volume Growth	Green	155	Final Rank	Black				cpetrung@amgen.comEVENITY	
+cphiefer@amgen.com	206140	B1H009	PROLIA	PSR	BLUE BASE	BCBU	402.6520513	Sales	Black	27286.07%	Goals	Black	1.422629606	Attainment	Black				cphiefer@amgen.comPROLIA	
+cphiefer@amgen.com	206140	B1H009	EVENITY	PSR	BLUE BASE	BCBU	56.128205	Absolute Volume	Black	-0.40%	Percent Volume Growth	Red	74	Final Rank	Black				cphiefer@amgen.comEVENITY	
+cscruggs@amgen.com	125043	B4H001	PROLIA	PSR	BLUE BASE	BCBU	221.693889	Sales	Black	26767.83%	Goals	Black	0.798442298	Attainment	Black				cscruggs@amgen.comPROLIA	
+cscruggs@amgen.com	125043	B4H001	EVENITY	PSR	BLUE BASE	BCBU	25.855556	Absolute Volume	Black	13.95%	Percent Volume Growth	Green	118	Final Rank	Black				cscruggs@amgen.comEVENITY	
+csharp01@amgen.com	254015	B3K003	PROLIA	PSR	BLUE BASE	BCBU	366.15	Sales	Black	35572.74%	Goals	Black	0.992303844	Attainment	Black				csharp01@amgen.comPROLIA	
+csharp01@amgen.com	254015	B3K003	EVENITY	PSR	BLUE BASE	BCBU	8	Absolute Volume	Black	28.33%	Percent Volume Growth	Green	174	Final Rank	Black				csharp01@amgen.comEVENITY	
+csnyde01@amgen.com	262700	B1F002	PROLIA	PSR	BLUE BASE	BCBU	150.5619658	Sales	Black	16102.04%	Goals	Black	0.901441104	Attainment	Black				csnyde01@amgen.comPROLIA	
+csnyde01@amgen.com	262700	B1F002	EVENITY	PSR	BLUE BASE	BCBU	4.247863	Absolute Volume	Black	65.84%	Percent Volume Growth	Green	85	Final Rank	Black				csnyde01@amgen.comEVENITY	
+csweet01@amgen.com	275809	B1F001	PROLIA	PSR	BLUE BASE	BCBU	346.57	Sales	Black	35462.23%	Goals	Black	0.942167047	Attainment	Black				csweet01@amgen.comPROLIA	
+csweet01@amgen.com	275809	B1F001	EVENITY	PSR	BLUE BASE	BCBU	21	Absolute Volume	Black	102.94%	Percent Volume Growth	Green	88	Final Rank	Black				csweet01@amgen.comEVENITY	
+ctakara@amgen.com	183418	B5J001	PROLIA	PSR	BLUE BASE	BCBU	493.0652993	Sales	Black	36919.73%	Goals	Black	1.287504881	Attainment	Black				ctakara@amgen.comPROLIA	
+ctakara@amgen.com	183418	B5J001	EVENITY	PSR	BLUE BASE	BCBU	43.381197	Absolute Volume	Black	10.99%	Percent Volume Growth	Green	75	Final Rank	Black				ctakara@amgen.comEVENITY	
+cwilhite@amgen.com	190847	B3B003	PROLIA	PSR	BLUE BASE	BCBU	208.6925	Sales	Black	23460.28%	Goals	Black	0.857584006	Attainment	Black				cwilhite@amgen.comPROLIA	
+cwilhite@amgen.com	190847	B3B003	EVENITY	PSR	BLUE BASE	BCBU	11.25	Absolute Volume	Black	6.94%	Percent Volume Growth	Green	102	Final Rank	Black				cwilhite@amgen.comEVENITY	
+czarriel@amgen.com	276394	B1F003	PROLIA	PSR	BLUE BASE	BCBU	294.23	Sales	Black	31531.53%	Goals	Black	0.899590612	Attainment	Black				czarriel@amgen.comPROLIA	
+czarriel@amgen.com	276394	B1F003	EVENITY	PSR	BLUE BASE	BCBU	31	Absolute Volume	Black	34.77%	Percent Volume Growth	Green	80	Final Rank	Black				czarriel@amgen.comEVENITY	
+czihlman@amgen.com	124602	B4H003	PROLIA	PSR	BLUE BASE	BCBU	210.99	Sales	Black	18408.53%	Goals	Black	1.104958062	Attainment	Black				czihlman@amgen.comPROLIA	
+czihlman@amgen.com	124602	B4H003	EVENITY	PSR	BLUE BASE	BCBU	3.4	Absolute Volume	Black	-37.31%	Percent Volume Growth	Red	212	Final Rank	Black				czihlman@amgen.comEVENITY	
+dameyer@amgen.com	114485	B4J007	PROLIA	PSR	BLUE BASE	BCBU	302.733547	Sales	Black	21710.70%	Goals	Black	1.344279622	Attainment	Black				dameyer@amgen.comPROLIA	
+dameyer@amgen.com	114485	B4J007	EVENITY	PSR	BLUE BASE	BCBU	38.934188	Absolute Volume	Black	8.15%	Percent Volume Growth	Green	89	Final Rank	Black				dameyer@amgen.comEVENITY	
+davcohen@amgen.com	98538	B5E005	PROLIA	PSR	BLUE BASE	BCBU	262.7	Sales	Black	23691.60%	Goals	Black	1.068977516	Attainment	Black				davcohen@amgen.comPROLIA	
+davcohen@amgen.com	98538	B5E005	EVENITY	PSR	BLUE BASE	BCBU	23.2	Absolute Volume	Black	33.15%	Percent Volume Growth	Green	110	Final Rank	Black				davcohen@amgen.comEVENITY	
+denap@amgen.com	153465	B5C003	PROLIA	PSR	BLUE BASE	BCBU	255.15	Sales	Black	20460.17%	Goals	Black	1.202234517	Attainment	Black				denap@amgen.comPROLIA	
+denap@amgen.com	153465	B5C003	EVENITY	PSR	BLUE BASE	BCBU	23	Absolute Volume	Black	-18.01%	Percent Volume Growth	Red	173	Final Rank	Black				denap@amgen.comEVENITY	
+dkoonc01@amgen.com	250209	B2B005	PROLIA	PSR	BLUE BASE	BCBU	315.8264103	Sales	Black	28909.13%	Goals	Black	1.05321321	Attainment	Black				dkoonc01@amgen.comPROLIA	
+dkoonc01@amgen.com	250209	B2B005	EVENITY	PSR	BLUE BASE	BCBU	25.025641	Absolute Volume	Black	30.20%	Percent Volume Growth	Green	108	Final Rank	Black				dkoonc01@amgen.comEVENITY	
+dmcgarve@amgen.com	98073	B4H005	PROLIA	PSR	BLUE BASE	BCBU	411.06	Sales	Black	35400.64%	Goals	Black	1.119430262	Attainment	Black				dmcgarve@amgen.comPROLIA	
+dmcgarve@amgen.com	98073	B4H005	EVENITY	PSR	BLUE BASE	BCBU	14	Absolute Volume	Black	14.01%	Percent Volume Growth	Green	83	Final Rank	Black				dmcgarve@amgen.comEVENITY	
+domingum@amgen.com	149211	B4C001	PROLIA	PSR	BLUE BASE	BCBU	389.93	Sales	Black	37363.72%	Goals	Black	1.006096157	Attainment	Black				domingum@amgen.comPROLIA	
+domingum@amgen.com	149211	B4C001	EVENITY	PSR	BLUE BASE	BCBU	43	Absolute Volume	Black	117.94%	Percent Volume Growth	Green	8	Final Rank	Black				domingum@amgen.comEVENITY	
+dsalvato@amgen.com	98584	B1G003	PROLIA	PSR	BLUE BASE	BCBU	264.77	Sales	Black	22869.56%	Goals	Black	1.116127643	Attainment	Black				dsalvato@amgen.comPROLIA	
+dsalvato@amgen.com	98584	B1G003	EVENITY	PSR	BLUE BASE	BCBU	4.28	Absolute Volume	Black	6.28%	Percent Volume Growth	Green	119	Final Rank	Black				dsalvato@amgen.comEVENITY	
+dsowers@amgen.com	272011	B1H006	PROLIA	PSR	BLUE BASE	BCBU	236.1420513	Sales	Black	25463.35%	Goals	Black	0.894047832	Attainment	Black				dsowers@amgen.comPROLIA	
+dsowers@amgen.com	272011	B1H006	EVENITY	PSR	BLUE BASE	BCBU	23.128205	Absolute Volume	Black	-19.71%	Percent Volume Growth	Red	175	Final Rank	Black				dsowers@amgen.comEVENITY	
+dtokla@amgen.com	98163	B1A004	PROLIA	PSR	BLUE BASE	BCBU	366.72	Sales	Black	41197.03%	Goals	Black	0.85816657	Attainment	Black				dtokla@amgen.comPROLIA	
+dtokla@amgen.com	98163	B1A004	EVENITY	PSR	BLUE BASE	BCBU	39.4	Absolute Volume	Black	58.41%	Percent Volume Growth	Green	10	Final Rank	Black				dtokla@amgen.comEVENITY	
+dunning@amgen.com	139898	B2F008	PROLIA	PSR	BLUE BASE	BCBU	491.1232053	Sales	Black	38493.24%	Goals	Black	1.230010652	Attainment	Black				dunning@amgen.comPROLIA	
+dunning@amgen.com	139898	B2F008	EVENITY	PSR	BLUE BASE	BCBU	35.012821	Absolute Volume	Black	55.92%	Percent Volume Growth	Green	15	Final Rank	Black				dunning@amgen.comEVENITY	
+dwestbro@amgen.com	155308	B5C001	PROLIA	PSR	BLUE BASE	BCBU	156.67	Sales	Black	16557.50%	Goals	Black	0.912208184	Attainment	Black				dwestbro@amgen.comPROLIA	
+dwestbro@amgen.com	155308	B5C001	EVENITY	PSR	BLUE BASE	BCBU	0	Absolute Volume	Black	-100.00%	Percent Volume Growth	Red	142	Final Rank	Black				dwestbro@amgen.comEVENITY	
+dykhouse@amgen.com	149865	B4B005	PROLIA	PSR	BLUE BASE	BCBU	350.69	Sales	Black	30236.05%	Goals	Black	1.118152977	Attainment	Black				dykhouse@amgen.comPROLIA	
+dykhouse@amgen.com	149865	B4B005	EVENITY	PSR	BLUE BASE	BCBU	33	Absolute Volume	Black	89.06%	Percent Volume Growth	Green	11	Final Rank	Black				dykhouse@amgen.comEVENITY	
+ebrach@amgen.com	250025	B1F008	PROLIA	PSR	BLUE BASE	BCBU	327.075	Sales	Black	27886.78%	Goals	Black	1.130711958	Attainment	Black				ebrach@amgen.comPROLIA	
+ebrach@amgen.com	250025	B1F008	EVENITY	PSR	BLUE BASE	BCBU	15.5	Absolute Volume	Black	24.32%	Percent Volume Growth	Green	68	Final Rank	Black				ebrach@amgen.comEVENITY	
+ecarris@amgen.com	114420	B5C005	PROLIA	PSR	BLUE BASE	BCBU	264.89	Sales	Black	27970.79%	Goals	Black	0.912985119	Attainment	Black				ecarris@amgen.comPROLIA	
+ecarris@amgen.com	114420	B5C005	EVENITY	PSR	BLUE BASE	BCBU	20	Absolute Volume	Black	23.16%	Percent Volume Growth	Green	137	Final Rank	Black				ecarris@amgen.comEVENITY	
+edarbymo@amgen.com	98048	B3C003	PROLIA	PSR	BLUE BASE	BCBU	271.405	Sales	Black	37706.57%	Goals	Black	0.693910916	Attainment	Black				edarbymo@amgen.comPROLIA	
+edarbymo@amgen.com	98048	B3C003	EVENITY	PSR	BLUE BASE	BCBU	24.1	Absolute Volume	Black	22.73%	Percent Volume Growth	Green	114	Final Rank	Black				edarbymo@amgen.comEVENITY	
+eedmonds@amgen.com	250400	B2E003	PROLIA	PSR	BLUE BASE	BCBU	257.2352138	Sales	Black	21409.21%	Goals	Black	1.158331266	Attainment	Black				eedmonds@amgen.comPROLIA	
+eedmonds@amgen.com	250400	B2E003	EVENITY	PSR	BLUE BASE	BCBU	12.700855	Absolute Volume	Black	-18.06%	Percent Volume Growth	Red	200	Final Rank	Black				eedmonds@amgen.comEVENITY	
+efox03@amgen.com	256343	B2E001	PROLIA	PSR	BLUE BASE	BCBU	312.4428205	Sales	Black	25273.77%	Goals	Black	1.191800078	Attainment	Black				efox03@amgen.comPROLIA	
+efox03@amgen.com	256343	B2E001	EVENITY	PSR	BLUE BASE	BCBU	8.051282	Absolute Volume	Black	11.48%	Percent Volume Growth	Green	189	Final Rank	Black				efox03@amgen.comEVENITY	
+eglover@amgen.com	149472	B3C007	PROLIA	PSR	BLUE BASE	BCBU	186.19	Sales	Black	31025.71%	Goals	Black	0.578545589	Attainment	Black				eglover@amgen.comPROLIA	
+eglover@amgen.com	149472	B3C007	EVENITY	PSR	BLUE BASE	BCBU	25	Absolute Volume	Black	67.10%	Percent Volume Growth	Green	29	Final Rank	Black				eglover@amgen.comEVENITY	
+ehorlick@amgen.com	261131	B1G009	PROLIA	PSR	BLUE BASE	BCBU	253.92	Sales	Black	29627.05%	Goals	Black	0.82624982	Attainment	Black				ehorlick@amgen.comPROLIA	
+ehorlick@amgen.com	261131	B1G009	EVENITY	PSR	BLUE BASE	BCBU	16.2	Absolute Volume	Black	-42.25%	Percent Volume Growth	Red	106	Final Rank	Black				ehorlick@amgen.comEVENITY	
+elovejoy@amgen.com	153119	B4H007	PROLIA	PSR	BLUE BASE	BCBU	316.61	Sales	Black	26814.41%	Goals	Black	1.13830674	Attainment	Black				elovejoy@amgen.comPROLIA	
+elovejoy@amgen.com	153119	B4H007	EVENITY	PSR	BLUE BASE	BCBU	26	Absolute Volume	Black	12.72%	Percent Volume Growth	Green	115	Final Rank	Black				elovejoy@amgen.comEVENITY	
+eorlando@amgen.com	155312	B2J003	PROLIA	PSR	BLUE BASE	BCBU	232.835	Sales	Black	27404.31%	Goals	Black	0.819091429	Attainment	Black				eorlando@amgen.comPROLIA	
+eorlando@amgen.com	155312	B2J003	EVENITY	PSR	BLUE BASE	BCBU	16.5	Absolute Volume	Black	-16.57%	Percent Volume Growth	Red	191	Final Rank	Black				eorlando@amgen.comEVENITY	
+esteve01@amgen.com	272057	B5G003	PROLIA	PSR	BLUE BASE	BCBU	303.26	Sales	Black	25182.57%	Goals	Black	1.160961877	Attainment	Black				esteve01@amgen.comPROLIA	
+esteve01@amgen.com	272057	B5G003	EVENITY	PSR	BLUE BASE	BCBU	31	Absolute Volume	Black	61.84%	Percent Volume Growth	Green	55	Final Rank	Black				esteve01@amgen.comEVENITY	
+fansari@amgen.com	227167	B1C001	PROLIA	PSR	BLUE BASE	BCBU	181.62	Sales	Black	20182.50%	Goals	Black	0.867544382	Attainment	Black				fansari@amgen.comPROLIA	
+fansari@amgen.com	227167	B1C001	EVENITY	PSR	BLUE BASE	BCBU	4	Absolute Volume	Black	16.67%	Percent Volume Growth	Green	117	Final Rank	Black				fansari@amgen.comEVENITY	
+fbrother@amgen.com	111044	B2B004	PROLIA	PSR	BLUE BASE	BCBU	376.96	Sales	Black	26259.92%	Goals	Black	1.383900567	Attainment	Black				fbrother@amgen.comPROLIA	
+fbrother@amgen.com	111044	B2B004	EVENITY	PSR	BLUE BASE	BCBU	25	Absolute Volume	Black	122.80%	Percent Volume Growth	Green	19	Final Rank	Black				fbrother@amgen.comEVENITY	
+franklij@amgen.com	124604	B4G007	PROLIA	PSR	BLUE BASE	BCBU	357.49	Sales	Black	28995.72%	Goals	Black	1.188592263	Attainment	Black				franklij@amgen.comPROLIA	
+franklij@amgen.com	124604	B4G007	EVENITY	PSR	BLUE BASE	BCBU	66	Absolute Volume	Black	0.36%	Percent Volume Growth	Green	34	Final Rank	Black				franklij@amgen.comEVENITY	
+frosenbe@amgen.com	177256	B1E001	PROLIA	PSR	BLUE BASE	BCBU	271.863547	Sales	Black	44738.01%	Goals	Black	0.585837602	Attainment	Black				frosenbe@amgen.comPROLIA	
+frosenbe@amgen.com	177256	B1E001	EVENITY	PSR	BLUE BASE	BCBU	16.534188	Absolute Volume	Black	90.82%	Percent Volume Growth	Green	101	Final Rank	Black				frosenbe@amgen.comEVENITY	
+fvitale@amgen.com	149677	B3E007	PROLIA	PSR	BLUE BASE	BCBU	353.75	Sales	Black	37619.18%	Goals	Black	0.90654638	Attainment	Black				fvitale@amgen.comPROLIA	
+fvitale@amgen.com	149677	B3E007	EVENITY	PSR	BLUE BASE	BCBU	38	Absolute Volume	Black	11.85%	Percent Volume Growth	Green	45	Final Rank	Black				fvitale@amgen.comEVENITY	
+galvar01@amgen.com	271223	B4C003	PROLIA	PSR	BLUE BASE	BCBU	331.8830128	Sales	Black	25001.63%	Goals	Black	1.279733895	Attainment	Black				galvar01@amgen.comPROLIA	
+galvar01@amgen.com	271223	B4C003	EVENITY	PSR	BLUE BASE	BCBU	107.732051	Absolute Volume	Black	134.49%	Percent Volume Growth	Green	2	Final Rank	Black				galvar01@amgen.comEVENITY	
+games@amgen.com	98016	B3A006	PROLIA	PSR	BLUE BASE	BCBU	133.94	Sales	Black	18212.35%	Goals	Black	0.709001792	Attainment	Black				games@amgen.comPROLIA	
+games@amgen.com	98016	B3A006	EVENITY	PSR	BLUE BASE	BCBU	13	Absolute Volume	Black	-0.69%	Percent Volume Growth	Red	186	Final Rank	Black				games@amgen.comEVENITY	
+geradb@amgen.com	149743	B5D007	PROLIA	PSR	BLUE BASE	BCBU	430.76	Sales	Black	28811.31%	Goals	Black	1.441369403	Attainment	Black				geradb@amgen.comPROLIA	
+geradb@amgen.com	149743	B5D007	EVENITY	PSR	BLUE BASE	BCBU	27	Absolute Volume	Black	96.87%	Percent Volume Growth	Green	17	Final Rank	Black				geradb@amgen.comEVENITY	
+gjustice@amgen.com	149417	B2G005	PROLIA	PSR	BLUE BASE	BCBU	125.63	Sales	Black	13519.32%	Goals	Black	0.89586279	Attainment	Black				gjustice@amgen.comPROLIA	
+gjustice@amgen.com	149417	B2G005	EVENITY	PSR	BLUE BASE	BCBU	9	Absolute Volume	Black	31.25%	Percent Volume Growth	Green	89	Final Rank	Black				gjustice@amgen.comEVENITY	
+gkladde@amgen.com	124841	B5B002	PROLIA	PSR	BLUE BASE	BCBU	537.21	Sales	Black	39230.06%	Goals	Black	1.320164501	Attainment	Black				gkladde@amgen.comPROLIA	
+gkladde@amgen.com	124841	B5B002	EVENITY	PSR	BLUE BASE	BCBU	87	Absolute Volume	Black	12.78%	Percent Volume Growth	Green	41	Final Rank	Black				gkladde@amgen.comEVENITY	
+glassm@amgen.com	153348	B4B004	PROLIA	PSR	BLUE BASE	BCBU	285.7438463	Sales	Black	21927.93%	Goals	Black	1.256267751	Attainment	Black				glassm@amgen.comPROLIA	
+glassm@amgen.com	153348	B4B004	EVENITY	PSR	BLUE BASE	BCBU	12.015385	Absolute Volume	Black	-15.18%	Percent Volume Growth	Red	116	Final Rank	Black				glassm@amgen.comEVENITY	
+gmcaulif@amgen.com	272110	B3C006	PROLIA	PSR	BLUE BASE	BCBU	255.725641	Sales	Black	24681.63%	Goals	Black	0.998857219	Attainment	Black				gmcaulif@amgen.comPROLIA	
+gmcaulif@amgen.com	272110	B3C006	EVENITY	PSR	BLUE BASE	BCBU	48.102564	Absolute Volume	Black	32.59%	Percent Volume Growth	Green	18	Final Rank	Black				gmcaulif@amgen.comEVENITY	
+gmorabit@amgen.com	276034	B1C008	PROLIA	PSR	BLUE BASE	BCBU	127.641111	Sales	Black	11979.89%	Goals	Black	1.027166044	Attainment	Black				gmorabit@amgen.comPROLIA	
+gmorabit@amgen.com	276034	B1C008	EVENITY	PSR	BLUE BASE	BCBU	7.444444	Absolute Volume	Black	267.21%	Percent Volume Growth	Green	122	Final Rank	Black				gmorabit@amgen.comEVENITY	
+gpate@amgen.com	253025	B4D004	PROLIA	PSR	BLUE BASE	BCBU	467.66	Sales	Black	39569.08%	Goals	Black	1.139402732	Attainment	Black				gpate@amgen.comPROLIA	
+gpate@amgen.com	253025	B4D004	EVENITY	PSR	BLUE BASE	BCBU	44	Absolute Volume	Black	3.80%	Percent Volume Growth	Green	82	Final Rank	Black				gpate@amgen.comEVENITY	
+gschneid@amgen.com	98312	B3G005	PROLIA	PSR	BLUE BASE	BCBU	275.5984615	Sales	Black	26587.55%	Goals	Black	0.999312656	Attainment	Black				gschneid@amgen.comPROLIA	
+gschneid@amgen.com	98312	B3G005	EVENITY	PSR	BLUE BASE	BCBU	24.153846	Absolute Volume	Black	-9.89%	Percent Volume Growth	Red	158	Final Rank	Black				gschneid@amgen.comEVENITY	
+gseach@amgen.com	98321	B3C004	PROLIA	PSR	BLUE BASE	BCBU	159.135	Sales	Black	16394.82%	Goals	Black	0.93575472	Attainment	Black				gseach@amgen.comPROLIA	
+gseach@amgen.com	98321	B3C004	EVENITY	PSR	BLUE BASE	BCBU	6.3	Absolute Volume	Black	236.87%	Percent Volume Growth	Green	126	Final Rank	Black				gseach@amgen.comEVENITY	
+haasc@amgen.com	153121	B4K001	PROLIA	PSR	BLUE BASE	BCBU	197.63	Sales	Black	21068.73%	Goals	Black	0.904310247	Attainment	Black				haasc@amgen.comPROLIA	
+haasc@amgen.com	153121	B4K001	EVENITY	PSR	BLUE BASE	BCBU	36	Absolute Volume	Black	35.88%	Percent Volume Growth	Green	63	Final Rank	Black				haasc@amgen.comEVENITY	
+hagedorn@amgen.com	115371	B2G008	PROLIA	PSR	BLUE BASE	BCBU	291.96	Sales	Black	28579.29%	Goals	Black	0.984860753	Attainment	Black				hagedorn@amgen.comPROLIA	
+hagedorn@amgen.com	115371	B2G008	EVENITY	PSR	BLUE BASE	BCBU	8	Absolute Volume	Black	-30.63%	Percent Volume Growth	Red	209	Final Rank	Black				hagedorn@amgen.comEVENITY	
+haley@amgen.com	149448	B2E005	PROLIA	PSR	BLUE BASE	BCBU	297.1332053	Sales	Black	28256.02%	Goals	Black	1.013778708	Attainment	Black				haley@amgen.comPROLIA	
+haley@amgen.com	149448	B2E005	EVENITY	PSR	BLUE BASE	BCBU	28.812821	Absolute Volume	Black	4.60%	Percent Volume Growth	Green	120	Final Rank	Black				haley@amgen.comEVENITY	
+hdewberr@amgen.com	150237	B5H003	PROLIA	PSR	BLUE BASE	BCBU	268.415	Sales	Black	30430.32%	Goals	Black	0.850360835	Attainment	Black				hdewberr@amgen.comPROLIA	
+hdewberr@amgen.com	150237	B5H003	EVENITY	PSR	BLUE BASE	BCBU	57.9	Absolute Volume	Black	13.82%	Percent Volume Growth	Green	26	Final Rank	Black				hdewberr@amgen.comEVENITY	
+hegrant@amgen.com	154321	B4F006	PROLIA	PSR	BLUE BASE	BCBU	178	Sales	Black	23726.61%	Goals	Black	0.723248074	Attainment	Black				hegrant@amgen.comPROLIA	
+hegrant@amgen.com	154321	B4F006	EVENITY	PSR	BLUE BASE	BCBU	12	Absolute Volume	Black	-6.10%	Percent Volume Growth	Red	110	Final Rank	Black				hegrant@amgen.comEVENITY	
+helalami@amgen.com	200890	B5F007	PROLIA	PSR	BLUE BASE	BCBU	302.8321368	Sales	Black	22133.34%	Goals	Black	1.319039824	Attainment	Black				helalami@amgen.comPROLIA	
+helalami@amgen.com	200890	B5F007	EVENITY	PSR	BLUE BASE	BCBU	7.008547	Absolute Volume	Black	-10.55%	Percent Volume Growth	Red	123	Final Rank	Black				helalami@amgen.comEVENITY	
+henrye@amgen.com	98309	B2D002	PROLIA	PSR	BLUE BASE	BCBU	343.58	Sales	Black	31832.78%	Goals	Black	1.04053399	Attainment	Black				henrye@amgen.comPROLIA	
+spompa@amgen.com	272104	B4K004	PROLIA	PSR	BLUE BASE	BCBU	469.5136753	Sales	Black	26969.37%	Goals	Black	1.678341421	Attainment	Black				spompa@amgen.comPROLIA	
+spompa@amgen.com	272104	B4K004	EVENITY	PSR	BLUE BASE	BCBU	26.854701	Absolute Volume	Black	1119.67%	Percent Volume Growth	Green	14	Final Rank	Black				spompa@amgen.comEVENITY	
+srhoda@amgen.com	215550	B2F002	PROLIA	PSR	BLUE BASE	BCBU	192.183889	Sales	Black	16574.40%	Goals	Black	1.117846231	Attainment	Black				srhoda@amgen.comPROLIA	
+srhoda@amgen.com	215550	B2F002	EVENITY	PSR	BLUE BASE	BCBU	19.055556	Absolute Volume	Black	68.92%	Percent Volume Growth	Green	104	Final Rank	Black				srhoda@amgen.comEVENITY	
+sriggio@amgen.com	98288	B3G003	PROLIA	PSR	BLUE BASE	BCBU	374.065	Sales	Black	37765.43%	Goals	Black	0.954894954	Attainment	Black				sriggio@amgen.comPROLIA	
+sriggio@amgen.com	98288	B3G003	EVENITY	PSR	BLUE BASE	BCBU	46.5	Absolute Volume	Black	63.05%	Percent Volume Growth	Green	18	Final Rank	Black				sriggio@amgen.comEVENITY	
+ssarka07@amgen.com	261130	B1J009	PROLIA	PSR	BLUE BASE	BCBU	250.36	Sales	Black	25317.07%	Goals	Black	0.953354708	Attainment	Black				ssarka07@amgen.comPROLIA	
+ssarka07@amgen.com	261130	B1J009	EVENITY	PSR	BLUE BASE	BCBU	50	Absolute Volume	Black	67.10%	Percent Volume Growth	Green	10	Final Rank	Black				ssarka07@amgen.comEVENITY	
+ssaulter@amgen.com	124733	B4J004	PROLIA	PSR	BLUE BASE	BCBU	426.4612393	Sales	Black	33968.46%	Goals	Black	1.21033795	Attainment	Black				ssaulter@amgen.comPROLIA	
+ssaulter@amgen.com	124733	B4J004	EVENITY	PSR	BLUE BASE	BCBU	44.164957	Absolute Volume	Black	55.98%	Percent Volume Growth	Green	27	Final Rank	Black				ssaulter@amgen.comEVENITY	
+stchung@amgen.com	150130	B1E003	PROLIA	PSR	BLUE BASE	BCBU	171.5078205	Sales	Black	22287.88%	Goals	Black	0.7418534	Attainment	Black				stchung@amgen.comPROLIA	
+stchung@amgen.com	150130	B1E003	EVENITY	PSR	BLUE BASE	BCBU	18.551282	Absolute Volume	Black	74.68%	Percent Volume Growth	Green	41	Final Rank	Black				stchung@amgen.comEVENITY	
+stelynch@amgen.com	147859	B1H005	PROLIA	PSR	BLUE BASE	BCBU	343.64	Sales	Black	28781.08%	Goals	Black	1.151064267	Attainment	Black				stelynch@amgen.comPROLIA	
+stelynch@amgen.com	147859	B1H005	EVENITY	PSR	BLUE BASE	BCBU	49	Absolute Volume	Black	9.17%	Percent Volume Growth	Green	66	Final Rank	Black				stelynch@amgen.comEVENITY	
+sterra@amgen.com	141347	B5D008	PROLIA	PSR	BLUE BASE	BCBU	225.42	Sales	Black	27065.58%	Goals	Black	0.802930671	Attainment	Black				sterra@amgen.comPROLIA	
+sterra@amgen.com	141347	B5D008	EVENITY	PSR	BLUE BASE	BCBU	4	Absolute Volume	Black	-24.51%	Percent Volume Growth	Red	129	Final Rank	Black				sterra@amgen.comEVENITY	
+sumerh@amgen.com	153052	B3K009	PROLIA	PSR	BLUE BASE	BCBU	221.3	Sales	Black	15683.52%	Goals	Black	1.360319134	Attainment	Black				sumerh@amgen.comPROLIA	
+sumerh@amgen.com	153052	B3K009	EVENITY	PSR	BLUE BASE	BCBU	12	Absolute Volume	Black	6.94%	Percent Volume Growth	Green	98	Final Rank	Black				sumerh@amgen.comEVENITY	
+syed@amgen.com	98251	B1C003	PROLIA	PSR	BLUE BASE	BCBU	302.665812	Sales	Black	30684.29%	Goals	Black	0.950933737	Attainment	Black				syed@amgen.comPROLIA	
+syed@amgen.com	98251	B1C003	EVENITY	PSR	BLUE BASE	BCBU	13.863248	Absolute Volume	Black	-1.93%	Percent Volume Growth	Red	99	Final Rank	Black				syed@amgen.comEVENITY	
+szemaiti@amgen.com	201678	B1G007	PROLIA	PSR	BLUE BASE	BCBU	304.71	Sales	Black	32520.11%	Goals	Black	0.903311757	Attainment	Black				szemaiti@amgen.comPROLIA	
+szemaiti@amgen.com	201678	B1G007	EVENITY	PSR	BLUE BASE	BCBU	34	Absolute Volume	Black	-30.52%	Percent Volume Growth	Red	71	Final Rank	Black				szemaiti@amgen.comEVENITY	
+tadkins@amgen.com	132177	B2F006	PROLIA	PSR	BLUE BASE	BCBU	240.54	Sales	Black	21610.87%	Goals	Black	1.073045165	Attainment	Black				tadkins@amgen.comPROLIA	
+tadkins@amgen.com	132177	B2F006	EVENITY	PSR	BLUE BASE	BCBU	0	Absolute Volume	Black	-100.00%	Percent Volume Growth	Red	216	Final Rank	Black				tadkins@amgen.comEVENITY	
+takamura@amgen.com	118090	B5J201	PROLIA	PSR	BLUE BASE	BCBU	1123.390299	Sales	Black	82608.32%	Goals	Black	1.311021543	Attainment	Black				takamura@amgen.comPROLIA	
+takamura@amgen.com	118090	B5J201	EVENITY	PSR	BLUE BASE	BCBU	57.0405985	Absolute Volume	Black	47.29%	Percent Volume Growth	Green	7	Final Rank	Black				takamura@amgen.comEVENITY	
+tanspach@amgen.com	203107	B2H006	PROLIA	PSR	BLUE BASE	BCBU	266.44	Sales	Black	27291.37%	Goals	Black	0.941189535	Attainment	Black				tanspach@amgen.comPROLIA	
+tanspach@amgen.com	203107	B2H006	EVENITY	PSR	BLUE BASE	BCBU	22	Absolute Volume	Black	0.83%	Percent Volume Growth	Green	157	Final Rank	Black				tanspach@amgen.comEVENITY	
+tclapp@amgen.com	98557	B4D005	PROLIA	PSR	BLUE BASE	BCBU	422.03	Sales	Black	35519.33%	Goals	Black	1.145464202	Attainment	Black				tclapp@amgen.comPROLIA	
+tclapp@amgen.com	98557	B4D005	EVENITY	PSR	BLUE BASE	BCBU	17	Absolute Volume	Black	39.85%	Percent Volume Growth	Green	127	Final Rank	Black				tclapp@amgen.comEVENITY	
+tcoffe01@amgen.com	272010	B1D005	PROLIA	PSR	BLUE BASE	BCBU	356.1375	Sales	Black	26435.99%	Goals	Black	1.298748425	Attainment	Black				tcoffe01@amgen.comPROLIA	
+tcoffe01@amgen.com	272010	B1D005	EVENITY	PSR	BLUE BASE	BCBU	7.35	Absolute Volume	Black	21.55%	Percent Volume Growth	Green	105	Final Rank	Black				tcoffe01@amgen.comEVENITY	
+tcovell@amgen.com	242777	B5K002	PROLIA	PSR	BLUE BASE	BCBU	364.66	Sales	Black	31567.24%	Goals	Black	1.113664845	Attainment	Black				tcovell@amgen.comPROLIA	
+tcovell@amgen.com	242777	B5K002	EVENITY	PSR	BLUE BASE	BCBU	44	Absolute Volume	Black	22.75%	Percent Volume Growth	Green	31	Final Rank	Black				tcovell@amgen.comEVENITY	
+thaufler@amgen.com	149746	B5D003	PROLIA	PSR	BLUE BASE	BCBU	239.574188	Sales	Black	21734.81%	Goals	Black	1.062642472	Attainment	Black				thaufler@amgen.comPROLIA	
+thaufler@amgen.com	149746	B5D003	EVENITY	PSR	BLUE BASE	BCBU	25.136752	Absolute Volume	Black	36.69%	Percent Volume Growth	Green	47	Final Rank	Black				thaufler@amgen.comEVENITY	
+thnaras@amgen.com	269438	B1G002	PROLIA	PSR	BLUE BASE	BCBU	244.39	Sales	Black	19521.81%	Goals	Black	1.206886179	Attainment	Black				thnaras@amgen.comPROLIA	
+thnaras@amgen.com	269438	B1G002	EVENITY	PSR	BLUE BASE	BCBU	13.56	Absolute Volume	Black	150.71%	Percent Volume Growth	Green	52	Final Rank	Black				thnaras@amgen.comEVENITY	
+thomcd01@amgen.com	149714	B4K005	PROLIA	PSR	BLUE BASE	BCBU	302.732436	Sales	Black	23351.30%	Goals	Black	1.249829539	Attainment	Black				thomcd01@amgen.comPROLIA	
+thomcd01@amgen.com	149714	B4K005	EVENITY	PSR	BLUE BASE	BCBU	34.089744	Absolute Volume	Black	0.27%	Percent Volume Growth	Green	111	Final Rank	Black				thomcd01@amgen.comEVENITY	
+thoy@amgen.com	98610	B4G003	PROLIA	PSR	BLUE BASE	BCBU	125.65	Sales	Black	16197.21%	Goals	Black	0.747868677	Attainment	Black				thoy@amgen.comPROLIA	
+thoy@amgen.com	98610	B4G003	EVENITY	PSR	BLUE BASE	BCBU	15	Absolute Volume	Black	337.50%	Percent Volume Growth	Green	95	Final Rank	Black				thoy@amgen.comEVENITY	
+tirons@amgen.com	209977	B3K007	PROLIA	PSR	BLUE BASE	BCBU	325.8752138	Sales	Black	34753.50%	Goals	Black	0.903973558	Attainment	Black				tirons@amgen.comPROLIA	
+tirons@amgen.com	209977	B3K007	EVENITY	PSR	BLUE BASE	BCBU	25.700855	Absolute Volume	Black	18.83%	Percent Volume Growth	Green	113	Final Rank	Black				tirons@amgen.comEVENITY	
+tlavende@amgen.com	259170	B4E004	PROLIA	PSR	BLUE BASE	BCBU	254.45	Sales	Black	25055.77%	Goals	Black	0.979033832	Attainment	Black				tlavende@amgen.comPROLIA	
+tlavende@amgen.com	259170	B4E004	EVENITY	PSR	BLUE BASE	BCBU	54	Absolute Volume	Black	108.73%	Percent Volume Growth	Green	4	Final Rank	Black				tlavende@amgen.comEVENITY	
+torrim@amgen.com	60660	B2A001	PROLIA	PSR	BLUE BASE	BCBU	221.36	Sales	Black	20428.20%	Goals	Black	1.044652888	Attainment	Black				torrim@amgen.comPROLIA	
+torrim@amgen.com	60660	B2A001	EVENITY	PSR	BLUE BASE	BCBU	9	Absolute Volume	Black	3.12%	Percent Volume Growth	Green	193	Final Rank	Black				torrim@amgen.comEVENITY	
+trhender@amgen.com	124769	B3H004	PROLIA	PSR	BLUE BASE	BCBU	345.26	Sales	Black	39862.44%	Goals	Black	0.834997746	Attainment	Black				trhender@amgen.comPROLIA	
+trhender@amgen.com	124769	B3H004	EVENITY	PSR	BLUE BASE	BCBU	28	Absolute Volume	Black	40.36%	Percent Volume Growth	Green	90	Final Rank	Black				trhender@amgen.comEVENITY	
+tsomers@amgen.com	191120	B5C004	PROLIA	PSR	BLUE BASE	BCBU	370.1547008	Sales	Black	25247.72%	Goals	Black	1.413396581	Attainment	Black				tsomers@amgen.comPROLIA	
+tsomers@amgen.com	191120	B5C004	EVENITY	PSR	BLUE BASE	BCBU	25.418803	Absolute Volume	Black	3.47%	Percent Volume Growth	Green	139	Final Rank	Black				tsomers@amgen.comEVENITY	
+tstewa01@amgen.com	181272	B3D003	PROLIA	PSR	BLUE BASE	BCBU	314.91	Sales	Black	33086.72%	Goals	Black	0.917562589	Attainment	Black				tstewa01@amgen.comPROLIA	
+tstewa01@amgen.com	181272	B3D003	EVENITY	PSR	BLUE BASE	BCBU	60	Absolute Volume	Black	78.24%	Percent Volume Growth	Green	2	Final Rank	Black				tstewa01@amgen.comEVENITY	
+tstree01@amgen.com	215810	B5G005	PROLIA	PSR	BLUE BASE	BCBU	291.4564103	Sales	Black	34296.68%	Goals	Black	0.819265246	Attainment	Black				tstree01@amgen.comPROLIA	
+tstree01@amgen.com	215810	B5G005	EVENITY	PSR	BLUE BASE	BCBU	61.425641	Absolute Volume	Black	27.17%	Percent Volume Growth	Green	30	Final Rank	Black				tstree01@amgen.comEVENITY	
+ttommell@amgen.com	253697	B2J005	PROLIA	PSR	BLUE BASE	BCBU	157.46	Sales	Black	16788.34%	Goals	Black	0.904201875	Attainment	Black				ttommell@amgen.comPROLIA	
+ttommell@amgen.com	253697	B2J005	EVENITY	PSR	BLUE BASE	BCBU	0	Absolute Volume	Black	0.00%	Percent Volume Growth	Green	130	Final Rank	Black				ttommell@amgen.comEVENITY	
+tvelez01@amgen.com	219782	B4A005	PROLIA	PSR	BLUE BASE	BCBU	290.2706838	Sales	Black	24887.43%	Goals	Black	1.124413327	Attainment	Black				tvelez01@amgen.comPROLIA	
+tvelez01@amgen.com	219782	B4A005	EVENITY	PSR	BLUE BASE	BCBU	27.042735	Absolute Volume	Black	66.53%	Percent Volume Growth	Green	70	Final Rank	Black				tvelez01@amgen.comEVENITY	
+twindfel@amgen.com	230608	B1D009	PROLIA	PSR	BLUE BASE	BCBU	255.2173078	Sales	Black	26084.01%	Goals	Black	0.94327567	Attainment	Black				twindfel@amgen.comPROLIA	
+twindfel@amgen.com	230608	B1D009	EVENITY	PSR	BLUE BASE	BCBU	10.269231	Absolute Volume	Black	43.25%	Percent Volume Growth	Green	79	Final Rank	Black				twindfel@amgen.comEVENITY	
+vaughank@amgen.com	149202	B2H005	PROLIA	PSR	BLUE BASE	BCBU	236.3275	Sales	Black	28651.05%	Goals	Black	0.795200412	Attainment	Black				vaughank@amgen.comPROLIA	
+vaughank@amgen.com	149202	B2H005	EVENITY	PSR	BLUE BASE	BCBU	32.75	Absolute Volume	Black	60.04%	Percent Volume Growth	Green	54	Final Rank	Black				vaughank@amgen.comEVENITY	
+vbolger@amgen.com	153281	B2D001	PROLIA	PSR	BLUE BASE	BCBU	160.805	Sales	Black	17401.85%	Goals	Black	0.89085506	Attainment	Black				vbolger@amgen.comPROLIA	
+vbolger@amgen.com	153281	B2D001	EVENITY	PSR	BLUE BASE	BCBU	21.5	Absolute Volume	Black	12.27%	Percent Volume Growth	Green	149	Final Rank	Black				vbolger@amgen.comEVENITY	
+vdunne@amgen.com	273675	B1E007	PROLIA	PSR	BLUE BASE	BCBU	275.3751283	Sales	Black	31326.48%	Goals	Black	0.847453862	Attainment	Black				vdunne@amgen.comPROLIA	
+vdunne@amgen.com	273675	B1E007	EVENITY	PSR	BLUE BASE	BCBU	39.820513	Absolute Volume	Black	38.64%	Percent Volume Growth	Green	48	Final Rank	Black				vdunne@amgen.comEVENITY	
+vpatel04@amgen.com	243974	B5K005	PROLIA	PSR	BLUE BASE	BCBU	317.38	Sales	Black	33152.09%	Goals	Black	0.922936122	Attainment	Black				vpatel04@amgen.comPROLIA	
+vpatel04@amgen.com	243974	B5K005	EVENITY	PSR	BLUE BASE	BCBU	7.8	Absolute Volume	Black	6.94%	Percent Volume Growth	Green	114	Final Rank	Black				vpatel04@amgen.comEVENITY	
+weigel@amgen.com	150197	B3H008	PROLIA	PSR	BLUE BASE	BCBU	360.73	Sales	Black	37752.91%	Goals	Black	0.921159333	Attainment	Black				weigel@amgen.comPROLIA	
+weigel@amgen.com	150197	B3H008	EVENITY	PSR	BLUE BASE	BCBU	31	Absolute Volume	Black	-9.58%	Percent Volume Growth	Red	63	Final Rank	Black				weigel@amgen.comEVENITY	
+wfergu01@amgen.com	201691	B1D007	PROLIA	PSR	BLUE BASE	BCBU	218.5766453	Sales	Black	16158.86%	Goals	Black	1.304055346	Attainment	Black				wfergu01@amgen.comPROLIA	
+wfergu01@amgen.com	201691	B1D007	EVENITY	PSR	BLUE BASE	BCBU	7.746581	Absolute Volume	Black	245.19%	Percent Volume Growth	Green	64	Final Rank	Black				wfergu01@amgen.comEVENITY	
+wstrobel@amgen.com	155356	B1E009	PROLIA	PSR	BLUE BASE	BCBU	355.0765813	Sales	Black	33050.31%	Goals	Black	1.03573694	Attainment	Black				wstrobel@amgen.comPROLIA	
+wstrobel@amgen.com	155356	B1E009	EVENITY	PSR	BLUE BASE	BCBU	65.786325	Absolute Volume	Black	24.47%	Percent Volume Growth	Green	32	Final Rank	Black				wstrobel@amgen.comEVENITY	
+wsylvest@amgen.com	172676	B4E006	PROLIA	PSR	BLUE BASE	BCBU	360.55	Sales	Black	31054.94%	Goals	Black	1.119277271	Attainment	Black				wsylvest@amgen.comPROLIA	
+wsylvest@amgen.com	172676	B4E006	EVENITY	PSR	BLUE BASE	BCBU	17	Absolute Volume	Black	-4.31%	Percent Volume Growth	Red	179	Final Rank	Black				wsylvest@amgen.comEVENITY	
+aaleck@amgen.com	206286	B5D006	PROLIA	PSR	BLUE BASE	BCBU	207.12	Sales	Black	21419.80%	Goals	Black	0.93220094	Attainment	Black	24	Product Appriciation	Blue	aaleck@amgen.comPROLIA	
+aaleck@amgen.com	206286	B5D006	EVENITY	PSR	BLUE BASE	BCBU	14	Absolute Volume	Black	104.17%	Percent Volume Growth	Green	50	Final Rank	Black				aaleck@amgen.comEVENITY	
+abryan02@amgen.com	201853	B2D007	PROLIA	PSR	BLUE BASE	BCBU	381.6117523	Sales	Black	26960.29%	Goals	Black	1.364583349	Attainment	Black				abryan02@amgen.comPROLIA	
+abryan02@amgen.com	201853	B2D007	EVENITY	PSR	BLUE BASE	BCBU	73.047009	Absolute Volume	Black	49.13%	Percent Volume Growth	Green	4	Final Rank	Black				abryan02@amgen.comEVENITY	
+acantu@amgen.com	273523	B4J003	PROLIA	PSR	BLUE BASE	BCBU	402.995	Sales	Black	28994.67%	Goals	Black	1.339937086	Attainment	Black				acantu@amgen.comPROLIA	
+acantu@amgen.com	273523	B4J003	EVENITY	PSR	BLUE BASE	BCBU	35.9	Absolute Volume	Black	-21.12%	Percent Volume Growth	Red	129	Final Rank	Black				acantu@amgen.comEVENITY	
+acaskey@amgen.com	148726	B3J004	PROLIA	PSR	BLUE BASE	BCBU	449.395	Sales	Black	33279.80%	Goals	Black	1.301818565	Attainment	Black				acaskey@amgen.comPROLIA	
+acaskey@amgen.com	148726	B3J004	EVENITY	PSR	BLUE BASE	BCBU	40.5	Absolute Volume	Black	-5.16%	Percent Volume Growth	Red	99	Final Rank	Black				acaskey@amgen.comEVENITY	
+acramer@amgen.com	124773	B5G002	PROLIA	PSR	BLUE BASE	BCBU	263.7686753	Sales	Black	29014.37%	Goals	Black	0.876421492	Attainment	Black				acramer@amgen.comPROLIA	
+acramer@amgen.com	124773	B5G002	EVENITY	PSR	BLUE BASE	BCBU	19.354701	Absolute Volume	Black	3.71%	Percent Volume Growth	Green	163	Final Rank	Black				acramer@amgen.comEVENITY	
+agahagan@amgen.com	196002	B5E007	PROLIA	PSR	BLUE BASE	BCBU	313.6142308	Sales	Black	26145.72%	Goals	Black	1.156373359	Attainment	Black				agahagan@amgen.comPROLIA	
+agahagan@amgen.com	196002	B5E007	EVENITY	PSR	BLUE BASE	BCBU	30.776923	Absolute Volume	Black	13.16%	Percent Volume Growth	Green	105	Final Rank	Black				agahagan@amgen.comEVENITY	
+agazdik@amgen.com	98549	B4C005	PROLIA	PSR	BLUE BASE	BCBU	285.6192308	Sales	Black	26018.42%	Goals	Black	1.058301497	Attainment	Black				agazdik@amgen.comPROLIA	
+agazdik@amgen.com	98549	B4C005	EVENITY	PSR	BLUE BASE	BCBU	29.076923	Absolute Volume	Black	62.66%	Percent Volume Growth	Green	65	Final Rank	Black				agazdik@amgen.comEVENITY	
+aglynn@amgen.com	209657	B3D004	PROLIA	PSR	BLUE BASE	BCBU	486.3821368	Sales	Black	45267.60%	Goals	Black	1.035840881	Attainment	Black				aglynn@amgen.comPROLIA	
+aglynn@amgen.com	209657	B3D004	EVENITY	PSR	BLUE BASE	BCBU	109.008547	Absolute Volume	Black	15.21%	Percent Volume Growth	Green	32	Final Rank	Black				aglynn@amgen.comEVENITY	
+ahafer@amgen.com	182731	B3H003	PROLIA	PSR	BLUE BASE	BCBU	259.685	Sales	Black	23035.31%	Goals	Black	1.086815513	Attainment	Black				ahafer@amgen.comPROLIA	
+ahafer@amgen.com	182731	B3H003	EVENITY	PSR	BLUE BASE	BCBU	34.5	Absolute Volume	Black	23.18%	Percent Volume Growth	Green	39	Final Rank	Black				ahafer@amgen.comEVENITY	
+aherfi@amgen.com	117445	B3C001	PROLIA	PSR	BLUE BASE	BCBU	353.62	Sales	Black	35183.11%	Goals	Black	0.968959166	Attainment	Black				aherfi@amgen.comPROLIA	
+aherfi@amgen.com	117445	B3C001	EVENITY	PSR	BLUE BASE	BCBU	2.4	Absolute Volume	Black	-85.10%	Percent Volume Growth	Red	214	Final Rank	Black				aherfi@amgen.comEVENITY	
+ahomar@amgen.com	173278	B2A003	PROLIA	PSR	BLUE BASE	BCBU	259.51	Sales	Black	24520.30%	Goals	Black	1.020308054	Attainment	Black				ahomar@amgen.comPROLIA	
+ahomar@amgen.com	173278	B2A003	EVENITY	PSR	BLUE BASE	BCBU	39	Absolute Volume	Black	18.20%	Percent Volume Growth	Green	72	Final Rank	Black				ahomar@amgen.comEVENITY	
+ahoneycu@amgen.com	149389	B2D003	PROLIA	PSR	BLUE BASE	BCBU	384.44	Sales	Black	33006.87%	Goals	Black	1.122864053	Attainment	Black				ahoneycu@amgen.comPROLIA	
+ahoneycu@amgen.com	149389	B2D003	EVENITY	PSR	BLUE BASE	BCBU	48.2	Absolute Volume	Black	3.67%	Percent Volume Growth	Green	76	Final Rank	Black				ahoneycu@amgen.comEVENITY	
+aiftekar@amgen.com	183212	B5G001	PROLIA	PSR	BLUE BASE	BCBU	375.032906	Sales	Black	29673.06%	Goals	Black	1.21845656	Attainment	Black				aiftekar@amgen.comPROLIA	
+aiftekar@amgen.com	183212	B5G001	EVENITY	PSR	BLUE BASE	BCBU	34.931624	Absolute Volume	Black	-14.45%	Percent Volume Growth	Red	122	Final Rank	Black				aiftekar@amgen.comEVENITY	
+alane02@amgen.com	271372	B2G007	PROLIA	PSR	BLUE BASE	BCBU	397.7252138	Sales	Black	36838.94%	Goals	Black	1.040828023	Attainment	Black				alane02@amgen.comPROLIA	
+alane02@amgen.com	271372	B2G007	EVENITY	PSR	BLUE BASE	BCBU	31.700855	Absolute Volume	Black	72.38%	Percent Volume Growth	Green	50	Final Rank	Black				alane02@amgen.comEVENITY	
+albrodri@amgen.com	98595	B4J002	PROLIA	PSR	BLUE BASE	BCBU	365.8040598	Sales	Black	29976.67%	Goals	Black	1.17643542	Attainment	Black				albrodri@amgen.comPROLIA	
+albrodri@amgen.com	98595	B4J002	EVENITY	PSR	BLUE BASE	BCBU	95.016239	Absolute Volume	Black	-4.44%	Percent Volume Growth	Red	57	Final Rank	Black				albrodri@amgen.comEVENITY	
+alisha@amgen.com	149663	B4B002	PROLIA	PSR	BLUE BASE	BCBU	485.24	Sales	Black	42624.21%	Goals	Black	1.097496576	Attainment	Black				alisha@amgen.comPROLIA	
+alisha@amgen.com	149663	B4B002	EVENITY	PSR	BLUE BASE	BCBU	6	Absolute Volume	Black	37.50%	Percent Volume Growth	Green	97	Final Rank	Black				alisha@amgen.comEVENITY	
+alyced@amgen.com	98326	B1B001	PROLIA	PSR	BLUE BASE	BCBU	225.46	Sales	Black	23480.76%	Goals	Black	0.925678939	Attainment	Black				alyced@amgen.comPROLIA	
+alyced@amgen.com	98326	B1B001	EVENITY	PSR	BLUE BASE	BCBU	7	Absolute Volume	Black	17.91%	Percent Volume Growth	Green	185	Final Rank	Black				alyced@amgen.comEVENITY	
+amarak@amgen.com	149470	B3F001	PROLIA	PSR	BLUE BASE	BCBU	238.67	Sales	Black	28935.10%	Goals	Black	0.795198962	Attainment	Black				amarak@amgen.comPROLIA	
+amarak@amgen.com	149470	B3F001	EVENITY	PSR	BLUE BASE	BCBU	9	Absolute Volume	Black	-15.07%	Percent Volume Growth	Red	205	Final Rank	Black				amarak@amgen.comEVENITY	
+amcknigh@amgen.com	217148	B3F002	PROLIA	PSR	BLUE BASE	BCBU	343.94	Sales	Black	31998.97%	Goals	Black	1.036214351	Attainment	Black				amcknigh@amgen.comPROLIA	
+amcknigh@amgen.com	217148	B3F002	EVENITY	PSR	BLUE BASE	BCBU	34	Absolute Volume	Black	18.57%	Percent Volume Growth	Green	46	Final Rank	Black				amcknigh@amgen.comEVENITY	
+amille05@amgen.com	241771	B5B005	PROLIA	PSR	BLUE BASE	BCBU	827.56	Sales	Black	62015.26%	Goals	Black	1.286482432	Attainment	Black				amille05@amgen.comPROLIA	
+amille05@amgen.com	241771	B5B005	EVENITY	PSR	BLUE BASE	BCBU	104.6	Absolute Volume	Black	28.33%	Percent Volume Growth	Green	15	Final Rank	Black				amille05@amgen.comEVENITY	
+amrogers@amgen.com	149658	B2G002	PROLIA	PSR	BLUE BASE	BCBU	291.45	Sales	Black	35602.31%	Goals	Black	0.789203115	Attainment	Black				amrogers@amgen.comPROLIA	
+amrogers@amgen.com	149658	B2G002	EVENITY	PSR	BLUE BASE	BCBU	28	Absolute Volume	Black	0.94%	Percent Volume Growth	Green	129	Final Rank	Black				amrogers@amgen.comEVENITY	
+amunter@amgen.com	183603	B3D005	PROLIA	PSR	BLUE BASE	BCBU	293.8	Sales	Black	34389.18%	Goals	Black	0.823631407	Attainment	Black				amunter@amgen.comPROLIA	
+amunter@amgen.com	183603	B3D005	EVENITY	PSR	BLUE BASE	BCBU	29	Absolute Volume	Black	-18.53%	Percent Volume Growth	Red	151	Final Rank	Black				amunter@amgen.comEVENITY	
+aobszans@amgen.com	124742	B3B007	PROLIA	PSR	BLUE BASE	BCBU	322.915	Sales	Black	43700.61%	Goals	Black	0.712366809	Attainment	Black				aobszans@amgen.comPROLIA	
+aobszans@amgen.com	124742	B3B007	EVENITY	PSR	BLUE BASE	BCBU	11.7	Absolute Volume	Black	-17.14%	Percent Volume Growth	Red	203	Final Rank	Black				aobszans@amgen.comEVENITY	
+aorr02@amgen.com	249725	B4K002	PROLIA	PSR	BLUE BASE	BCBU	253.1502993	Sales	Black	24978.83%	Goals	Black	0.97703329	Attainment	Black				aorr02@amgen.comPROLIA	
+aorr02@amgen.com	249725	B4K002	EVENITY	PSR	BLUE BASE	BCBU	11.081197	Absolute Volume	Black	54.57%	Percent Volume Growth	Green	72	Final Rank	Black				aorr02@amgen.comEVENITY	
+apalma@amgen.com	201424	B2C004	PROLIA	PSR	BLUE BASE	BCBU	258.12	Sales	Black	33819.37%	Goals	Black	0.735798726	Attainment	Black				apalma@amgen.comPROLIA	
+apalma@amgen.com	201424	B2C004	EVENITY	PSR	BLUE BASE	BCBU	89	Absolute Volume	Black	4.21%	Percent Volume Growth	Green	49	Final Rank	Black				apalma@amgen.comEVENITY	
+apeddle@amgen.com	275621	B1D008	PROLIA	PSR	BLUE BASE	BCBU	270.35	Sales	Black	27194.86%	Goals	Black	0.958390397	Attainment	Black				apeddle@amgen.comPROLIA	
+apeddle@amgen.com	275621	B1D008	EVENITY	PSR	BLUE BASE	BCBU	11	Absolute Volume	Black	0.83%	Percent Volume Growth	Green	108	Final Rank	Black				apeddle@amgen.comEVENITY	
+aricha02@amgen.com	205120	B3K001	PROLIA	PSR	BLUE BASE	BCBU	412.57	Sales	Black	28130.35%	Goals	Black	1.413922239	Attainment	Black				aricha02@amgen.comPROLIA	
+aricha02@amgen.com	205120	B3K001	EVENITY	PSR	BLUE BASE	BCBU	22	Absolute Volume	Black	-20.69%	Percent Volume Growth	Red	181	Final Rank	Black				aricha02@amgen.comEVENITY	
+arossie@amgen.com	124738	B4B007	PROLIA	PSR	BLUE BASE	BCBU	339.17	Sales	Black	28704.02%	Goals	Black	1.139141354	Attainment	Black				arossie@amgen.comPROLIA	
+arossie@amgen.com	124738	B4B007	EVENITY	PSR	BLUE BASE	BCBU	25	Absolute Volume	Black	-14.94%	Percent Volume Growth	Red	78	Final Rank	Black				arossie@amgen.comEVENITY	
+asakala@amgen.com	98197	B4B003	PROLIA	PSR	BLUE BASE	BCBU	262.705	Sales	Black	27855.09%	Goals	Black	0.90921526	Attainment	Black				asakala@amgen.comPROLIA	
+asakala@amgen.com	98197	B4B003	EVENITY	PSR	BLUE BASE	BCBU	15.1	Absolute Volume	Black	39.01%	Percent Volume Growth	Green	60	Final Rank	Black				asakala@amgen.comEVENITY	
+aschne01@amgen.com	253760	B5A004	PROLIA	PSR	BLUE BASE	BCBU	531.2332053	Sales	Black	45701.11%	Goals	Black	1.120627795	Attainment	Black				aschne01@amgen.comPROLIA	
+aschne01@amgen.com	253760	B5A004	EVENITY	PSR	BLUE BASE	BCBU	103.012821	Absolute Volume	Black	21.94%	Percent Volume Growth	Green	26	Final Rank	Black				aschne01@amgen.comEVENITY	
+asmith16@amgen.com	274423	B4G002	PROLIA	PSR	BLUE BASE	BCBU	96.8	Sales	Black	9082.16%	Goals	Black	1.027517754	Attainment	Black				asmith16@amgen.comPROLIA	
+asmith16@amgen.com	274423	B4G002	EVENITY	PSR	BLUE BASE	BCBU	3	Absolute Volume	Black	20.31%	Percent Volume Growth	Green	192	Final Rank	Black				asmith16@amgen.comEVENITY	
+aweber01@amgen.com	198913	B5B003	PROLIA	PSR	BLUE BASE	BCBU	355.12	Sales	Black	25336.07%	Goals	Black	1.351259434	Attainment	Black				aweber01@amgen.comPROLIA	
+aweber01@amgen.com	198913	B5B003	EVENITY	PSR	BLUE BASE	BCBU	13.2	Absolute Volume	Black	11.43%	Percent Volume Growth	Green	171	Final Rank	Black				aweber01@amgen.comEVENITY	
+badil@amgen.com	183512	B1A006	PROLIA	PSR	BLUE BASE	BCBU	227.48	Sales	Black	21118.57%	Goals	Black	1.038440442	Attainment	Black				badil@amgen.comPROLIA	
+badil@amgen.com	183512	B1A006	EVENITY	PSR	BLUE BASE	BCBU	25	Absolute Volume	Black	45.83%	Percent Volume Growth	Green	39	Final Rank	Black				badil@amgen.comEVENITY	
+bbillmei@amgen.com	80974	B3B006	PROLIA	PSR	BLUE BASE	BCBU	216.6	Sales	Black	26141.89%	Goals	Black	0.798774794	Attainment	Black				bbillmei@amgen.comPROLIA	
+bbillmei@amgen.com	80974	B3B006	EVENITY	PSR	BLUE BASE	BCBU	22.8	Absolute Volume	Black	-16.11%	Percent Volume Growth	Red	170	Final Rank	Black				bbillmei@amgen.comEVENITY	
+bcarigna@amgen.com	118569	B1B005	PROLIA	PSR	BLUE BASE	BCBU	264.0110258	Sales	Black	33288.48%	Goals	Black	0.764594353	Attainment	Black				bcarigna@amgen.comPROLIA	
+bcarigna@amgen.com	118569	B1B005	EVENITY	PSR	BLUE BASE	BCBU	36.564103	Absolute Volume	Black	86.21%	Percent Volume Growth	Green	27	Final Rank	Black				bcarigna@amgen.comEVENITY	
+bcogo@amgen.com	140381	B5K008	PROLIA	PSR	BLUE BASE	BCBU	457.06	Sales	Black	44791.19%	Goals	Black	0.983747228	Attainment	Black				bcogo@amgen.comPROLIA	
+bcogo@amgen.com	140381	B5K008	EVENITY	PSR	BLUE BASE	BCBU	69	Absolute Volume	Black	4.42%	Percent Volume Growth	Green	28	Final Rank	Black				bcogo@amgen.comEVENITY	
+bduggins@amgen.com	153284	B3J006	PROLIA	PSR	BLUE BASE	BCBU	387.3388463	Sales	Black	36727.60%	Goals	Black	1.016720241	Attainment	Black				bduggins@amgen.comPROLIA	
+bduggins@amgen.com	153284	B3J006	EVENITY	PSR	BLUE BASE	BCBU	27.115385	Absolute Volume	Black	7.33%	Percent Volume Growth	Green	121	Final Rank	Black				bduggins@amgen.comEVENITY	
+bduran@amgen.com	191422	B5H007	PROLIA	PSR	BLUE BASE	BCBU	220.91	Sales	Black	22766.09%	Goals	Black	0.935470022	Attainment	Black				bduran@amgen.comPROLIA	
+bduran@amgen.com	191422	B5H007	EVENITY	PSR	BLUE BASE	BCBU	27.2	Absolute Volume	Black	0.19%	Percent Volume Growth	Green	57	Final Rank	Black				bduran@amgen.comEVENITY	
+betho@amgen.com	98087	B3E003	PROLIA	PSR	BLUE BASE	BCBU	335.01	Sales	Black	30372.13%	Goals	Black	1.063372513	Attainment	Black				betho@amgen.comPROLIA	
+betho@amgen.com	98087	B3E003	EVENITY	PSR	BLUE BASE	BCBU	13	Absolute Volume	Black	-14.88%	Percent Volume Growth	Red	112	Final Rank	Black				betho@amgen.comEVENITY	
+bfogarty@amgen.com	150955	B3F004	PROLIA	PSR	BLUE BASE	BCBU	293.725	Sales	Black	26202.39%	Goals	Black	1.080694551	Attainment	Black				bfogarty@amgen.comPROLIA	
+bfogarty@amgen.com	150955	B3F004	EVENITY	PSR	BLUE BASE	BCBU	20.1	Absolute Volume	Black	96.61%	Percent Volume Growth	Green	93	Final Rank	Black				bfogarty@amgen.comEVENITY	
+bgilliam@amgen.com	201334	B3A002	PROLIA	PSR	BLUE BASE	BCBU	200.53	Sales	Black	23921.58%	Goals	Black	0.808150709	Attainment	Black				bgilliam@amgen.comPROLIA	
+bgilliam@amgen.com	201334	B3A002	EVENITY	PSR	BLUE BASE	BCBU	61.2	Absolute Volume	Black	46.97%	Percent Volume Growth	Green	14	Final Rank	Black				bgilliam@amgen.comEVENITY	
+blemoine@amgen.com	98389	B4D001	PROLIA	PSR	BLUE BASE	BCBU	398.89	Sales	Black	37097.81%	Goals	Black	1.036591844	Attainment	Black				blemoine@amgen.comPROLIA	
+blemoine@amgen.com	98389	B4D001	EVENITY	PSR	BLUE BASE	BCBU	55	Absolute Volume	Black	85.75%	Percent Volume Growth	Green	5	Final Rank	Black				blemoine@amgen.comEVENITY	
+bloizzo@amgen.com	15993	B2A004	PROLIA	PSR	BLUE BASE	BCBU	400.41	Sales	Black	34166.49%	Goals	Black	1.129815302	Attainment	Black				bloizzo@amgen.comPROLIA	
+bloizzo@amgen.com	15993	B2A004	EVENITY	PSR	BLUE BASE	BCBU	27	Absolute Volume	Black	-0.43%	Percent Volume Growth	Red	60	Final Rank	Black				bloizzo@amgen.comEVENITY	
+bloy@amgen.com	182424	B2H001	PROLIA	PSR	BLUE BASE	BCBU	164.96	Sales	Black	13924.64%	Goals	Black	1.142083042	Attainment	Black				bloy@amgen.comPROLIA	
+bloy@amgen.com	182424	B2H001	EVENITY	PSR	BLUE BASE	BCBU	0	Absolute Volume	Black	-100.00%	Percent Volume Growth	Red	142	Final Rank	Black				bloy@amgen.comEVENITY	
+bmcdorma@amgen.com	204301	B2A006	PROLIA	PSR	BLUE BASE	BCBU	156.64	Sales	Black	17118.82%	Goals	Black	0.882128248	Attainment	Black				bmcdorma@amgen.comPROLIA	
+bmcdorma@amgen.com	204301	B2A006	EVENITY	PSR	BLUE BASE	BCBU	33	Absolute Volume	Black	30.39%	Percent Volume Growth	Green	79	Final Rank	Black				bmcdorma@amgen.comEVENITY	
+bmckinne@amgen.com	275527	B4F005	PROLIA	PSR	BLUE BASE	BCBU	132.47	Sales	Black	15839.07%	Goals	Black	0.806289131	Attainment	Black				bmckinne@amgen.comPROLIA	
+bmckinne@amgen.com	275527	B4F005	EVENITY	PSR	BLUE BASE	BCBU	8.8	Absolute Volume	Black	3.80%	Percent Volume Growth	Green	194	Final Rank	Black				bmckinne@amgen.comEVENITY	
+bmeeks@amgen.com	115907	B5H006	PROLIA	PSR	BLUE BASE	BCBU	284.92	Sales	Black	27366.58%	Goals	Black	1.003703474	Attainment	Black				bmeeks@amgen.comPROLIA	
+bmeeks@amgen.com	115907	B5H006	EVENITY	PSR	BLUE BASE	BCBU	45	Absolute Volume	Black	122.11%	Percent Volume Growth	Green	3	Final Rank	Black				bmeeks@amgen.comEVENITY	
+bosburn@amgen.com	233060	B2G001	PROLIA	PSR	BLUE BASE	BCBU	295.2445728	Sales	Black	31783.96%	Goals	Black	0.895523222	Attainment	Black				bosburn@amgen.comPROLIA	
+bosburn@amgen.com	233060	B2G001	EVENITY	PSR	BLUE BASE	BCBU	17.098291	Absolute Volume	Black	-20.50%	Percent Volume Growth	Red	94	Final Rank	Black				bosburn@amgen.comEVENITY	
+breed@amgen.com	98094	B3K005	PROLIA	PSR	BLUE BASE	BCBU	589.7342735	Sales	Black	48431.71%	Goals	Black	1.173895772	Attainment	Black				breed@amgen.comPROLIA	
+breed@amgen.com	98094	B3K005	EVENITY	PSR	BLUE BASE	BCBU	83.017094	Absolute Volume	Black	26.23%	Percent Volume Growth	Green	25	Final Rank	Black				breed@amgen.comEVENITY	
+brevels@amgen.com	193678	B5H002	PROLIA	PSR	BLUE BASE	BCBU	388.682735	Sales	Black	41270.37%	Goals	Black	0.907945552	Attainment	Black				brevels@amgen.comPROLIA	
+brevels@amgen.com	193678	B5H002	EVENITY	PSR	BLUE BASE	BCBU	35.17094	Absolute Volume	Black	57.14%	Percent Volume Growth	Green	51	Final Rank	Black				brevels@amgen.comEVENITY	
+bricha01@amgen.com	201682	B2D006	PROLIA	PSR	BLUE BASE	BCBU	221.1697008	Sales	Black	23356.02%	Goals	Black	0.91291379	Attainment	Black				bricha01@amgen.comPROLIA	
+bricha01@amgen.com	201682	B2D006	EVENITY	PSR	BLUE BASE	BCBU	11.918803	Absolute Volume	Black	99.07%	Percent Volume Growth	Green	55	Final Rank	Black				bricha01@amgen.comEVENITY	
+brichmon@amgen.com	98133	B1D006	PROLIA	PSR	BLUE BASE	BCBU	282.015	Sales	Black	27731.61%	Goals	Black	0.980392547	Attainment	Black				brichmon@amgen.comPROLIA	
+brichmon@amgen.com	98133	B1D006	EVENITY	PSR	BLUE BASE	BCBU	9.1	Absolute Volume	Black	78.02%	Percent Volume Growth	Green	70	Final Rank	Black				brichmon@amgen.comEVENITY	
+bridgett@amgen.com	98277	B3G001	PROLIA	PSR	BLUE BASE	BCBU	459.95	Sales	Black	48862.12%	Goals	Black	0.907488686	Attainment	Black				bridgett@amgen.comPROLIA	
+henrye@amgen.com	98309	B2D002	EVENITY	PSR	BLUE BASE	BCBU	83.2	Absolute Volume	Black	-3.69%	Percent Volume Growth	Red	60	Final Rank	Black				henrye@amgen.comEVENITY	
+hilln@amgen.com	149670	B2E004	PROLIA	PSR	BLUE BASE	BCBU	348.74953	Sales	Black	32371.00%	Goals	Black	1.038629145	Attainment	Black				hilln@amgen.comPROLIA	
+hilln@amgen.com	149670	B2E004	EVENITY	PSR	BLUE BASE	BCBU	22.15812	Absolute Volume	Black	16.61%	Percent Volume Growth	Green	136	Final Rank	Black				hilln@amgen.comEVENITY	
+hmcgilli@amgen.com	250403	B2A005	PROLIA	PSR	BLUE BASE	BCBU	475.91	Sales	Black	36002.58%	Goals	Black	1.274366055	Attainment	Black				hmcgilli@amgen.comPROLIA	
+hmcgilli@amgen.com	250403	B2A005	EVENITY	PSR	BLUE BASE	BCBU	26	Absolute Volume	Black	2.98%	Percent Volume Growth	Green	134	Final Rank	Black				hmcgilli@amgen.comEVENITY	
+hooverm@amgen.com	129328	B4E008	PROLIA	PSR	BLUE BASE	BCBU	437.08	Sales	Black	34402.75%	Goals	Black	1.224815491	Attainment	Black				hooverm@amgen.comPROLIA	
+hooverm@amgen.com	129328	B4E008	EVENITY	PSR	BLUE BASE	BCBU	42	Absolute Volume	Black	30.82%	Percent Volume Growth	Green	24	Final Rank	Black				hooverm@amgen.comEVENITY	
+hopewell@amgen.com	98324	B3J005	PROLIA	PSR	BLUE BASE	BCBU	242.2435043	Sales	Black	28473.13%	Goals	Black	0.820200217	Attainment	Black				hopewell@amgen.comPROLIA	
+hopewell@amgen.com	98324	B3J005	EVENITY	PSR	BLUE BASE	BCBU	27.094017	Absolute Volume	Black	-23.27%	Percent Volume Growth	Red	75	Final Rank	Black				hopewell@amgen.comEVENITY	
+hsellars@amgen.com	150438	B5H001	PROLIA	PSR	BLUE BASE	BCBU	227.807094	Sales	Black	28008.00%	Goals	Black	0.784130041	Attainment	Black				hsellars@amgen.comPROLIA	
+hsellars@amgen.com	150438	B5H001	EVENITY	PSR	BLUE BASE	BCBU	56.868376	Absolute Volume	Black	63.90%	Percent Volume Growth	Green	7	Final Rank	Black				hsellars@amgen.comEVENITY	
+hshea01@amgen.com	212307	B5F001	PROLIA	PSR	BLUE BASE	BCBU	341.231923	Sales	Black	29271.31%	Goals	Black	1.123855384	Attainment	Black				hshea01@amgen.comPROLIA	
+hshea01@amgen.com	212307	B5F001	EVENITY	PSR	BLUE BASE	BCBU	15.207692	Absolute Volume	Black	-20.91%	Percent Volume Growth	Red	103	Final Rank	Black				hshea01@amgen.comEVENITY	
+huynh@amgen.com	98331	B5E006	PROLIA	PSR	BLUE BASE	BCBU	297.2846155	Sales	Black	31296.44%	Goals	Black	0.915757475	Attainment	Black				huynh@amgen.comPROLIA	
+huynh@amgen.com	98331	B5E006	EVENITY	PSR	BLUE BASE	BCBU	17.738462	Absolute Volume	Black	40.95%	Percent Volume Growth	Green	53	Final Rank	Black				huynh@amgen.comEVENITY	
+ifaygenb@amgen.com	269547	B1E002	PROLIA	PSR	BLUE BASE	BCBU	201.0680343	Sales	Black	19208.47%	Goals	Black	1.009144132	Attainment	Black				ifaygenb@amgen.comPROLIA	
+ifaygenb@amgen.com	269547	B1E002	EVENITY	PSR	BLUE BASE	BCBU	2.752137	Absolute Volume	Black	-13.37%	Percent Volume Growth	Red	131	Final Rank	Black				ifaygenb@amgen.comEVENITY	
+isztorc@amgen.com	203925	B4C006	PROLIA	PSR	BLUE BASE	BCBU	310.0932053	Sales	Black	23282.98%	Goals	Black	1.283975367	Attainment	Black				isztorc@amgen.comPROLIA	
+isztorc@amgen.com	203925	B4C006	EVENITY	PSR	BLUE BASE	BCBU	40.012821	Absolute Volume	Black	91.44%	Percent Volume Growth	Green	17	Final Rank	Black				isztorc@amgen.comEVENITY	
+jamalone@amgen.com	154215	B1A001	PROLIA	PSR	BLUE BASE	BCBU	182.1432053	Sales	Black	29074.38%	Goals	Black	0.603956233	Attainment	Black				jamalone@amgen.comPROLIA	
+jamalone@amgen.com	154215	B1A001	EVENITY	PSR	BLUE BASE	BCBU	12.212821	Absolute Volume	Black	6.47%	Percent Volume Growth	Green	179	Final Rank	Black				jamalone@amgen.comEVENITY	
+janaw@amgen.com	149971	B4F002	PROLIA	PSR	BLUE BASE	BCBU	292.26	Sales	Black	28267.99%	Goals	Black	0.99672965	Attainment	Black				janaw@amgen.comPROLIA	
+janaw@amgen.com	149971	B4F002	EVENITY	PSR	BLUE BASE	BCBU	18.2	Absolute Volume	Black	22.16%	Percent Volume Growth	Green	143	Final Rank	Black				janaw@amgen.comEVENITY	
+jaroy@amgen.com	153704	B4A002	PROLIA	PSR	BLUE BASE	BCBU	255.63	Sales	Black	21838.62%	Goals	Black	1.12846901	Attainment	Black				jaroy@amgen.comPROLIA	
+jaroy@amgen.com	153704	B4A002	EVENITY	PSR	BLUE BASE	BCBU	17.6	Absolute Volume	Black	48.60%	Percent Volume Growth	Green	116	Final Rank	Black				jaroy@amgen.comEVENITY	
+jayv@amgen.com	124826	B2E008	PROLIA	PSR	BLUE BASE	BCBU	314.1384615	Sales	Black	27929.79%	Goals	Black	1.084317363	Attainment	Black				jayv@amgen.comPROLIA	
+jayv@amgen.com	124826	B2E008	EVENITY	PSR	BLUE BASE	BCBU	12.153846	Absolute Volume	Black	243.67%	Percent Volume Growth	Green	107	Final Rank	Black				jayv@amgen.comEVENITY	
+jbeahm@amgen.com	149383	B1H002	PROLIA	PSR	BLUE BASE	BCBU	325.03	Sales	Black	46602.71%	Goals	Black	0.672380599	Attainment	Black				jbeahm@amgen.comPROLIA	
+jbeahm@amgen.com	149383	B1H002	EVENITY	PSR	BLUE BASE	BCBU	23	Absolute Volume	Black	-6.59%	Percent Volume Growth	Red	161	Final Rank	Black				jbeahm@amgen.comEVENITY	
+jbutch01@amgen.com	201300	B3G007	PROLIA	PSR	BLUE BASE	BCBU	458.5803848	Sales	Black	33461.43%	Goals	Black	1.321216473	Attainment	Black				jbutch01@amgen.comPROLIA	
+jbutch01@amgen.com	201300	B3G007	EVENITY	PSR	BLUE BASE	BCBU	31.961539	Absolute Volume	Black	-1.91%	Percent Volume Growth	Red	54	Final Rank	Black				jbutch01@amgen.comEVENITY	
+jcopelan@amgen.com	203117	B2C002	PROLIA	PSR	BLUE BASE	BCBU	228.56	Sales	Black	24058.75%	Goals	Black	0.91586211	Attainment	Black				jcopelan@amgen.comPROLIA	
+jcopelan@amgen.com	203117	B2C002	EVENITY	PSR	BLUE BASE	BCBU	11	Absolute Volume	Black	-4.62%	Percent Volume Growth	Red	194	Final Rank	Black				jcopelan@amgen.comEVENITY	
+jcroft01@amgen.com	203699	B2J007	PROLIA	PSR	BLUE BASE	BCBU	303.145	Sales	Black	31673.45%	Goals	Black	0.922694579	Attainment	Black				jcroft01@amgen.comPROLIA	
+jcroft01@amgen.com	203699	B2J007	EVENITY	PSR	BLUE BASE	BCBU	42.5	Absolute Volume	Black	4.25%	Percent Volume Growth	Green	87	Final Rank	Black				jcroft01@amgen.comEVENITY	
+jdean05@amgen.com	258923	B4E005	PROLIA	PSR	BLUE BASE	BCBU	277.03	Sales	Black	26887.14%	Goals	Black	0.993310908	Attainment	Black				jdean05@amgen.comPROLIA	
+jdean05@amgen.com	258923	B4E005	EVENITY	PSR	BLUE BASE	BCBU	15	Absolute Volume	Black	45.83%	Percent Volume Growth	Green	56	Final Rank	Black				jdean05@amgen.comEVENITY	
+jdustin@amgen.com	176373	B2F004	PROLIA	PSR	BLUE BASE	BCBU	197.54	Sales	Black	17722.46%	Goals	Black	1.074567913	Attainment	Black				jdustin@amgen.comPROLIA	
+jdustin@amgen.com	176373	B2F004	EVENITY	PSR	BLUE BASE	BCBU	11	Absolute Volume	Black	60.42%	Percent Volume Growth	Green	132	Final Rank	Black				jdustin@amgen.comEVENITY	
+jelder01@amgen.com	275874	B3A007	PROLIA	PSR	BLUE BASE	BCBU	196.48	Sales	Black	18608.37%	Goals	Black	1.017918127	Attainment	Black				jelder01@amgen.comPROLIA	
+jelder01@amgen.com	275874	B3A007	EVENITY	PSR	BLUE BASE	BCBU	27	Absolute Volume	Black	73.25%	Percent Volume Growth	Green	67	Final Rank	Black				jelder01@amgen.comEVENITY	
+jepperly@amgen.com	179582	B2A007	PROLIA	PSR	BLUE BASE	BCBU	357.625	Sales	Black	29144.18%	Goals	Black	1.182984122	Attainment	Black				jepperly@amgen.comPROLIA	
+jepperly@amgen.com	179582	B2A007	EVENITY	PSR	BLUE BASE	BCBU	38.5	Absolute Volume	Black	16.53%	Percent Volume Growth	Green	43	Final Rank	Black				jepperly@amgen.comEVENITY	
+jerogers@amgen.com	153718	B2B006	PROLIA	PSR	BLUE BASE	BCBU	269.057094	Sales	Black	23499.25%	Goals	Black	1.103807543	Attainment	Black				jerogers@amgen.comPROLIA	
+jerogers@amgen.com	153718	B2B006	EVENITY	PSR	BLUE BASE	BCBU	5.068376	Absolute Volume	Black	-57.27%	Percent Volume Growth	Red	210	Final Rank	Black				jerogers@amgen.comEVENITY	
+jfitchet@amgen.com	222279	B5K006	PROLIA	PSR	BLUE BASE	BCBU	315.96	Sales	Black	28523.53%	Goals	Black	1.067902833	Attainment	Black				jfitchet@amgen.comPROLIA	
+jfitchet@amgen.com	222279	B5K006	EVENITY	PSR	BLUE BASE	BCBU	3	Absolute Volume	Black	-3.75%	Percent Volume Growth	Red	126	Final Rank	Black				jfitchet@amgen.comEVENITY	
+jfixemer@amgen.com	236610	B3J009	PROLIA	PSR	BLUE BASE	BCBU	322.35	Sales	Black	25119.37%	Goals	Black	1.237148513	Attainment	Black				jfixemer@amgen.comPROLIA	
+jfixemer@amgen.com	236610	B3J009	EVENITY	PSR	BLUE BASE	BCBU	28	Absolute Volume	Black	23.06%	Percent Volume Growth	Green	48	Final Rank	Black				jfixemer@amgen.comEVENITY	
+jford01@amgen.com	206129	B2G003	PROLIA	PSR	BLUE BASE	BCBU	296.08	Sales	Black	29171.82%	Goals	Black	0.978472049	Attainment	Black				jford01@amgen.comPROLIA	
+jford01@amgen.com	206129	B2G003	EVENITY	PSR	BLUE BASE	BCBU	11	Absolute Volume	Black	60.42%	Percent Volume Growth	Green	132	Final Rank	Black				jford01@amgen.comEVENITY	
+jglass01@amgen.com	201146	B3B002	PROLIA	PSR	BLUE BASE	BCBU	212.4421368	Sales	Black	24790.14%	Goals	Black	0.826160826	Attainment	Black				jglass01@amgen.comPROLIA	
+jglass01@amgen.com	201146	B3B002	EVENITY	PSR	BLUE BASE	BCBU	2.008547	Absolute Volume	Black	114.50%	Percent Volume Growth	Green	89	Final Rank	Black				jglass01@amgen.comEVENITY	
+jgordo02@amgen.com	221268	B1E004	PROLIA	PSR	BLUE BASE	BCBU	151.9375	Sales	Black	16829.56%	Goals	Black	0.870352331	Attainment	Black				jgordo02@amgen.comPROLIA	
+jgordo02@amgen.com	221268	B1E004	EVENITY	PSR	BLUE BASE	BCBU	9.55	Absolute Volume	Black	-17.08%	Percent Volume Growth	Red	206	Final Rank	Black				jgordo02@amgen.comEVENITY	
+jgroff@amgen.com	250150	B3H002	PROLIA	PSR	BLUE BASE	BCBU	257.5860258	Sales	Black	28990.22%	Goals	Black	0.856591416	Attainment	Black				jgroff@amgen.comPROLIA	
+jgroff@amgen.com	250150	B3H002	EVENITY	PSR	BLUE BASE	BCBU	22.464103	Absolute Volume	Black	90.16%	Percent Volume Growth	Green	86	Final Rank	Black				jgroff@amgen.comEVENITY	
+jhaefner@amgen.com	196082	B3J002	PROLIA	PSR	BLUE BASE	BCBU	304.57	Sales	Black	37897.95%	Goals	Black	0.774772693	Attainment	Black				jhaefner@amgen.comPROLIA	
+jhaefner@amgen.com	196082	B3J002	EVENITY	PSR	BLUE BASE	BCBU	12	Absolute Volume	Black	-59.69%	Percent Volume Growth	Red	122	Final Rank	Black				jhaefner@amgen.comEVENITY	
+jharviso@amgen.com	226446	B3E006	PROLIA	PSR	BLUE BASE	BCBU	468.15	Sales	Black	44144.43%	Goals	Black	1.022379268	Attainment	Black				jharviso@amgen.comPROLIA	
+jharviso@amgen.com	226446	B3E006	EVENITY	PSR	BLUE BASE	BCBU	29	Absolute Volume	Black	66.15%	Percent Volume Growth	Green	62	Final Rank	Black				jharviso@amgen.comEVENITY	
+jimmyann@amgen.com	98281	B4F001	PROLIA	PSR	BLUE BASE	BCBU	295.02	Sales	Black	28828.84%	Goals	Black	0.986568518	Attainment	Black				jimmyann@amgen.comPROLIA	
+jimmyann@amgen.com	98281	B4F001	EVENITY	PSR	BLUE BASE	BCBU	38	Absolute Volume	Black	24.40%	Percent Volume Growth	Green	32	Final Rank	Black				jimmyann@amgen.comEVENITY	
+jjorda02@amgen.com	214084	B2H007	PROLIA	PSR	BLUE BASE	BCBU	147.24	Sales	Black	20108.59%	Goals	Black	0.70590641	Attainment	Black				jjorda02@amgen.comPROLIA	
+jjorda02@amgen.com	214084	B2H007	EVENITY	PSR	BLUE BASE	BCBU	10	Absolute Volume	Black	-2.78%	Percent Volume Growth	Red	196	Final Rank	Black				jjorda02@amgen.comEVENITY	
+jlanders@amgen.com	147793	B4E002	PROLIA	PSR	BLUE BASE	BCBU	309.07	Sales	Black	26945.11%	Goals	Black	1.105808393	Attainment	Black				jlanders@amgen.comPROLIA	
+jlanders@amgen.com	147793	B4E002	EVENITY	PSR	BLUE BASE	BCBU	18	Absolute Volume	Black	67.88%	Percent Volume Growth	Green	44	Final Rank	Black				jlanders@amgen.comEVENITY	
+jlewis03@amgen.com	183030	B3B004	PROLIA	PSR	BLUE BASE	BCBU	315.71	Sales	Black	33252.54%	Goals	Black	0.915306375	Attainment	Black				jlewis03@amgen.comPROLIA	
+jlewis03@amgen.com	183030	B3B004	EVENITY	PSR	BLUE BASE	BCBU	25	Absolute Volume	Black	-17.31%	Percent Volume Growth	Red	163	Final Rank	Black				jlewis03@amgen.comEVENITY	
+jlocasci@amgen.com	204284	B1D004	PROLIA	PSR	BLUE BASE	BCBU	303.7	Sales	Black	28994.59%	Goals	Black	1.009789394	Attainment	Black				jlocasci@amgen.comPROLIA	
+jlocasci@amgen.com	204284	B1D004	EVENITY	PSR	BLUE BASE	BCBU	24	Absolute Volume	Black	37.50%	Percent Volume Growth	Green	49	Final Rank	Black				jlocasci@amgen.comEVENITY	
+jludwi01@amgen.com	188337	B3J007	PROLIA	PSR	BLUE BASE	BCBU	293.19	Sales	Black	29800.74%	Goals	Black	0.948473145	Attainment	Black				jludwi01@amgen.comPROLIA	
+jludwi01@amgen.com	188337	B3J007	EVENITY	PSR	BLUE BASE	BCBU	29	Absolute Volume	Black	0.04%	Percent Volume Growth	Green	128	Final Rank	Black				jludwi01@amgen.comEVENITY	
+jmackey@amgen.com	149413	B2G006	PROLIA	PSR	BLUE BASE	BCBU	279.25	Sales	Black	21719.38%	Goals	Black	1.239505923	Attainment	Black				jmackey@amgen.comPROLIA	
+jmackey@amgen.com	149413	B2G006	EVENITY	PSR	BLUE BASE	BCBU	20	Absolute Volume	Black	36.21%	Percent Volume Growth	Green	119	Final Rank	Black				jmackey@amgen.comEVENITY	
+jmarshel@amgen.com	138779	B5K001	PROLIA	PSR	BLUE BASE	BCBU	437.33	Sales	Black	40991.58%	Goals	Black	1.028531396	Attainment	Black				jmarshel@amgen.comPROLIA	
+jmarshel@amgen.com	138779	B5K001	EVENITY	PSR	BLUE BASE	BCBU	49	Absolute Volume	Black	73.71%	Percent Volume Growth	Green	6	Final Rank	Black				jmarshel@amgen.comEVENITY	
+jmclean@amgen.com	149393	B2J001	PROLIA	PSR	BLUE BASE	BCBU	273.86	Sales	Black	31165.29%	Goals	Black	0.847150133	Attainment	Black				jmclean@amgen.comPROLIA	
+jmclean@amgen.com	149393	B2J001	EVENITY	PSR	BLUE BASE	BCBU	24	Absolute Volume	Black	-35.32%	Percent Volume Growth	Red	178	Final Rank	Black				jmclean@amgen.comEVENITY	
+jmijares@amgen.com	212093	B4K007	PROLIA	PSR	BLUE BASE	BCBU	373.53	Sales	Black	27846.05%	Goals	Black	1.293197548	Attainment	Black				jmijares@amgen.comPROLIA	
+jmijares@amgen.com	212093	B4K007	EVENITY	PSR	BLUE BASE	BCBU	43	Absolute Volume	Black	51.25%	Percent Volume Growth	Green	39	Final Rank	Black				jmijares@amgen.comEVENITY	
+joclynw@amgen.com	152651	B3B001	PROLIA	PSR	BLUE BASE	BCBU	274.9071155	Sales	Black	27027.73%	Goals	Black	0.980571692	Attainment	Black				joclynw@amgen.comPROLIA	
+joclynw@amgen.com	152651	B3B001	EVENITY	PSR	BLUE BASE	BCBU	10.788462	Absolute Volume	Black	-31.45%	Percent Volume Growth	Red	124	Final Rank	Black				joclynw@amgen.comEVENITY	
+jordan01@amgen.com	149394	B2F003	PROLIA	PSR	BLUE BASE	BCBU	240.29	Sales	Black	19915.39%	Goals	Black	1.16318775	Attainment	Black				jordan01@amgen.comPROLIA	
+jordan01@amgen.com	149394	B2F003	EVENITY	PSR	BLUE BASE	BCBU	4	Absolute Volume	Black	-8.33%	Percent Volume Growth	Red	207	Final Rank	Black				jordan01@amgen.comEVENITY	
+jpeaster@amgen.com	138669	B4F003	PROLIA	PSR	BLUE BASE	BCBU	210.03	Sales	Black	19847.72%	Goals	Black	1.020172491	Attainment	Black				jpeaster@amgen.comPROLIA	
+jpeaster@amgen.com	138669	B4F003	EVENITY	PSR	BLUE BASE	BCBU	7	Absolute Volume	Black	-2.36%	Percent Volume Growth	Red	119	Final Rank	Black				jpeaster@amgen.comEVENITY	
+jrennett@amgen.com	201683	B3F007	PROLIA	PSR	BLUE BASE	BCBU	364.4635043	Sales	Black	41569.22%	Goals	Black	0.845249887	Attainment	Black				jrennett@amgen.comPROLIA	
+jrennett@amgen.com	201683	B3F007	EVENITY	PSR	BLUE BASE	BCBU	66.094017	Absolute Volume	Black	-27.20%	Percent Volume Growth	Red	50	Final Rank	Black				jrennett@amgen.comEVENITY	
+jroy02@amgen.com	272013	B4J005	PROLIA	PSR	BLUE BASE	BCBU	343.4139318	Sales	Black	25084.00%	Goals	Black	1.319848357	Attainment	Black				jroy02@amgen.comPROLIA	
+jroy02@amgen.com	272013	B4J005	EVENITY	PSR	BLUE BASE	BCBU	46.895727	Absolute Volume	Black	42.03%	Percent Volume Growth	Green	35	Final Rank	Black				jroy02@amgen.comEVENITY	
+jrucks@amgen.com	179037	B5D002	PROLIA	PSR	BLUE BASE	BCBU	230.95	Sales	Black	26691.79%	Goals	Black	0.834148153	Attainment	Black				jrucks@amgen.comPROLIA	
+jrucks@amgen.com	179037	B5D002	EVENITY	PSR	BLUE BASE	BCBU	16	Absolute Volume	Black	-66.45%	Percent Volume Growth	Red	115	Final Rank	Black				jrucks@amgen.comEVENITY	
+jweikle@amgen.com	203597	B2E006	PROLIA	PSR	BLUE BASE	BCBU	294.29	Sales	Black	27219.85%	Goals	Black	1.042300026	Attainment	Black				jweikle@amgen.comPROLIA	
+jweikle@amgen.com	203597	B2E006	EVENITY	PSR	BLUE BASE	BCBU	5	Absolute Volume	Black	-48.89%	Percent Volume Growth	Red	211	Final Rank	Black				jweikle@amgen.comEVENITY	
+jwhitehe@amgen.com	273333	B3D007	PROLIA	PSR	BLUE BASE	BCBU	278.63	Sales	Black	41402.19%	Goals	Black	0.64879508	Attainment	Black				jwhitehe@amgen.comPROLIA	
+jwhitehe@amgen.com	273333	B3D007	EVENITY	PSR	BLUE BASE	BCBU	22	Absolute Volume	Black	-9.51%	Percent Volume Growth	Red	171	Final Rank	Black				jwhitehe@amgen.comEVENITY	
+jwisnies@amgen.com	228155	B1E008	PROLIA	PSR	BLUE BASE	BCBU	536.315	Sales	Black	46941.63%	Goals	Black	1.101449903	Attainment	Black				jwisnies@amgen.comPROLIA	
+jwisnies@amgen.com	228155	B1E008	EVENITY	PSR	BLUE BASE	BCBU	36.5	Absolute Volume	Black	87.67%	Percent Volume Growth	Green	30	Final Rank	Black				jwisnies@amgen.comEVENITY	
+jzuchlew@amgen.com	225066	B1F006	PROLIA	PSR	BLUE BASE	BCBU	220.305	Sales	Black	17697.69%	Goals	Black	1.200081591	Attainment	Black				jzuchlew@amgen.comPROLIA	
+jzuchlew@amgen.com	225066	B1F006	EVENITY	PSR	BLUE BASE	BCBU	12.5	Absolute Volume	Black	-6.73%	Percent Volume Growth	Red	109	Final Rank	Black				jzuchlew@amgen.comEVENITY	
+kahieh@amgen.com	149653	B2D005	PROLIA	PSR	BLUE BASE	BCBU	243.26	Sales	Black	26903.70%	Goals	Black	0.871689243	Attainment	Black				kahieh@amgen.comPROLIA	
+kahieh@amgen.com	149653	B2D005	EVENITY	PSR	BLUE BASE	BCBU	3	Absolute Volume	Black	-46.53%	Percent Volume Growth	Red	134	Final Rank	Black				kahieh@amgen.comEVENITY	
+kelick@amgen.com	149723	B5A003	PROLIA	PSR	BLUE BASE	BCBU	461.45	Sales	Black	36906.01%	Goals	Black	1.205398159	Attainment	Black				kelick@amgen.comPROLIA	
+kelick@amgen.com	149723	B5A003	EVENITY	PSR	BLUE BASE	BCBU	15	Absolute Volume	Black	-1.79%	Percent Volume Growth	Red	182	Final Rank	Black				kelick@amgen.comEVENITY	
+kemichae@amgen.com	98420	B2C005	PROLIA	PSR	BLUE BASE	BCBU	387.72	Sales	Black	33463.67%	Goals	Black	1.116985576	Attainment	Black				kemichae@amgen.comPROLIA	
+kemichae@amgen.com	98420	B2C005	EVENITY	PSR	BLUE BASE	BCBU	3	Absolute Volume	Black	92.50%	Percent Volume Growth	Green	144	Final Rank	Black				kemichae@amgen.comEVENITY	
+kereynol@amgen.com	151291	B2H002	PROLIA	PSR	BLUE BASE	BCBU	170.36	Sales	Black	18075.71%	Goals	Black	0.908605235	Attainment	Black				kereynol@amgen.comPROLIA	
+kereynol@amgen.com	151291	B2H002	EVENITY	PSR	BLUE BASE	BCBU	6	Absolute Volume	Black	21.84%	Percent Volume Growth	Green	113	Final Rank	Black				kereynol@amgen.comEVENITY	
+kforstbo@amgen.com	203783	B5G007	PROLIA	PSR	BLUE BASE	BCBU	240.6323718	Sales	Black	18875.98%	Goals	Black	1.228987816	Attainment	Black				kforstbo@amgen.comPROLIA	
+kforstbo@amgen.com	203783	B5G007	EVENITY	PSR	BLUE BASE	BCBU	15.489487	Absolute Volume	Black	8.44%	Percent Volume Growth	Green	81	Final Rank	Black				kforstbo@amgen.comEVENITY	
+kkanige@amgen.com	65033	B4C008	PROLIA	PSR	BLUE BASE	BCBU	416.62	Sales	Black	43897.14%	Goals	Black	0.914969953	Attainment	Black				kkanige@amgen.comPROLIA	
+kkanige@amgen.com	65033	B4C008	EVENITY	PSR	BLUE BASE	BCBU	37	Absolute Volume	Black	49.69%	Percent Volume Growth	Green	45	Final Rank	Black				kkanige@amgen.comEVENITY	
+klynch@amgen.com	54526	B2H003	PROLIA	PSR	BLUE BASE	BCBU	304.35	Sales	Black	34931.97%	Goals	Black	0.839949516	Attainment	Black				klynch@amgen.comPROLIA	
+klynch@amgen.com	54526	B2H003	EVENITY	PSR	BLUE BASE	BCBU	46	Absolute Volume	Black	63.53%	Percent Volume Growth	Green	19	Final Rank	Black				klynch@amgen.comEVENITY	
+kmcneil@amgen.com	124603	B3G004	PROLIA	PSR	BLUE BASE	BCBU	176.21	Sales	Black	26102.34%	Goals	Black	0.650809628	Attainment	Black				kmcneil@amgen.comPROLIA	
+kmcneil@amgen.com	124603	B3G004	EVENITY	PSR	BLUE BASE	BCBU	2	Absolute Volume	Black	200.00%	Percent Volume Growth	Green	140	Final Rank	Black				kmcneil@amgen.comEVENITY	
+krehrman@amgen.com	182618	B4D006	PROLIA	PSR	BLUE BASE	BCBU	505.59	Sales	Black	43298.26%	Goals	Black	1.12572163	Attainment	Black				krehrman@amgen.comPROLIA	
+krehrman@amgen.com	182618	B4D006	EVENITY	PSR	BLUE BASE	BCBU	32	Absolute Volume	Black	65.59%	Percent Volume Growth	Green	52	Final Rank	Black				krehrman@amgen.comEVENITY	
+kronk@amgen.com	275679	B1C005	PROLIA	PSR	BLUE BASE	BCBU	355.55	Sales	Black	31477.49%	Goals	Black	1.088938931	Attainment	Black				kronk@amgen.comPROLIA	
+kronk@amgen.com	275679	B1C005	EVENITY	PSR	BLUE BASE	BCBU	53.6	Absolute Volume	Black	59.38%	Percent Volume Growth	Green	16	Final Rank	Black				kronk@amgen.comEVENITY	
+kstoke01@amgen.com	256728	B4A001	PROLIA	PSR	BLUE BASE	BCBU	303.93	Sales	Black	24371.44%	Goals	Black	1.202251417	Attainment	Black				kstoke01@amgen.comPROLIA	
+kstoke01@amgen.com	256728	B4A001	EVENITY	PSR	BLUE BASE	BCBU	6	Absolute Volume	Black	-16.30%	Percent Volume Growth	Red	208	Final Rank	Black				kstoke01@amgen.comEVENITY	
+ktatsch@amgen.com	216773	B4K003	PROLIA	PSR	BLUE BASE	BCBU	338.8334188	Sales	Black	34020.97%	Goals	Black	0.960157558	Attainment	Black				ktatsch@amgen.comPROLIA	
+ktatsch@amgen.com	216773	B4K003	EVENITY	PSR	BLUE BASE	BCBU	15.213675	Absolute Volume	Black	-58.26%	Percent Volume Growth	Red	202	Final Rank	Black				ktatsch@amgen.comEVENITY	
+ktownsen@amgen.com	252282	B4E003	PROLIA	PSR	BLUE BASE	BCBU	385.55	Sales	Black	29726.43%	Goals	Black	1.250376961	Attainment	Black				ktownsen@amgen.comPROLIA	
+ktownsen@amgen.com	252282	B4E003	EVENITY	PSR	BLUE BASE	BCBU	21	Absolute Volume	Black	70.14%	Percent Volume Growth	Green	37	Final Rank	Black				ktownsen@amgen.comEVENITY	
+kvanbeck@amgen.com	98212	B3E001	PROLIA	PSR	BLUE BASE	BCBU	342.93	Sales	Black	34205.94%	Goals	Black	0.96651126	Attainment	Black				kvanbeck@amgen.comPROLIA	
+kvanbeck@amgen.com	98212	B3E001	EVENITY	PSR	BLUE BASE	BCBU	34	Absolute Volume	Black	21.20%	Percent Volume Growth	Green	92	Final Rank	Black				kvanbeck@amgen.comEVENITY	
+kvarga@amgen.com	103345	B5G006	PROLIA	PSR	BLUE BASE	BCBU	597.8942735	Sales	Black	43455.67%	Goals	Black	1.326419443	Attainment	Black				kvarga@amgen.comPROLIA	
+kvarga@amgen.com	103345	B5G006	EVENITY	PSR	BLUE BASE	BCBU	71.017094	Absolute Volume	Black	-0.96%	Percent Volume Growth	Red	32	Final Rank	Black				kvarga@amgen.comEVENITY	
+kwalisze@amgen.com	236797	B1B007	PROLIA	PSR	BLUE BASE	BCBU	257.95	Sales	Black	25080.87%	Goals	Black	0.991507122	Attainment	Black				kwalisze@amgen.comPROLIA	
+kwalisze@amgen.com	236797	B1B007	EVENITY	PSR	BLUE BASE	BCBU	0	Absolute Volume	Black	-100.00%	Percent Volume Growth	Red	142	Final Rank	Black				kwalisze@amgen.comEVENITY	
+kwhiting@amgen.com	204662	B5B004	PROLIA	PSR	BLUE BASE	BCBU	338.6	Sales	Black	26627.11%	Goals	Black	1.225930326	Attainment	Black				kwhiting@amgen.comPROLIA	
+kwhiting@amgen.com	204662	B5B004	EVENITY	PSR	BLUE BASE	BCBU	37	Absolute Volume	Black	-33.31%	Percent Volume Growth	Red	124	Final Rank	Black				kwhiting@amgen.comEVENITY	
+lander05@amgen.com	243845	B5K004	PROLIA	PSR	BLUE BASE	BCBU	424.18	Sales	Black	35586.00%	Goals	Black	1.149142569	Attainment	Black				lander05@amgen.comPROLIA	
+lander05@amgen.com	243845	B5K004	EVENITY	PSR	BLUE BASE	BCBU	13	Absolute Volume	Black	-46.53%	Percent Volume Growth	Red	118	Final Rank	Black				lander05@amgen.comEVENITY	
+lcolombo@amgen.com	133357	B2E007	PROLIA	PSR	BLUE BASE	BCBU	432.8590598	Sales	Black	42446.76%	Goals	Black	0.983116332	Attainment	Black				lcolombo@amgen.comPROLIA	
+lcolombo@amgen.com	133357	B2E007	EVENITY	PSR	BLUE BASE	BCBU	36.516239	Absolute Volume	Black	42.20%	Percent Volume Growth	Green	53	Final Rank	Black				lcolombo@amgen.comEVENITY	
+ldemyers@amgen.com	188739	B3F003	PROLIA	PSR	BLUE BASE	BCBU	528.16	Sales	Black	46598.80%	Goals	Black	1.092681927	Attainment	Black				ldemyers@amgen.comPROLIA	
+ldemyers@amgen.com	188739	B3F003	EVENITY	PSR	BLUE BASE	BCBU	44	Absolute Volume	Black	66.47%	Percent Volume Growth	Green	22	Final Rank	Black				ldemyers@amgen.comEVENITY	
+lefisher@amgen.com	139992	B5A006	PROLIA	PSR	BLUE BASE	BCBU	310.57	Sales	Black	20974.78%	Goals	Black	1.427463267	Attainment	Black				lefisher@amgen.comPROLIA	
+lefisher@amgen.com	139992	B5A006	EVENITY	PSR	BLUE BASE	BCBU	32	Absolute Volume	Black	-4.94%	Percent Volume Growth	Red	58	Final Rank	Black				lefisher@amgen.comEVENITY	
+lemery@amgen.com	149214	B4D008	PROLIA	PSR	BLUE BASE	BCBU	324.27	Sales	Black	27323.32%	Goals	Black	1.144132411	Attainment	Black				lemery@amgen.comPROLIA	
+lemery@amgen.com	149214	B4D008	EVENITY	PSR	BLUE BASE	BCBU	32	Absolute Volume	Black	29.96%	Percent Volume Growth	Green	84	Final Rank	Black				lemery@amgen.comEVENITY	
+lforrier@amgen.com	124598	B4G006	PROLIA	PSR	BLUE BASE	BCBU	208.7973933	Sales	Black	22768.10%	Goals	Black	0.884099715	Attainment	Black				lforrier@amgen.comPROLIA	
+lforrier@amgen.com	124598	B4G006	EVENITY	PSR	BLUE BASE	BCBU	17.149573	Absolute Volume	Black	18.11%	Percent Volume Growth	Green	154	Final Rank	Black				lforrier@amgen.comEVENITY	
+lfrench@amgen.com	98237	B3J003	PROLIA	PSR	BLUE BASE	BCBU	400.78	Sales	Black	42087.90%	Goals	Black	0.918019178	Attainment	Black				lfrench@amgen.comPROLIA	
+lfrench@amgen.com	98237	B3J003	EVENITY	PSR	BLUE BASE	BCBU	88	Absolute Volume	Black	41.17%	Percent Volume Growth	Green	5	Final Rank	Black				lfrench@amgen.comEVENITY	
+lherring@amgen.com	197991	B5E004	PROLIA	PSR	BLUE BASE	BCBU	418.27	Sales	Black	32224.09%	Goals	Black	1.251350729	Attainment	Black				lherring@amgen.comPROLIA	
+lherring@amgen.com	197991	B5E004	EVENITY	PSR	BLUE BASE	BCBU	23.76	Absolute Volume	Black	-24.08%	Percent Volume Growth	Red	177	Final Rank	Black				lherring@amgen.comEVENITY	
+livingsp@amgen.com	149661	B2F001	PROLIA	PSR	BLUE BASE	BCBU	358.305	Sales	Black	25311.88%	Goals	Black	1.364681871	Attainment	Black				livingsp@amgen.comPROLIA	
+livingsp@amgen.com	149661	B2F001	EVENITY	PSR	BLUE BASE	BCBU	25.5	Absolute Volume	Black	54.51%	Percent Volume Growth	Green	91	Final Rank	Black				livingsp@amgen.comEVENITY	
+llloyd@amgen.com	149662	B4A004	PROLIA	PSR	BLUE BASE	BCBU	383.38	Sales	Black	35857.26%	Goals	Black	1.030754515	Attainment	Black				llloyd@amgen.comPROLIA	
+llloyd@amgen.com	149662	B4A004	EVENITY	PSR	BLUE BASE	BCBU	14	Absolute Volume	Black	36.11%	Percent Volume Growth	Green	142	Final Rank	Black				llloyd@amgen.comEVENITY	
+lmagliet@amgen.com	204510	B1H007	PROLIA	PSR	BLUE BASE	BCBU	485.01	Sales	Black	37590.40%	Goals	Black	1.243874789	Attainment	Black				lmagliet@amgen.comPROLIA	
+lmagliet@amgen.com	204510	B1H007	EVENITY	PSR	BLUE BASE	BCBU	29	Absolute Volume	Black	69.17%	Percent Volume Growth	Green	58	Final Rank	Black				lmagliet@amgen.comEVENITY	
+lmarinov@amgen.com	198261	B5E002	PROLIA	PSR	BLUE BASE	BCBU	364.987329	Sales	Black	32161.53%	Goals	Black	1.094067441	Attainment	Black				lmarinov@amgen.comPROLIA	
+lmarinov@amgen.com	198261	B5E002	EVENITY	PSR	BLUE BASE	BCBU	19.229316	Absolute Volume	Black	35.27%	Percent Volume Growth	Green	125	Final Rank	Black				lmarinov@amgen.comEVENITY	
+lmayer@amgen.com	150174	B3G002	PROLIA	PSR	BLUE BASE	BCBU	369.65	Sales	Black	31281.62%	Goals	Black	1.139211721	Attainment	Black				lmayer@amgen.comPROLIA	
+lmayer@amgen.com	150174	B3G002	EVENITY	PSR	BLUE BASE	BCBU	155	Absolute Volume	Black	102.15%	Percent Volume Growth	Green	1	Final Rank	Black				lmayer@amgen.comEVENITY	
+lmead@amgen.com	98416	B1F005	PROLIA	PSR	BLUE BASE	BCBU	186.27	Sales	Black	21856.47%	Goals	Black	0.821610057	Attainment	Black				lmead@amgen.comPROLIA	
+lmead@amgen.com	98416	B1F005	EVENITY	PSR	BLUE BASE	BCBU	16	Absolute Volume	Black	6.94%	Percent Volume Growth	Green	166	Final Rank	Black				lmead@amgen.comEVENITY	
+lpires@amgen.com	153112	B1H004	PROLIA	PSR	BLUE BASE	BCBU	284.45	Sales	Black	31813.35%	Goals	Black	0.861984603	Attainment	Black				lpires@amgen.comPROLIA	
+lpires@amgen.com	153112	B1H004	EVENITY	PSR	BLUE BASE	BCBU	43	Absolute Volume	Black	91.61%	Percent Volume Growth	Green	11	Final Rank	Black				lpires@amgen.comEVENITY	
+lvallada@amgen.com	206618	B4D002	PROLIA	PSR	BLUE BASE	BCBU	365.9134615	Sales	Black	26726.33%	Goals	Black	1.319902723	Attainment	Black				lvallada@amgen.comPROLIA	
+lvallada@amgen.com	206618	B4D002	EVENITY	PSR	BLUE BASE	BCBU	49.653846	Absolute Volume	Black	53.65%	Percent Volume Growth	Green	23	Final Rank	Black				lvallada@amgen.comEVENITY	
+lwentz@amgen.com	98173	B2A008	PROLIA	PSR	BLUE BASE	BCBU	384.895	Sales	Black	35935.06%	Goals	Black	1.03258756	Attainment	Black				lwentz@amgen.comPROLIA	
+lwentz@amgen.com	98173	B2A008	EVENITY	PSR	BLUE BASE	BCBU	16.5	Absolute Volume	Black	-11.77%	Percent Volume Growth	Red	87	Final Rank	Black				lwentz@amgen.comEVENITY	
+mabell@amgen.com	98223	B1H008	PROLIA	PSR	BLUE BASE	BCBU	295.46	Sales	Black	43860.58%	Goals	Black	0.649422459	Attainment	Black				mabell@amgen.comPROLIA	
+mabell@amgen.com	98223	B1H008	EVENITY	PSR	BLUE BASE	BCBU	34	Absolute Volume	Black	75.94%	Percent Volume Growth	Green	43	Final Rank	Black				mabell@amgen.comEVENITY	
+malread@amgen.com	149390	B2B003	PROLIA	PSR	BLUE BASE	BCBU	452.56	Sales	Black	43548.94%	Goals	Black	1.001847253	Attainment	Black				malread@amgen.comPROLIA	
+malread@amgen.com	149390	B2B003	EVENITY	PSR	BLUE BASE	BCBU	36	Absolute Volume	Black	-5.33%	Percent Volume Growth	Red	112	Final Rank	Black				malread@amgen.comEVENITY	
+maoliver@amgen.com	138564	B4F004	PROLIA	PSR	BLUE BASE	BCBU	405.66	Sales	Black	35171.50%	Goals	Black	1.111921781	Attainment	Black				maoliver@amgen.comPROLIA	
+maoliver@amgen.com	138564	B4F004	EVENITY	PSR	BLUE BASE	BCBU	57	Absolute Volume	Black	16.48%	Percent Volume Growth	Green	45	Final Rank	Black				maoliver@amgen.comEVENITY	
+marevans@amgen.com	153466	B3K006	PROLIA	PSR	BLUE BASE	BCBU	377.44	Sales	Black	29145.86%	Goals	Black	1.248458213	Attainment	Black				marevans@amgen.comPROLIA	
+marevans@amgen.com	153466	B3K006	EVENITY	PSR	BLUE BASE	BCBU	10	Absolute Volume	Black	23.40%	Percent Volume Growth	Green	167	Final Rank	Black				marevans@amgen.comEVENITY	
+marshn@amgen.com	150952	B1G005	PROLIA	PSR	BLUE BASE	BCBU	234.98	Sales	Black	19959.78%	Goals	Black	1.134953766	Attainment	Black				marshn@amgen.comPROLIA	
+marshn@amgen.com	150952	B1G005	EVENITY	PSR	BLUE BASE	BCBU	3.48	Absolute Volume	Black	170.99%	Percent Volume Growth	Green	80	Final Rank	Black				marshn@amgen.comEVENITY	
+maryj01@amgen.com	153390	B3K002	PROLIA	PSR	BLUE BASE	BCBU	223.88	Sales	Black	20162.93%	Goals	Black	1.070445368	Attainment	Black				maryj01@amgen.comPROLIA	
+maryj01@amgen.com	153390	B3K002	EVENITY	PSR	BLUE BASE	BCBU	0	Absolute Volume	Black	-100.00%	Percent Volume Growth	Red	216	Final Rank	Black				maryj01@amgen.comEVENITY	
+mbouman@amgen.com	149244	B3J008	PROLIA	PSR	BLUE BASE	BCBU	327.225	Sales	Black	32235.01%	Goals	Black	0.978637077	Attainment	Black				mbouman@amgen.comPROLIA	
+mbouman@amgen.com	149244	B3J008	EVENITY	PSR	BLUE BASE	BCBU	12.5	Absolute Volume	Black	-18.15%	Percent Volume Growth	Red	201	Final Rank	Black				mbouman@amgen.comEVENITY	
+mbrinias@amgen.com	262720	B2F005	PROLIA	PSR	BLUE BASE	BCBU	132.77	Sales	Black	14999.88%	Goals	Black	0.853326391	Attainment	Black				mbrinias@amgen.comPROLIA	
+mbrinias@amgen.com	262720	B2F005	EVENITY	PSR	BLUE BASE	BCBU	2	Absolute Volume	Black	220.83%	Percent Volume Growth	Green	138	Final Rank	Black				mbrinias@amgen.comEVENITY	
+mbusby01@amgen.com	179233	B2C008	PROLIA	PSR	BLUE BASE	BCBU	345.7	Sales	Black	32787.07%	Goals	Black	1.016482124	Attainment	Black				mbusby01@amgen.comPROLIA	
+mbusby01@amgen.com	179233	B2C008	EVENITY	PSR	BLUE BASE	BCBU	15.8	Absolute Volume	Black	-14.80%	Percent Volume Growth	Red	190	Final Rank	Black				mbusby01@amgen.comEVENITY	
+mcginlay@amgen.com	98074	B3C002	PROLIA	PSR	BLUE BASE	BCBU	280.21	Sales	Black	39103.43%	Goals	Black	0.690830811	Attainment	Black				mcginlay@amgen.comPROLIA	
+mcginlay@amgen.com	98074	B3C002	EVENITY	PSR	BLUE BASE	BCBU	6.2	Absolute Volume	Black	19.83%	Percent Volume Growth	Green	184	Final Rank	Black				mcginlay@amgen.comEVENITY	
+mchiaram@amgen.com	150709	B5E003	PROLIA	PSR	BLUE BASE	BCBU	576.1877565	Sales	Black	40163.61%	Goals	Black	1.383038358	Attainment	Black				mchiaram@amgen.comPROLIA	
+mchiaram@amgen.com	150709	B5E003	EVENITY	PSR	BLUE BASE	BCBU	19.471026	Absolute Volume	Black	15.14%	Percent Volume Growth	Green	66	Final Rank	Black				mchiaram@amgen.comEVENITY	
+mcody@amgen.com	149374	B1B003	PROLIA	PSR	BLUE BASE	BCBU	226.58	Sales	Black	24122.65%	Goals	Black	0.905523112	Attainment	Black				mcody@amgen.comPROLIA	
+mcody@amgen.com	149374	B1B003	EVENITY	PSR	BLUE BASE	BCBU	10	Absolute Volume	Black	52.78%	Percent Volume Growth	Green	146	Final Rank	Black				mcody@amgen.comEVENITY	
+mdellame@amgen.com	275696	B1B006	PROLIA	PSR	BLUE BASE	BCBU	217.35	Sales	Black	27676.08%	Goals	Black	0.757108367	Attainment	Black				mdellame@amgen.comPROLIA	
+mdellame@amgen.com	275696	B1B006	EVENITY	PSR	BLUE BASE	BCBU	3	Absolute Volume	Black	-59.90%	Percent Volume Growth	Red	136	Final Rank	Black				mdellame@amgen.comEVENITY	
+meellis@amgen.com	98535	B4D003	PROLIA	PSR	BLUE BASE	BCBU	438.63	Sales	Black	34445.41%	Goals	Black	1.227636767	Attainment	Black				meellis@amgen.comPROLIA	
+meellis@amgen.com	98535	B4D003	EVENITY	PSR	BLUE BASE	BCBU	74	Absolute Volume	Black	38.03%	Percent Volume Growth	Green	12	Final Rank	Black				meellis@amgen.comEVENITY	
+mfinkle@amgen.com	204317	B5H004	PROLIA	PSR	BLUE BASE	BCBU	216.185	Sales	Black	20389.40%	Goals	Black	1.022172128	Attainment	Black				mfinkle@amgen.comPROLIA	
+mfinkle@amgen.com	204317	B5H004	EVENITY	PSR	BLUE BASE	BCBU	14.3	Absolute Volume	Black	39.85%	Percent Volume Growth	Green	65	Final Rank	Black				mfinkle@amgen.comEVENITY	
+mfurry@amgen.com	153174	B4B001	PROLIA	PSR	BLUE BASE	BCBU	237.01	Sales	Black	19681.87%	Goals	Black	1.160922499	Attainment	Black				mfurry@amgen.comPROLIA	
+mfurry@amgen.com	153174	B4B001	EVENITY	PSR	BLUE BASE	BCBU	7	Absolute Volume	Black	32.11%	Percent Volume Growth	Green	96	Final Rank	Black				mfurry@amgen.comEVENITY	
+mgaffney@amgen.com	95828	B1A003	PROLIA	PSR	BLUE BASE	BCBU	287.4146155	Sales	Black	49301.89%	Goals	Black	0.56201538	Attainment	Black				mgaffney@amgen.comPROLIA	
+mgaffney@amgen.com	95828	B1A003	EVENITY	PSR	BLUE BASE	BCBU	62.338462	Absolute Volume	Black	12.99%	Percent Volume Growth	Green	44	Final Rank	Black				mgaffney@amgen.comEVENITY	
+mgassi@amgen.com	266486	B3F006	PROLIA	PSR	BLUE BASE	BCBU	314.615	Sales	Black	33163.37%	Goals	Black	0.914584202	Attainment	Black				mgassi@amgen.comPROLIA	
+mgassi@amgen.com	266486	B3F006	EVENITY	PSR	BLUE BASE	BCBU	10.9	Absolute Volume	Black	-4.71%	Percent Volume Growth	Red	198	Final Rank	Black				mgassi@amgen.comEVENITY	
+mgeske@amgen.com	98550	B4D007	PROLIA	PSR	BLUE BASE	BCBU	628	Sales	Black	55481.93%	Goals	Black	1.09121672	Attainment	Black				mgeske@amgen.comPROLIA	
+mgeske@amgen.com	98550	B4D007	EVENITY	PSR	BLUE BASE	BCBU	65	Absolute Volume	Black	-3.45%	Percent Volume Growth	Red	67	Final Rank	Black				mgeske@amgen.comEVENITY	
+mgudzak@amgen.com	254108	B1D003	PROLIA	PSR	BLUE BASE	BCBU	196.5	Sales	Black	20550.48%	Goals	Black	0.921814311	Attainment	Black				mgudzak@amgen.comPROLIA	
+mgudzak@amgen.com	254108	B1D003	EVENITY	PSR	BLUE BASE	BCBU	12	Absolute Volume	Black	60.42%	Percent Volume Growth	Green	62	Final Rank	Black				mgudzak@amgen.comEVENITY	
+mjuven@amgen.com	149242	B3E005	PROLIA	PSR	BLUE BASE	BCBU	390.05	Sales	Black	37998.50%	Goals	Black	0.98959343	Attainment	Black				mjuven@amgen.comPROLIA	
+mjuven@amgen.com	149242	B3E005	EVENITY	PSR	BLUE BASE	BCBU	36	Absolute Volume	Black	26.92%	Percent Volume Growth	Green	72	Final Rank	Black				mjuven@amgen.comEVENITY	
+mling01@amgen.com	204401	B1F007	PROLIA	PSR	BLUE BASE	BCBU	352.27	Sales	Black	31869.89%	Goals	Black	1.065609378	Attainment	Black				mling01@amgen.comPROLIA	
+mling01@amgen.com	204401	B1F007	EVENITY	PSR	BLUE BASE	BCBU	12	Absolute Volume	Black	42.59%	Percent Volume Growth	Green	141	Final Rank	Black				mling01@amgen.comEVENITY	
+mmaximou@amgen.com	224260	B5F004	PROLIA	PSR	BLUE BASE	BCBU	345.367329	Sales	Black	30943.18%	Goals	Black	1.07601743	Attainment	Black				mmaximou@amgen.comPROLIA	
+mmaximou@amgen.com	224260	B5F004	EVENITY	PSR	BLUE BASE	BCBU	18.469316	Absolute Volume	Black	-46.74%	Percent Volume Growth	Red	99	Final Rank	Black				mmaximou@amgen.comEVENITY	
+mnunes@amgen.com	150138	B5D005	PROLIA	PSR	BLUE BASE	BCBU	353.975	Sales	Black	35986.47%	Goals	Black	0.948279312	Attainment	Black				mnunes@amgen.comPROLIA	
+mnunes@amgen.com	150138	B5D005	EVENITY	PSR	BLUE BASE	BCBU	16.5	Absolute Volume	Black	-12.57%	Percent Volume Growth	Red	88	Final Rank	Black				mnunes@amgen.comEVENITY	
+moduncan@amgen.com	129174	B2H004	PROLIA	PSR	BLUE BASE	BCBU	190.2425	Sales	Black	20780.89%	Goals	Black	0.882564112	Attainment	Black				moduncan@amgen.comPROLIA	
+moduncan@amgen.com	129174	B2H004	EVENITY	PSR	BLUE BASE	BCBU	29.25	Absolute Volume	Black	55.11%	Percent Volume Growth	Green	69	Final Rank	Black				moduncan@amgen.comEVENITY	
+monaw@amgen.com	153717	B5H005	PROLIA	PSR	BLUE BASE	BCBU	326.5613675	Sales	Black	30599.33%	Goals	Black	1.028858882	Attainment	Black				monaw@amgen.comPROLIA	
+monaw@amgen.com	153717	B5H005	EVENITY	PSR	BLUE BASE	BCBU	35.08547	Absolute Volume	Black	6.04%	Percent Volume Growth	Green	102	Final Rank	Black				monaw@amgen.comEVENITY	
+mprokope@amgen.com	204512	B3E002	PROLIA	PSR	BLUE BASE	BCBU	484.19	Sales	Black	45648.32%	Goals	Black	1.022572117	Attainment	Black				mprokope@amgen.comPROLIA	
+mprokope@amgen.com	204512	B3E002	EVENITY	PSR	BLUE BASE	BCBU	124	Absolute Volume	Black	30.01%	Percent Volume Growth	Green	12	Final Rank	Black				mprokope@amgen.comEVENITY	
+mragla01@amgen.com	177748	B3A010	PROLIA	PSR	BLUE BASE	BCBU	192.75	Sales	Black	16781.10%	Goals	Black	1.107329661	Attainment	Black				mragla01@amgen.comPROLIA	
+mragla01@amgen.com	177748	B3A010	EVENITY	PSR	BLUE BASE	BCBU	4	Absolute Volume	Black	28.33%	Percent Volume Growth	Green	110	Final Rank	Black				mragla01@amgen.comEVENITY	
+mroger02@amgen.com	222475	B3G006	PROLIA	PSR	BLUE BASE	BCBU	203.285	Sales	Black	22850.80%	Goals	Black	0.857643513	Attainment	Black				mroger02@amgen.comPROLIA	
+mroger02@amgen.com	222475	B3G006	EVENITY	PSR	BLUE BASE	BCBU	4.5	Absolute Volume	Black	69.85%	Percent Volume Growth	Green	152	Final Rank	Black				mroger02@amgen.comEVENITY	
+msain@amgen.com	201692	B3A004	PROLIA	PSR	BLUE BASE	BCBU	273.36	Sales	Black	23108.25%	Goals	Black	1.140436015	Attainment	Black				msain@amgen.comPROLIA	
+msain@amgen.com	201692	B3A004	EVENITY	PSR	BLUE BASE	BCBU	15	Absolute Volume	Black	-1.79%	Percent Volume Growth	Red	93	Final Rank	Black				msain@amgen.comEVENITY	
+mschyman@amgen.com	203330	B5A001	PROLIA	PSR	BLUE BASE	BCBU	311.1664103	Sales	Black	29959.72%	Goals	Black	1.001285525	Attainment	Black				mschyman@amgen.comPROLIA	
+mschyman@amgen.com	203330	B5A001	EVENITY	PSR	BLUE BASE	BCBU	56.025641	Absolute Volume	Black	36.13%	Percent Volume Growth	Green	27	Final Rank	Black				mschyman@amgen.comEVENITY	
+msmith24@amgen.com	203030	B2C007	PROLIA	PSR	BLUE BASE	BCBU	346.975	Sales	Black	28083.79%	Goals	Black	1.191092199	Attainment	Black				msmith24@amgen.comPROLIA	
+msmith24@amgen.com	203030	B2C007	EVENITY	PSR	BLUE BASE	BCBU	32.5	Absolute Volume	Black	8.96%	Percent Volume Growth	Green	106	Final Rank	Black				msmith24@amgen.comEVENITY	
+msuell@amgen.com	182443	B4G001	PROLIA	PSR	BLUE BASE	BCBU	264.84	Sales	Black	28292.15%	Goals	Black	0.902444489	Attainment	Black				msuell@amgen.comPROLIA	
+msuell@amgen.com	182443	B4G001	EVENITY	PSR	BLUE BASE	BCBU	18	Absolute Volume	Black	77.69%	Percent Volume Growth	Green	98	Final Rank	Black				msuell@amgen.comEVENITY	
+msulli05@amgen.com	271330	B5F006	PROLIA	PSR	BLUE BASE	BCBU	271.7358333	Sales	Black	23528.07%	Goals	Black	1.11343153	Attainment	Black				msulli05@amgen.comPROLIA	
+msulli05@amgen.com	271330	B5F006	EVENITY	PSR	BLUE BASE	BCBU	27.783333	Absolute Volume	Black	-24.87%	Percent Volume Growth	Red	74	Final Rank	Black				msulli05@amgen.comEVENITY	
+mvidetic@amgen.com	219338	B4B006	PROLIA	PSR	BLUE BASE	BCBU	369.41	Sales	Black	29802.82%	Goals	Black	1.194962206	Attainment	Black				mvidetic@amgen.comPROLIA	
+mvidetic@amgen.com	219338	B4B006	EVENITY	PSR	BLUE BASE	BCBU	52	Absolute Volume	Black	51.67%	Percent Volume Growth	Green	8	Final Rank	Black				mvidetic@amgen.comEVENITY	
+mwagne01@amgen.com	266628	B5C002	PROLIA	PSR	BLUE BASE	BCBU	162.28	Sales	Black	17196.37%	Goals	Black	0.909769286	Attainment	Black				mwagne01@amgen.comPROLIA	
+mwagne01@amgen.com	266628	B5C002	EVENITY	PSR	BLUE BASE	BCBU	9	Absolute Volume	Black	11.06%	Percent Volume Growth	Green	187	Final Rank	Black				mwagne01@amgen.comEVENITY	
+mweber02@amgen.com	181705	B5C006	PROLIA	PSR	BLUE BASE	BCBU	431.7355128	Sales	Black	29488.81%	Goals	Black	1.411443295	Attainment	Black				mweber02@amgen.comPROLIA	
+mweber02@amgen.com	181705	B5C006	EVENITY	PSR	BLUE BASE	BCBU	45.782051	Absolute Volume	Black	14.07%	Percent Volume Growth	Green	61	Final Rank	Black				mweber02@amgen.comEVENITY	
+mwilli02@amgen.com	98175	B4C007	PROLIA	PSR	BLUE BASE	BCBU	467.399829	Sales	Black	36576.99%	Goals	Black	1.231922847	Attainment	Black				mwilli02@amgen.comPROLIA	
+mwilli02@amgen.com	98175	B4C007	EVENITY	PSR	BLUE BASE	BCBU	34.239316	Absolute Volume	Black	47.82%	Percent Volume Growth	Green	59	Final Rank	Black				mwilli02@amgen.comEVENITY	
+mwilli08@amgen.com	190837	B5B001	PROLIA	PSR	BLUE BASE	BCBU	379.65	Sales	Black	29420.92%	Goals	Black	1.244027865	Attainment	Black				mwilli08@amgen.comPROLIA	
+mwilli08@amgen.com	190837	B5B001	EVENITY	PSR	BLUE BASE	BCBU	36.6	Absolute Volume	Black	59.76%	Percent Volume Growth	Green	42	Final Rank	Black				mwilli08@amgen.comEVENITY	
+mwilso01@amgen.com	201677	B5G004	PROLIA	PSR	BLUE BASE	BCBU	388.5636113	Sales	Black	36699.22%	Goals	Black	1.020723771	Attainment	Black				mwilso01@amgen.comPROLIA	
+mwilso01@amgen.com	201677	B5G004	EVENITY	PSR	BLUE BASE	BCBU	24.374445	Absolute Volume	Black	19.55%	Percent Volume Growth	Green	117	Final Rank	Black				mwilso01@amgen.comEVENITY	
+mwiltshi@amgen.com	274925	B2G004	PROLIA	PSR	BLUE BASE	BCBU	158.97	Sales	Black	28279.74%	Goals	Black	0.54192941	Attainment	Black				mwiltshi@amgen.comPROLIA	
+mwiltshi@amgen.com	274925	B2G004	EVENITY	PSR	BLUE BASE	BCBU	15	Absolute Volume	Black	11.92%	Percent Volume Growth	Green	165	Final Rank	Black				mwiltshi@amgen.comEVENITY	
+nbasora@amgen.com	259351	B1C006	PROLIA	PSR	BLUE BASE	BCBU	182.1567523	Sales	Black	19111.39%	Goals	Black	0.918873757	Attainment	Black				nbasora@amgen.comPROLIA	
+nbasora@amgen.com	259351	B1C006	EVENITY	PSR	BLUE BASE	BCBU	22.547009	Absolute Volume	Black	92.75%	Percent Volume Growth	Green	81	Final Rank	Black				nbasora@amgen.comEVENITY	
+nblair01@amgen.com	221392	B4K006	PROLIA	PSR	BLUE BASE	BCBU	374.59	Sales	Black	34992.71%	Goals	Black	1.03200429	Attainment	Black				nblair01@amgen.comPROLIA	
+nblair01@amgen.com	221392	B4K006	EVENITY	PSR	BLUE BASE	BCBU	30	Absolute Volume	Black	45.61%	Percent Volume Growth	Green	77	Final Rank	Black				nblair01@amgen.comEVENITY	
+nchen03@amgen.com	204648	B1E005	PROLIA	PSR	BLUE BASE	BCBU	292.4819658	Sales	Black	33677.32%	Goals	Black	0.837267932	Attainment	Black				nchen03@amgen.comPROLIA	
+nchen03@amgen.com	204648	B1E005	EVENITY	PSR	BLUE BASE	BCBU	38.247863	Absolute Volume	Black	31.83%	Percent Volume Growth	Green	56	Final Rank	Black				nchen03@amgen.comEVENITY	
+nmclean@amgen.com	231343	B1F004	PROLIA	PSR	BLUE BASE	BCBU	393.51	Sales	Black	32220.20%	Goals	Black	1.177417459	Attainment	Black				nmclean@amgen.comPROLIA	
+nmclean@amgen.com	231343	B1F004	EVENITY	PSR	BLUE BASE	BCBU	6	Absolute Volume	Black	92.50%	Percent Volume Growth	Green	135	Final Rank	Black				nmclean@amgen.comEVENITY	
+nnelso01@amgen.com	201533	B3E008	PROLIA	PSR	BLUE BASE	BCBU	380.5131198	Sales	Black	34765.39%	Goals	Black	1.055177379	Attainment	Black				nnelso01@amgen.comPROLIA	
+nnelso01@amgen.com	201533	B3E008	EVENITY	PSR	BLUE BASE	BCBU	21.132479	Absolute Volume	Black	-8.47%	Percent Volume Growth	Red	176	Final Rank	Black				nnelso01@amgen.comEVENITY	
+nsaria@amgen.com	188886	B4J006	PROLIA	PSR	BLUE BASE	BCBU	258.085	Sales	Black	21825.40%	Goals	Black	1.139996582	Attainment	Black				nsaria@amgen.comPROLIA	
+nsaria@amgen.com	188886	B4J006	EVENITY	PSR	BLUE BASE	BCBU	22.9	Absolute Volume	Black	49.74%	Percent Volume Growth	Green	102	Final Rank	Black				nsaria@amgen.comEVENITY	
+nstoback@amgen.com	245012	B5A008	PROLIA	PSR	BLUE BASE	BCBU	399.865	Sales	Black	32747.43%	Goals	Black	1.177169799	Attainment	Black				nstoback@amgen.comPROLIA	
+nstoback@amgen.com	245012	B5A008	EVENITY	PSR	BLUE BASE	BCBU	45.7	Absolute Volume	Black	5.18%	Percent Volume Growth	Green	78	Final Rank	Black				nstoback@amgen.comEVENITY	
+osbornk@amgen.com	99481	B3E004	PROLIA	PSR	BLUE BASE	BCBU	586.87	Sales	Black	45191.85%	Goals	Black	1.251943628	Attainment	Black				osbornk@amgen.comPROLIA	
+osbornk@amgen.com	99481	B3E004	EVENITY	PSR	BLUE BASE	BCBU	49	Absolute Volume	Black	20.01%	Percent Volume Growth	Green	27	Final Rank	Black				osbornk@amgen.comEVENITY	
+paladino@amgen.com	149650	B2A002	PROLIA	PSR	BLUE BASE	BCBU	204.55	Sales	Black	22445.37%	Goals	Black	0.878568442	Attainment	Black				paladino@amgen.comPROLIA	
+paladino@amgen.com	149650	B2A002	EVENITY	PSR	BLUE BASE	BCBU	7	Absolute Volume	Black	24.77%	Percent Volume Growth	Green	101	Final Rank	Black				paladino@amgen.comEVENITY	
+pattig@amgen.com	98241	B5B007	PROLIA	PSR	BLUE BASE	BCBU	305.16	Sales	Black	24862.85%	Goals	Black	1.183258432	Attainment	Black				pattig@amgen.comPROLIA	
+pattig@amgen.com	98241	B5B007	EVENITY	PSR	BLUE BASE	BCBU	26	Absolute Volume	Black	-21.31%	Percent Volume Growth	Red	160	Final Rank	Black				pattig@amgen.comEVENITY	
+pcarone@amgen.com	98525	B1B004	PROLIA	PSR	BLUE BASE	BCBU	348.44	Sales	Black	32131.39%	Goals	Black	1.045445683	Attainment	Black				pcarone@amgen.comPROLIA	
+pcarone@amgen.com	98525	B1B004	EVENITY	PSR	BLUE BASE	BCBU	0	Absolute Volume	Black	-100.00%	Percent Volume Growth	Red	216	Final Rank	Black				pcarone@amgen.comEVENITY	
+pdeichma@amgen.com	253364	B4E007	PROLIA	PSR	BLUE BASE	BCBU	236.8074573	Sales	Black	24800.44%	Goals	Black	0.920532039	Attainment	Black				pdeichma@amgen.comPROLIA	
+pdeichma@amgen.com	253364	B4E007	EVENITY	PSR	BLUE BASE	BCBU	69.309829	Absolute Volume	Black	60.73%	Percent Volume Growth	Green	6	Final Rank	Black				pdeichma@amgen.comEVENITY	
+peterz@amgen.com	138785	B3D001	PROLIA	PSR	BLUE BASE	BCBU	299.64	Sales	Black	39316.38%	Goals	Black	0.734732412	Attainment	Black				peterz@amgen.comPROLIA	
+peterz@amgen.com	138785	B3D001	EVENITY	PSR	BLUE BASE	BCBU	58	Absolute Volume	Black	39.91%	Percent Volume Growth	Green	20	Final Rank	Black				peterz@amgen.comEVENITY	
+pgarre01@amgen.com	256738	B3C005	PROLIA	PSR	BLUE BASE	BCBU	241.1299145	Sales	Black	22380.36%	Goals	Black	1.038692583	Attainment	Black				pgarre01@amgen.comPROLIA	
+pgarre01@amgen.com	256738	B3C005	EVENITY	PSR	BLUE BASE	BCBU	2.119658	Absolute Volume	Black	-52.57%	Percent Volume Growth	Red	137	Final Rank	Black				pgarre01@amgen.comEVENITY	
+phuang01@amgen.com	193426	B5F002	PROLIA	PSR	BLUE BASE	BCBU	293.740876	Sales	Black	24876.37%	Goals	Black	1.138361981	Attainment	Black				phuang01@amgen.comPROLIA	
+phuang01@amgen.com	193426	B5F002	EVENITY	PSR	BLUE BASE	BCBU	34.723504	Absolute Volume	Black	36.83%	Percent Volume Growth	Green	25	Final Rank	Black				phuang01@amgen.comEVENITY	
+pmastrel@amgen.com	150429	B1J004	PROLIA	PSR	BLUE BASE	BCBU	383.56	Sales	Black	39518.15%	Goals	Black	0.935706436	Attainment	Black				pmastrel@amgen.comPROLIA	
+pmastrel@amgen.com	150429	B1J004	EVENITY	PSR	BLUE BASE	BCBU	59	Absolute Volume	Black	27.04%	Percent Volume Growth	Green	36	Final Rank	Black				pmastrel@amgen.comEVENITY	
+pmatzkin@amgen.com	98614	B1H003	PROLIA	PSR	BLUE BASE	BCBU	202.32	Sales	Black	25250.66%	Goals	Black	0.772447466	Attainment	Black				pmatzkin@amgen.comPROLIA	
+pmatzkin@amgen.com	98614	B1H003	EVENITY	PSR	BLUE BASE	BCBU	41	Absolute Volume	Black	-6.04%	Percent Volume Growth	Red	100	Final Rank	Black				pmatzkin@amgen.comEVENITY	
+pqueen@amgen.com	196351	B3H001	PROLIA	PSR	BLUE BASE	BCBU	282.01	Sales	Black	28652.59%	Goals	Black	0.948863232	Attainment	Black				pqueen@amgen.comPROLIA	
+pqueen@amgen.com	196351	B3H001	EVENITY	PSR	BLUE BASE	BCBU	10	Absolute Volume	Black	-3.44%	Percent Volume Growth	Red	197	Final Rank	Black				pqueen@amgen.comEVENITY	
+pshen01@amgen.com	265798	B1E006	PROLIA	PSR	BLUE BASE	BCBU	155.0653633	Sales	Black	15805.71%	Goals	Black	0.94580978	Attainment	Black				pshen01@amgen.comPROLIA	
+pshen01@amgen.com	265798	B1E006	EVENITY	PSR	BLUE BASE	BCBU	1.941453	Absolute Volume	Black	-61.84%	Percent Volume Growth	Red	215	Final Rank	Black				pshen01@amgen.comEVENITY	
+psinibal@amgen.com	140423	B1G008	PROLIA	PSR	BLUE BASE	BCBU	314.665	Sales	Black	30431.54%	Goals	Black	0.99684467	Attainment	Black				psinibal@amgen.comPROLIA	
+psinibal@amgen.com	140423	B1G008	EVENITY	PSR	BLUE BASE	BCBU	11.06	Absolute Volume	Black	20.94%	Percent Volume Growth	Green	95	Final Rank	Black				psinibal@amgen.comEVENITY	
+radomski@amgen.com	98274	B4C009	PROLIA	PSR	BLUE BASE	BCBU	433.0274788	Sales	Black	39376.50%	Goals	Black	1.060183977	Attainment	Black				radomski@amgen.comPROLIA	
+radomski@amgen.com	98274	B4C009	EVENITY	PSR	BLUE BASE	BCBU	58.029915	Absolute Volume	Black	29.02%	Percent Volume Growth	Green	13	Final Rank	Black				radomski@amgen.comEVENITY	
+railslie@amgen.com	227722	B3H006	PROLIA	PSR	BLUE BASE	BCBU	371.36	Sales	Black	33344.97%	Goals	Black	1.073662459	Attainment	Black				railslie@amgen.comPROLIA	
+railslie@amgen.com	227722	B3H006	EVENITY	PSR	BLUE BASE	BCBU	53	Absolute Volume	Black	23.22%	Percent Volume Growth	Green	22	Final Rank	Black				railslie@amgen.comEVENITY	
+raupyas@amgen.com	124969	B1J002	PROLIA	PSR	BLUE BASE	BCBU	392.6430343	Sales	Black	33993.16%	Goals	Black	1.113548845	Attainment	Black				raupyas@amgen.comPROLIA	
+aaleck@amgen.com	206286	B5D006	CROCIN	PSR	BLUE BASE	BCBU	207.12	Sales	Black	21419.80%	Goals	Black							aaleck@amgen.comCROCIN	
+aaleck@amgen.com	206286	B5D006	SARIDEX	PSR	BLUE BASE	BCBU	14	Absolute Volume	Black										aaleck@amgen.comSARIDEX	
+raupyas@amgen.com	124969	B1J002	EVENITY	PSR	BLUE BASE	BCBU	36.252137	Absolute Volume	Black	33.66%	Percent Volume Growth	Green	64	Final Rank	Black				raupyas@amgen.comEVENITY	
+rayi@amgen.com	149365	B1A007	PROLIA	PSR	BLUE BASE	BCBU	251.39	Sales	Black	27741.15%	Goals	Black	0.873627763	Attainment	Black				rayi@amgen.comPROLIA	
+rayi@amgen.com	149365	B1A007	EVENITY	PSR	BLUE BASE	BCBU	22	Absolute Volume	Black	56.85%	Percent Volume Growth	Green	42	Final Rank	Black				rayi@amgen.comEVENITY	
+rconno01@amgen.com	274996	B1G006	PROLIA	PSR	BLUE BASE	BCBU	235.44	Sales	Black	21389.01%	Goals	Black	1.061188543	Attainment	Black				rconno01@amgen.comPROLIA	
+rconno01@amgen.com	274996	B1G006	EVENITY	PSR	BLUE BASE	BCBU	2.56	Absolute Volume	Black	-19.00%	Percent Volume Growth	Red	133	Final Rank	Black				rconno01@amgen.comEVENITY	
+rdick01@amgen.com	266052	B1A002	PROLIA	PSR	BLUE BASE	BCBU	229.595	Sales	Black	40363.58%	Goals	Black	0.548372522	Attainment	Black				rdick01@amgen.comPROLIA	
+rdick01@amgen.com	266052	B1A002	EVENITY	PSR	BLUE BASE	BCBU	11.1	Absolute Volume	Black	-20.06%	Percent Volume Growth	Red	204	Final Rank	Black				rdick01@amgen.comEVENITY	
+reedl@amgen.com	119853	B4H004	PROLIA	PSR	BLUE BASE	BCBU	394.175	Sales	Black	33406.21%	Goals	Black	1.13753525	Attainment	Black				reedl@amgen.comPROLIA	
+reedl@amgen.com	119853	B4H004	EVENITY	PSR	BLUE BASE	BCBU	54.1	Absolute Volume	Black	35.92%	Percent Volume Growth	Green	34	Final Rank	Black				reedl@amgen.comEVENITY	
+rheannon@amgen.com	145039	B4A007	PROLIA	PSR	BLUE BASE	BCBU	219.8017523	Sales	Black	22882.54%	Goals	Black	0.926040202	Attainment	Black				rheannon@amgen.comPROLIA	
+rheannon@amgen.com	145039	B4A007	EVENITY	PSR	BLUE BASE	BCBU	10.047009	Absolute Volume	Black	51.25%	Percent Volume Growth	Green	145	Final Rank	Black				rheannon@amgen.comEVENITY	
+rhechler@amgen.com	148509	B1J008	PROLIA	PSR	BLUE BASE	BCBU	415.93	Sales	Black	42661.21%	Goals	Black	0.939918162	Attainment	Black				rhechler@amgen.comPROLIA	
+rhechler@amgen.com	148509	B1J008	EVENITY	PSR	BLUE BASE	BCBU	38	Absolute Volume	Black	40.13%	Percent Volume Growth	Green	20	Final Rank	Black				rhechler@amgen.comEVENITY	
+rkrosky@amgen.com	130107	B2J004	PROLIA	PSR	BLUE BASE	BCBU	257.5010685	Sales	Black	25904.39%	Goals	Black	0.958315581	Attainment	Black				rkrosky@amgen.comPROLIA	
+rkrosky@amgen.com	130107	B2J004	EVENITY	PSR	BLUE BASE	BCBU	28.004274	Absolute Volume	Black	26.45%	Percent Volume Growth	Green	97	Final Rank	Black				rkrosky@amgen.comEVENITY	
+roxanam@amgen.com	146295	B5F008	PROLIA	PSR	BLUE BASE	BCBU	227.3920513	Sales	Black	21159.49%	Goals	Black	1.036031439	Attainment	Black				roxanam@amgen.comPROLIA	
+roxanam@amgen.com	146295	B5F008	EVENITY	PSR	BLUE BASE	BCBU	20.728205	Absolute Volume	Black	92.36%	Percent Volume Growth	Green	35	Final Rank	Black				roxanam@amgen.comEVENITY	
+rplopper@amgen.com	149747	B5K007	PROLIA	PSR	BLUE BASE	BCBU	442.25	Sales	Black	37435.23%	Goals	Black	1.138912355	Attainment	Black				rplopper@amgen.comPROLIA	
+rplopper@amgen.com	149747	B5K007	EVENITY	PSR	BLUE BASE	BCBU	23	Absolute Volume	Black	-6.59%	Percent Volume Growth	Red	77	Final Rank	Black				rplopper@amgen.comEVENITY	
+rsandine@amgen.com	139267	B2J002	PROLIA	PSR	BLUE BASE	BCBU	352.665	Sales	Black	30965.92%	Goals	Black	1.097946947	Attainment	Black				rsandine@amgen.comPROLIA	
+rsandine@amgen.com	139267	B2J002	EVENITY	PSR	BLUE BASE	BCBU	39.5	Absolute Volume	Black	-0.02%	Percent Volume Growth	Red	96	Final Rank	Black				rsandine@amgen.comEVENITY	
+rseverns@amgen.com	204303	B3G008	PROLIA	PSR	BLUE BASE	BCBU	294.6435043	Sales	Black	34563.97%	Goals	Black	0.82181906	Attainment	Black				rseverns@amgen.comPROLIA	
+rseverns@amgen.com	204303	B3G008	EVENITY	PSR	BLUE BASE	BCBU	26.094017	Absolute Volume	Black	52.21%	Percent Volume Growth	Green	36	Final Rank	Black				rseverns@amgen.comEVENITY	
+rurban@amgen.com	201144	B2C003	PROLIA	PSR	BLUE BASE	BCBU	313.88	Sales	Black	29322.53%	Goals	Black	1.031965546	Attainment	Black				rurban@amgen.comPROLIA	
+rurban@amgen.com	201144	B2C003	EVENITY	PSR	BLUE BASE	BCBU	15	Absolute Volume	Black	-9.20%	Percent Volume Growth	Red	188	Final Rank	Black				rurban@amgen.comEVENITY	
+rvande03@amgen.com	250327	B5F003	PROLIA	PSR	BLUE BASE	BCBU	296.6381198	Sales	Black	23235.98%	Goals	Black	1.230747565	Attainment	Black				rvande03@amgen.comPROLIA	
+rvande03@amgen.com	250327	B5F003	EVENITY	PSR	BLUE BASE	BCBU	73.432479	Absolute Volume	Black	82.74%	Percent Volume Growth	Green	1	Final Rank	Black				rvande03@amgen.comEVENITY	
+rwashi01@amgen.com	204394	B4A006	PROLIA	PSR	BLUE BASE	BCBU	392.63	Sales	Black	28830.65%	Goals	Black	1.312901168	Attainment	Black				rwashi01@amgen.comPROLIA	
+rwashi01@amgen.com	204394	B4A006	EVENITY	PSR	BLUE BASE	BCBU	26	Absolute Volume	Black	-28.16%	Percent Volume Growth	Red	162	Final Rank	Black				rwashi01@amgen.comEVENITY	
+salbre01@amgen.com	239637	B3F005	PROLIA	PSR	BLUE BASE	BCBU	253.97	Sales	Black	37915.41%	Goals	Black	0.645757631	Attainment	Black				salbre01@amgen.comPROLIA	
+salbre01@amgen.com	239637	B3F005	EVENITY	PSR	BLUE BASE	BCBU	11	Absolute Volume	Black	-9.51%	Percent Volume Growth	Red	199	Final Rank	Black				salbre01@amgen.comEVENITY	
+samirp@amgen.com	153114	B1D010	PROLIA	PSR	BLUE BASE	BCBU	249.3247008	Sales	Black	29343.45%	Goals	Black	0.819138008	Attainment	Black				samirp@amgen.comPROLIA	
+samirp@amgen.com	153114	B1D010	EVENITY	PSR	BLUE BASE	BCBU	16.418803	Absolute Volume	Black	16.55%	Percent Volume Growth	Green	73	Final Rank	Black				samirp@amgen.comEVENITY	
+sander03@amgen.com	217887	B4G004	PROLIA	PSR	BLUE BASE	BCBU	195.9846155	Sales	Black	24506.37%	Goals	Black	0.770985096	Attainment	Black				sander03@amgen.comPROLIA	
+sander03@amgen.com	217887	B4G004	EVENITY	PSR	BLUE BASE	BCBU	36.538462	Absolute Volume	Black	69.77%	Percent Volume Growth	Green	38	Final Rank	Black				sander03@amgen.comEVENITY	
+sbarre01@amgen.com	266884	B2B001	PROLIA	PSR	BLUE BASE	BCBU	279.19	Sales	Black	32726.10%	Goals	Black	0.822448101	Attainment	Black				sbarre01@amgen.comPROLIA	
+sbarre01@amgen.com	266884	B2B001	EVENITY	PSR	BLUE BASE	BCBU	21	Absolute Volume	Black	-22.56%	Percent Volume Growth	Red	85	Final Rank	Black				sbarre01@amgen.comEVENITY	
+sclewi01@amgen.com	179290	B2B002	PROLIA	PSR	BLUE BASE	BCBU	300.43	Sales	Black	28636.80%	Goals	Black	1.011397154	Attainment	Black				sclewi01@amgen.comPROLIA	
+sclewi01@amgen.com	179290	B2B002	EVENITY	PSR	BLUE BASE	BCBU	15	Absolute Volume	Black	23.40%	Percent Volume Growth	Green	153	Final Rank	Black				sclewi01@amgen.comEVENITY	
+sdavis10@amgen.com	231509	B5A005	PROLIA	PSR	BLUE BASE	BCBU	392.08	Sales	Black	36693.63%	Goals	Black	1.030117955	Attainment	Black				sdavis10@amgen.comPROLIA	
+sdavis10@amgen.com	231509	B5A005	EVENITY	PSR	BLUE BASE	BCBU	43	Absolute Volume	Black	23.18%	Percent Volume Growth	Green	30	Final Rank	Black				sdavis10@amgen.comEVENITY	
+sdekalb@amgen.com	260582	B4H006	PROLIA	PSR	BLUE BASE	BCBU	233.48	Sales	Black	19263.61%	Goals	Black	1.168463236	Attainment	Black				sdekalb@amgen.comPROLIA	
+sdekalb@amgen.com	260582	B4H006	EVENITY	PSR	BLUE BASE	BCBU	0	Absolute Volume	Black	-100.00%	Percent Volume Growth	Red	216	Final Rank	Black				sdekalb@amgen.comEVENITY	
+sdinkel@amgen.com	206602	B5D004	PROLIA	PSR	BLUE BASE	BCBU	232.07	Sales	Black	14766.33%	Goals	Black	1.515128189	Attainment	Black				sdinkel@amgen.comPROLIA	
+sdinkel@amgen.com	206602	B5D004	EVENITY	PSR	BLUE BASE	BCBU	28	Absolute Volume	Black	32.11%	Percent Volume Growth	Green	38	Final Rank	Black				sdinkel@amgen.comEVENITY	
+sdoup@amgen.com	98055	B3J001	PROLIA	PSR	BLUE BASE	BCBU	433.6	Sales	Black	41537.77%	Goals	Black	1.00635	Attainment	Black				sdoup@amgen.comPROLIA	
+sdoup@amgen.com	98055	B3J001	EVENITY	PSR	BLUE BASE	BCBU	31	Absolute Volume	Black	-27.14%	Percent Volume Growth	Red	147	Final Rank	Black				sdoup@amgen.comEVENITY	
+sfreem01@amgen.com	182972	B3D006	PROLIA	PSR	BLUE BASE	BCBU	315.14	Sales	Black	33363.39%	Goals	Black	0.910618249	Attainment	Black				sfreem01@amgen.comPROLIA	
+sfreem01@amgen.com	182972	B3D006	EVENITY	PSR	BLUE BASE	BCBU	24	Absolute Volume	Black	-20.62%	Percent Volume Growth	Red	169	Final Rank	Black				sfreem01@amgen.comEVENITY	
+shendrix@amgen.com	124965	B1B002	PROLIA	PSR	BLUE BASE	BCBU	251.5	Sales	Black	21029.93%	Goals	Black	1.152930606	Attainment	Black				shendrix@amgen.comPROLIA	
+shendrix@amgen.com	124965	B1B002	EVENITY	PSR	BLUE BASE	BCBU	12	Absolute Volume	Black	37.50%	Percent Volume Growth	Green	148	Final Rank	Black				shendrix@amgen.comEVENITY	
+shoove01@amgen.com	256703	B5B006	PROLIA	PSR	BLUE BASE	BCBU	360.04	Sales	Black	22974.71%	Goals	Black	1.510788697	Attainment	Black				shoove01@amgen.comPROLIA	
+shoove01@amgen.com	256703	B5B006	EVENITY	PSR	BLUE BASE	BCBU	22.6	Absolute Volume	Black	-35.60%	Percent Volume Growth	Red	183	Final Rank	Black				shoove01@amgen.comEVENITY	
+sjantsch@amgen.com	150787	B3H005	PROLIA	PSR	BLUE BASE	BCBU	500.9977778	Sales	Black	46947.26%	Goals	Black	1.028794126	Attainment	Black				sjantsch@amgen.comPROLIA	
+sjantsch@amgen.com	150787	B3H005	EVENITY	PSR	BLUE BASE	BCBU	30.711111	Absolute Volume	Black	33.75%	Percent Volume Growth	Green	85	Final Rank	Black				sjantsch@amgen.comEVENITY	
+sjohns@amgen.com	110142	B3K008	PROLIA	PSR	BLUE BASE	BCBU	261.53	Sales	Black	19120.21%	Goals	Black	1.318656637	Attainment	Black				sjohns@amgen.comPROLIA	
+sjohns@amgen.com	110142	B3K008	EVENITY	PSR	BLUE BASE	BCBU	8	Absolute Volume	Black	-53.33%	Percent Volume Growth	Red	127	Final Rank	Black				sjohns@amgen.comEVENITY	
+sjosep03@amgen.com	262765	B1D001	PROLIA	PSR	BLUE BASE	BCBU	194.17	Sales	Black	25559.76%	Goals	Black	0.732366185	Attainment	Black				sjosep03@amgen.comPROLIA	
+sjosep03@amgen.com	262765	B1D001	EVENITY	PSR	BLUE BASE	BCBU	1	Absolute Volume	Black	60.42%	Percent Volume Growth	Green	106	Final Rank	Black				sjosep03@amgen.comEVENITY	
+slatimer@amgen.com	153716	B5K003	PROLIA	PSR	BLUE BASE	BCBU	208.56	Sales	Black	28933.67%	Goals	Black	0.694912965	Attainment	Black				slatimer@amgen.comPROLIA	
+slatimer@amgen.com	153716	B5K003	EVENITY	PSR	BLUE BASE	BCBU	4	Absolute Volume	Black	-74.33%	Percent Volume Growth	Red	135	Final Rank	Black				slatimer@amgen.comEVENITY	
+slee23@amgen.com	231854	B1C002	PROLIA	PSR	BLUE BASE	BCBU	198.953718	Sales	Black	16712.99%	Goals	Black	1.147627242	Attainment	Black				slee23@amgen.comPROLIA	
+slee23@amgen.com	231854	B1C002	EVENITY	PSR	BLUE BASE	BCBU	1.294872	Absolute Volume	Black	315.44%	Percent Volume Growth	Green	89	Final Rank	Black				slee23@amgen.comEVENITY	
+smercada@amgen.com	274789	B1G004	PROLIA	PSR	BLUE BASE	BCBU	239.4	Sales	Black	22348.29%	Goals	Black	1.032720253	Attainment	Black				smercada@amgen.comPROLIA	
+smercada@amgen.com	274789	B1G004	EVENITY	PSR	BLUE BASE	BCBU	0.8	Absolute Volume	Black	1183.33%	Percent Volume Growth	Green	92	Final Rank	Black				smercada@amgen.comEVENITY	
+snalley@amgen.com	149204	B3B005	PROLIA	PSR	BLUE BASE	BCBU	286.19	Sales	Black	26646.13%	Goals	Black	1.035436056	Attainment	Black				snalley@amgen.comPROLIA	
+snalley@amgen.com	149204	B3B005	EVENITY	PSR	BLUE BASE	BCBU	4	Absolute Volume	Black	-76.67%	Percent Volume Growth	Red	213	Final Rank	Black				snalley@amgen.comEVENITY	
+sorlando@amgen.com	149737	B5E001	PROLIA	PSR	BLUE BASE	BCBU	412.8229273	Sales	Black	28948.77%	Goals	Black	1.374790742	Attainment	Black				sorlando@amgen.comPROLIA	
+sorlando@amgen.com	149737	B5E001	EVENITY	PSR	BLUE BASE	BCBU	18.051709	Absolute Volume	Black	2.40%	Percent Volume Growth	Green	168	Final Rank	Black				sorlando@amgen.comEVENITY	

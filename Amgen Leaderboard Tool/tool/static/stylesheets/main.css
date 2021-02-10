@@ -1,0 +1,79 @@
+.input{
+  text-align:centre;
+  padding:5%;
+}
+.file{
+  width:30%;
+}
+.heading{
+ /* margin-bottom:3%;*/
+}
+#submit_BU{
+  display:none;
+}
+#Upload_Config{
+  width:40%;
+}
+.success{
+  font-weight:bold;
+  background-color:#478b5fab;
+  color:white;
+  text-align:center;
+  width:30%;
+  margin-top:2px;
+  vertical-align:middle;
+  border-radius:5px;
+}
+.Empty{
+  font-weight:bold;
+  background-color:rgb(128, 22, 15);
+  color:white;
+  text-align:center;
+  width:20%;
+  margin-top:2px;
+  vertical-align:middle;
+  border-radius:5px;
+}
+.Error{
+  /*font-weight:bold;*/
+  background-color:rgb(160, 14, 4);
+  border: 1px red solid;
+  color:white;
+  padding:2px;
+  /*text-align:center;*/
+  /*width:80%;*/
+  width:auto;
+  margin-top:2px;
+  vertical-align:middle;
+  border-radius:5px;
+}
+.inline_block{
+  display:inline-block;
+}
+.Rank_Pool{
+  margin-top:50px;
+width:40%
+}
+.leaderboard_rankpool{
+width:45%;
+display:inline-block;
+}
+.inthemoment_rankpool{
+  width:45%;
+  display:inline-block;
+}
+.select_BU_label{
+  display:inline-block;
+}
+.select_BU_TEAM_LEVEL_label{
+  display:inline-block;
+  margin-left:50px;
+}
+.rankpool_separator{
+  width:10%;
+  display:none;
+}
+.configurator{
+  margin-top:3%;
+  margin-left:3%;
+}

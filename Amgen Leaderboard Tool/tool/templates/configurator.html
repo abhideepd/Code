@@ -1,0 +1,170 @@
+{% extends "layout.html" %}
+
+{% block content %}
+{% with messages=get_flashed_messages() %}
+            {% if messages %}
+                {% for msg in messages  %}
+                    <div class="badge bg-danger text-wrap">{{msg}}</div>
+                {% endfor %}
+            {% endif %}
+        {% endwith %}
+<a href="{{url_for('home')}}">
+    <div class="mt-4 ms-4 btn btn-outline-success"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-arrow-left-circle" viewBox="0 0 16 16">
+        <path fill-rule="evenodd" d="M1 8a7 7 0 1 0 14 0A7 7 0 0 0 1 8zm15 0A8 8 0 1 1 0 8a8 8 0 0 1 16 0zm-4.5-.5a.5.5 0 0 1 0 1H5.707l2.147 2.146a.5.5 0 0 1-.708.708l-3-3a.5.5 0 0 1 0-.708l3-3a.5.5 0 1 1 .708.708L5.707 7.5H11.5z"/>
+      </svg> Go Back
+    </div>
+</a>
+<div class="configurator">
+    <a href="{{url_for('configuration_document')}}" onclick="download_config_script()" download>Download Config</a>
+    
+    <form method="POST" action="/configurator" enctype="multipart/form-data">
+        <button type="button" class="btn btn-info" onclick="refresh_config(); location.reload(); update_leaderboard()">Refreh Config</button>
+        <div class="upload_config">
+            {{form.Upload_Config.label(class="form-label")}} 
+            {{form.Upload_Config(class="form-control", onchange="submit_visible()")}}
+            {{form.submit_BU(onclick="switch_off_visiblity()")}}
+            <div class=status>
+                <div class="error">Status:</div>
+                {% for stat in status %}
+                    <div class=error>{{stat}}</div>
+                {% endfor %}
+            </div>
+        </div>
+        <div class="select_BU_label">Select BU <br> {{form.select_BU(onchange="this.form.submit()")}} </div>
+                <noscript>{{form.submit_BU}}</noscript>
+        <div class="select_BU_TEAM_LEVEL_label">Select BU_TEAM_LEVEL <br> {{form.select_BU_TEAM_LEVEL(onchange="this.form.submit(); update_leaderboard()")}}</div>
+        <div class="Rank_Pool">
+            <h3>Rank Pools</h3>
+            <div class="heading">
+                <div class="leaderboard_rankpool">
+                    <h5>Leaderboard</h5>
+                </div>
+                <div class="rankpool_separator">yz</div>
+                <div class="inthemoment_rankpool">
+                    <h5>InTheMoment</h5>
+                </div>
+            </div>
+            <div class="data"> 
+                <div class="leaderboard_rankpool">
+                    {% for rankpool in leaderboard_rankpool %}
+                        <div class="">{{rankpool['RANK_POOL']}}</div>
+                        <input class="checkbox" onchange="api(this.id, this.checked); update_leaderboard()" type="checkbox" name="rankpoolvisibilityflag" id="{{rankpool['Id']}}" {% if rankpool['RANK_POOL_VISIBILITY_FLAG']==1 %}checked{% endif %}/>
+                        <input class="text" onchange="rankpool_pseudo_name(this.id, this.value); update_leaderboard()" type="text" name="rankpool_pseudoname" id="{{rankpool['Id']}}" value="{{rankpool['RANK_POOL_PSEUDONAME']}}"/>
+                    {% endfor %}
+                </div>
+                <div class="rankpool_separator">yz</div>
+                <div class="inthemoment_rankpool">
+                    {% for rankpool in inthemoment_rankpool %}
+                        <div class="">{{rankpool['RANK_POOL']}}</div>
+                        <input class="checkbox" onchange="api(this.id, this.checked); update_leaderboard()" type="checkbox" name="rankpoolvisibilityflag" id="{{rankpool['Id']}}" {% if rankpool['RANK_POOL_VISIBILITY_FLAG']==1 %}checked{% endif %}/>
+                        <input class="text" onchange="rankpool_pseudo_name(this.id, this.value); update_leaderboard()" type="text" name="rankpool_pseudoname" id="{{rankpool['Id']}}" value="{{rankpool['RANK_POOL_PSEUDONAME']}}"/>
+                    {% endfor %}
+                </div>
+            </div>
+        </div>
+    </form>
+</div>
+<div class="Leaderboard_Iframe">
+    <iframe src="{{url_for('leaderboard_generation')}}" title="Iframe Example" height="500" width="400"></iframe>
+</div>
+<script type=text/javascript>
+
+function rankpool_pseudo_name(id, value){
+
+    fetch('http://localhost:5000/configurator', {
+    method: 'POST', 
+    headers: {
+        'Content-Type': 'application/json'
+    },
+    body: JSON.stringify({
+    Id: id,
+    rankpool_pseudoname: value
+})}).then(results=>results.json());
+}
+
+function initialize(){
+    //current_BU_ID = document.getElementById("select_BU");
+    //current_BU = current_BU_ID.options[current_BU_ID.selectedIndex].value;
+
+    //current_BU_TEAM_LEVEL_ID = document.getElementById("select_BU_TEAM_LEVEL");
+    //current_BU_TEAM_LEVEL = current_BU_TEAM_LEVEL_ID.options[current_BU_TEAM_LEVEL_ID.selectedIndex].value;
+
+    current_RankPool_Id = id
+
+    current_RankPool_visibility_flag = document.getElementById(id).checked
+    current_RankPool_Pseudoname = document.getElementById(id).value
+}
+
+function current_BU(){
+    current_BU_ID = document.getElementById("select_BU");
+    current_BU = current_BU_ID.options[current_BU_ID.selectedIndex].value;
+    return current_BU;
+}
+
+function current_BU_TEAM_LEVEL(){
+    current_BU_TEAM_LEVEL_ID = document.getElementById("select_BU_TEAM_LEVEL");
+    current_BU_TEAM_LEVEL_NAME = current_BU_TEAM_LEVEL_ID.options[current_BU_TEAM_LEVEL_ID.selectedIndex].value;
+    return current_BU_TEAM_LEVEL_NAME;
+}
+
+function update_leaderboard(){
+
+    //initialize();
+    fetch('http://localhost:5000/configurator', {
+    method: 'POST', 
+    headers: {
+        'Content-Type': 'application/json'
+    },
+    body: JSON.stringify({
+        current_BU_TEAM_LEVEL_NAME:current_BU_TEAM_LEVEL()
+
+})}).then(results=>results.json());
+}
+
+function refresh_config(){
+    fetch('http://localhost:5000/configurator', {
+    method: 'POST', 
+    headers: {
+        'Content-Type': 'application/json'
+    },
+    body: JSON.stringify({
+    Refresh_config:'Refresh COnfiguration'
+
+})}).then(results=>results.json());
+}
+
+function download_config_script(){
+    fetch('http://localhost:5000/configurator', {
+    method: 'POST', 
+    headers: {
+        'Content-Type': 'application/json'
+    },
+    body: JSON.stringify({
+    Download:'Download Configuration'
+
+})}).then(results=>results.json());
+}
+
+function switch_off_visiblity(){
+    document.getElementById('submit_BU').style.display='none';
+}
+
+function submit_visible(){
+document.getElementById('submit_BU').style.display='block';
+}
+
+function api(id, check_status){
+
+fetch('http://localhost:5000/configurator', {
+    method: 'POST', 
+    headers: {
+        'Content-Type': 'application/json'
+    },
+    body: JSON.stringify({
+    Id:id,
+    Rank_Pool_Visibility:(check_status?'1':'0')
+
+})}).then(results=>results.json());
+}
+</script>
+{% endblock content %}

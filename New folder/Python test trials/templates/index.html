@@ -1,0 +1,26 @@
+<html>
+<head>
+    <title>Form</title>
+</head>
+<body>
+    {% with messages=get_flashed_messages() %}
+            {% if messages %}
+                {% for msg in messages  %}
+                    <div class="badge bg-danger text-wrap">{{msg}}</div>
+                {% endfor %}
+            {% endif %}
+        {% endwith %}
+    <form action="/" method="POST">
+        {{ form.csrf_token }}
+        {{ form.opts }}
+        {{ form.xyz }}
+        <ul>
+            {% for error in form.opts.errors %}
+            <li style="color:red;">{{ error }}</li>
+            {% endfor %}
+        </ul>
+        <input type="submit">
+
+    </form>
+</body>
+</html>
