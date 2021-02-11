@@ -41,8 +41,8 @@ def home():
             inthemoment_file.save(os.path.join(app.config['UPLOAD_FOLDER'], "InTheMoment.txt"))
         elif inthemoment_file.filename!='':
             flash("Incorrect inthemoment file extention")
-        return render_template("input.html", form=form, leaderboard_message=check_file("Leaderboard.txt"), inthemoment_message=check_file("inthemoment.txt"))
-    return render_template("input.html", form=form, leaderboard_message=check_file("Leaderboard.txt"), inthemoment_message=check_file("inthemoment.txt"))
+        return render_template("input.html", form=form, leaderboard_message=check_file("Leaderboard.txt"), inthemoment_message=check_file("InTheMoment.txt"))
+    return render_template("input.html", form=form, leaderboard_message=check_file("Leaderboard.txt"), inthemoment_message=check_file("InTheMoment.txt"))
 
 @app.route("/configurator", methods=["GET", "POST"])
 def config():
@@ -120,7 +120,7 @@ def leaderboard_document():
 
 @app.route("/inthemoment_document")
 def inthemoment_document():
-    return send_file("Uploads/inthemoment.txt", as_attachment=True)
+    return send_file("Uploads/InTheMoment.txt", as_attachment=True)
 
 @app.route("/configuration_document")
 def configuration_document():
