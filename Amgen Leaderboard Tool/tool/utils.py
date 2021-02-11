@@ -334,5 +334,10 @@ def temp_to_confirm_config():
     shutil.move(temp, perm)
     #os.rename()
 
-def generate_leaderboard(current_selectd_bu):
-    pass
+def generate_leaderboard(current_BU_TEAM_LEVEL):
+    query  = "SELECT * FROM configuration where BU_TEAM_LEVEL="+"'"+current_BU_TEAM_LEVEL+"'"
+    winners_query = db.session.execute(query)
+    winners=[]
+    for data in winners_query:
+        winners.append(data)
+    return winners

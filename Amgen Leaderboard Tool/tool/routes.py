@@ -47,6 +47,8 @@ def home():
 @app.route("/configurator", methods=["GET", "POST"])
 def config():
     form=selector()
+    chairman_circle_data=[]
+    current_BU_TEAM_LEVEL=''
     if request.method == 'POST':
         status=[]
         upload_config_file=''
@@ -69,8 +71,10 @@ def config():
             # Update Configuration
             if data.get('current_BU_TEAM_LEVEL_NAME')!=None:
                 current_BU_TEAM_LEVEL = data['current_BU_TEAM_LEVEL_NAME']
-                print("current_BU_TEAM_LEVEL_NAME: "+current_BU_TEAM_LEVEL)
-                generate_leaderboard(current_BU_TEAM_LEVEL)
+                #print("current_BU_TEAM_LEVEL_NAME: "+current_BU_TEAM_LEVEL)                
+                #generate_leaderboard(current_BU_TEAM_LEVEL)
+                chairman_circle_data = generate_leaderboard(current_BU_TEAM_LEVEL)
+                #print(chairman_circle_data)
             if data.get('Download') != None:
                 print("ssssss")
             elif data.get('Refresh_config') != None:
@@ -103,10 +107,12 @@ def config():
         
         form = populate_BTL(form, str(form.select_BU.data))      
         #flash("NO REQUEST")  
-        return render_template("configurator.html", form=form, status=status, leaderboard_rankpool=leaderboard_rankpool, inthemoment_rankpool=inthemoment_rankpool)
+        print("returned: "+str(chairman_circle_data)+" "+current_BU_TEAM_LEVEL)
+        return render_template("configurator.html", form=form, chairman_circle_data=chairman_circle_data,  status=status, leaderboard_rankpool=leaderboard_rankpool, inthemoment_rankpool=inthemoment_rankpool)
     else:
+        print("returned:xyzzzz "+str(chairman_circle_data))
         form = populate_dropdown(form)
-        return render_template("configurator.html", form=form)
+        return render_template("configurator.html", form=form, chairman_circle_data=chairman_circle_data)
 
 @app.route("/leaderboard_document")
 def leaderboard_document():
@@ -121,7 +127,3 @@ def configuration_document():
     #print("CHAMUNDA")
     create_configuration_file()
     return send_file("Uploads/configuration.txt", as_attachment=True)
-
-@app.route("/leaderboard_generation")
-def leaderboard_generation():
-    return render_template("leaderboard_generation.html")
