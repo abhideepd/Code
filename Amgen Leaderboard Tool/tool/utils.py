@@ -102,8 +102,6 @@ def check_file_content(file, name):
             list_of_columns=first_line.split("\t")
             unique_columns=set(list_of_columns)
             const=" column missing"
-            #print(str(unique_columns))
-            #flash()
 
             if "RANK_POOL" in unique_columns or "RANK_POOL\n" in unique_columns:
                 pass
@@ -136,10 +134,10 @@ def check_file_content(file, name):
             return error
 
 def check_file(filename):
-    name=filename.split(".")#filename[0:11]
-    print("Split name: "+name[0])
+    name=filename.split(".")
     filename=os.path.join(app.config['UPLOAD_FOLDER'], filename)
     my_file = Path(filename)
+    print("Function name: check_file()")
     if my_file.exists():
         return check_file_content(my_file, name[0])
     return "no"
@@ -147,15 +145,18 @@ def check_file(filename):
 def get_filepath(filename):
     filename=os.path.join(app.config['UPLOAD_FOLDER'], filename)
     my_file = Path(filename)
+    print("Function name: get_filepath()")
     if my_file.exists():
         return my_file
     return ""
 
 def allowed_file(filename):
+    print("Function name: allowed_file()")
     return '.' in filename and \
            filename.rsplit('.', 1)[1].lower() =="txt"
 
 def import_file_to_database():
+    print("Function name: import_file_to_database()")
     leaderboard_filename='Leaderboard.txt'
     inthemoment_filename='InTheMoment.txt'
     print("InTheMoment File Status: "+check_file(leaderboard_filename))
@@ -197,6 +198,7 @@ def import_file_to_database():
     
 
 def populate_dropdown(form):
+    print("Function name: populate_dropdown()")
     code_distinct_BU = "SELECT DISTINCT BU FROM leaderboard"
     distinct_BU = db.session.execute(code_distinct_BU)
     xyz=['BU']
@@ -206,6 +208,7 @@ def populate_dropdown(form):
     return form
 
 def populate_BTL(form, selected_bu):
+    print("Function name: populate_BTL()")
     code_distinct_BTL = "SELECT DISTINCT BU_TEAM_LEVEL FROM leaderboard WHERE BU="+"'"+selected_bu+"'"
     distinct_BTL = db.session.execute(code_distinct_BTL)
     xyz = ['BU_TEAM_LEVEL']
@@ -216,6 +219,7 @@ def populate_BTL(form, selected_bu):
     return form
 
 def get_leaderboard_rankpool(selected_bu, selected_btl):
+    print("Function name: get_leaderboard_rankpool()")
     code_distinct_RANK_POOL = "SELECT * FROM configuration where BU_TEAM_LEVEL="+"'"+selected_btl+"'"+" AND DATA_TYPE="+"'"+"LEADERBOARD"+"'"
     distinct_RANK_POOL = db.session.execute(code_distinct_RANK_POOL)
     rank_pool=[]
@@ -224,6 +228,7 @@ def get_leaderboard_rankpool(selected_bu, selected_btl):
     return rank_pool
 
 def get_inthemoment_rankpool(selected_bu, selected_btl):
+    print("Function name: get_inthemoment_rankpool()")
     code_distinct_RANK_POOL = "SELECT * FROM configuration where BU_TEAM_LEVEL="+"'"+selected_btl+"'"+" AND DATA_TYPE="+"'"+"INTHEMOMENT"+"'"
     distinct_RANK_POOL = db.session.execute(code_distinct_RANK_POOL)
     rank_pool=[]
@@ -232,10 +237,12 @@ def get_inthemoment_rankpool(selected_bu, selected_btl):
     return rank_pool
 
 def delete_existing_database():
+    print("Function name: delete_existing_database()")
     leaderboard.query.delete()
     inthemoment.query.delete()
 
 def create_configuration():
+    print("Function name: create_configuration()")
     # Query Leaderboard
     query = "SELECT DISTINCT RANK_POOL, BU_TEAM_LEVEL  from leaderboard"
     data = db.session.execute(query)
@@ -263,21 +270,25 @@ def create_configuration():
     db.session.commit()
 
 def delete_existing_configuration():
+    print("Function name: delete_existing_configuration()")
     configuration.query.delete()
     db.session.commit()
     print("configuraation deleted")
 
 def update_configuration(config_id, rankpool_visibility_flag):
+    print("Function name: update_configuration()")
     update_query = configuration.query.filter_by(Id=config_id).first()
     update_query.RANK_POOL_VISIBILITY_FLAG = int(rankpool_visibility_flag)
     db.session.commit()
 
 def update_configuration_rankpool_pseudoname(config_id, pseudoname):
+    print("Function name: update_configuration_rankpool_pseudoname()")
     update_query = configuration.query.filter_by(Id=config_id).first()
     update_query.RANK_POOL_PSEUDONAME = str(pseudoname)
     db.session.commit()
 
 def upload_config(upload_config_file, filename):
+    print("Function name: upload_config()")
     temp_upload_config_file_location = os.path.join(app.config['TEMP_UPLOAD_FOLDER'], "temp_configuration.txt")
     upload_config_file.save( temp_upload_config_file_location )
     err=[]
@@ -288,6 +299,7 @@ def upload_config(upload_config_file, filename):
     return err
 
 def create_configuration_file():
+    print("Function name: create_configuration_file()")
     pull_config_data = "SELECT * from configuration"
     data = db.session.execute(pull_config_data)
     filename=os.path.join(app.config['UPLOAD_FOLDER'], "configuration.txt")
@@ -308,6 +320,7 @@ def create_configuration_file():
 
 
 def import_configuration_to_database():
+    print("Function name: import_configuration_to_database()")
     filename="configuration.txt"
     filename=os.path.join(app.config['UPLOAD_FOLDER'], filename)
     with open(filename, 'r') as text_file:
@@ -323,9 +336,10 @@ def import_configuration_to_database():
             ld1=configuration(RANK_POOL_PSEUDONAME=RANK_POOL_PSEUDONAME, RANK_POOL=RANK_POOL, BU_TEAM_LEVEL=BU_TEAM_LEVEL, DATA_TYPE=DATA_TYPE, RANK_POOL_VISIBILITY_FLAG=RANK_POOL_VISIBILITY_FLAG)
             db.session.add(ld1)
         db.session.commit()
-    print("Import conmplaeteed")
+    print("Import completed")
 
 def temp_to_confirm_config():
+    print("Function name: temp_to_confirm_config()")
     temp = "temp_configuration.txt"
     perm = "configuration.txt"
     temp = os.path.join(app.config['TEMP_UPLOAD_FOLDER'], temp)
@@ -335,6 +349,7 @@ def temp_to_confirm_config():
     #os.rename()
 
 def generate_leaderboard(current_BU_TEAM_LEVEL):
+    print("Function name: generate_leaderboard()")
     query  = "SELECT * FROM configuration where BU_TEAM_LEVEL="+"'"+current_BU_TEAM_LEVEL+"'"
     winners_query = db.session.execute(query)
     winners=[]

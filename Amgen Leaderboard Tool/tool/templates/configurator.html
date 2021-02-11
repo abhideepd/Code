@@ -22,10 +22,10 @@
     </div>
 </a>
 <div class="configurator">
-    <a href="{{url_for('configuration_document')}}" onclick="download_config_script()" download>Download Config</a>
+    <a href="{{url_for('configuration_document')}}" download>Download Config</a>
     
     <form method="POST" action="/configurator" enctype="multipart/form-data">
-        <button type="button" class="btn btn-info" onclick="refresh_config(); location.reload(); update_leaderboard()">Refreh Config</button>
+        <button type="button" class="btn btn-info" onclick="refresh_config();"><a href="{{url_for('config')}}">Refreh Config</a></button>
         <div class="upload_config">
             {{form.Upload_Config.label(class="form-label")}} 
             {{form.Upload_Config(class="form-control", onchange="submit_visible()")}}
@@ -446,19 +446,6 @@ function rankpool_pseudo_name(id, value){
 })}).then(results=>results.json());
 }
 
-function initialize(){
-    //current_BU_ID = document.getElementById("select_BU");
-    //current_BU = current_BU_ID.options[current_BU_ID.selectedIndex].value;
-
-    //current_BU_TEAM_LEVEL_ID = document.getElementById("select_BU_TEAM_LEVEL");
-    //current_BU_TEAM_LEVEL = current_BU_TEAM_LEVEL_ID.options[current_BU_TEAM_LEVEL_ID.selectedIndex].value;
-
-    current_RankPool_Id = id
-
-    current_RankPool_visibility_flag = document.getElementById(id).checked
-    current_RankPool_Pseudoname = document.getElementById(id).value
-}
-
 function current_BU_TEAM_LEVEL(){
     current_BU_TEAM_LEVEL_ID = document.getElementById("select_BU_TEAM_LEVEL");
     current_BU_TEAM_LEVEL_NAME = current_BU_TEAM_LEVEL_ID.options[current_BU_TEAM_LEVEL_ID.selectedIndex].value;
@@ -467,7 +454,6 @@ function current_BU_TEAM_LEVEL(){
 
 function update_leaderboard(){
 
-    //initialize();
     fetch('http://localhost:5000/configurator', {
     method: 'POST', 
     headers: {
@@ -487,18 +473,6 @@ function refresh_config(){
     },
     body: JSON.stringify({
     Refresh_config:'Refresh COnfiguration'
-
-})}).then(results=>results.json());
-}
-
-function download_config_script(){
-    fetch('http://localhost:5000/configurator', {
-    method: 'POST', 
-    headers: {
-        'Content-Type': 'application/json'
-    },
-    body: JSON.stringify({
-    Download:'Download Configuration'
 
 })}).then(results=>results.json());
 }
