@@ -7,7 +7,7 @@ from werkzeug.utils import secure_filename
 from flask_wtf import FlaskForm
 from flask_wtf.file import FileField, FileRequired
 from tool.models import leaderboard, inthemoment
-from tool.utils import generate_leaderboard, check_file, get_filepath, upload_config, allowed_file, update_configuration_rankpool_pseudoname, update_configuration, import_file_to_database, populate_dropdown, populate_BTL, get_leaderboard_rankpool, get_inthemoment_rankpool, delete_existing_database, create_configuration, delete_existing_configuration, import_configuration_to_database, temp_to_confirm_config, create_configuration_file
+from tool.utils import get_ChairmanCircle_leaderboard, get_ChairmanCircle_inthemoment, check_file, get_filepath, upload_config, allowed_file, update_configuration_rankpool_pseudoname, update_configuration, import_file_to_database, populate_dropdown, populate_BTL, get_leaderboard_rankpool, get_inthemoment_rankpool, delete_existing_database, create_configuration, delete_existing_configuration, import_configuration_to_database, temp_to_confirm_config, create_configuration_file
 
 @app.route("/", methods=["GET", "POST"])
 @app.route("/input", methods=["GET", "POST"])
@@ -48,6 +48,7 @@ def home():
 def config():
     form=selector()
     chairman_circle_data=[]
+    current_BU_TEAM_LEVEL=''
     if request.method == 'POST':
         status=[]
         upload_config_file=''
@@ -68,7 +69,6 @@ def config():
             data = request.get_json()
             if data.get('current_BU_TEAM_LEVEL_NAME')!=None:
                 current_BU_TEAM_LEVEL = data['current_BU_TEAM_LEVEL_NAME']
-                chairman_circle_data = generate_leaderboard(current_BU_TEAM_LEVEL)
             elif data.get('Refresh_config') != None:
                 delete_existing_configuration()
                 create_configuration()
@@ -82,7 +82,9 @@ def config():
 
         leaderboard_rankpool = get_leaderboard_rankpool(str(form.select_BU.data), str(form.select_BU_TEAM_LEVEL.data))
         inthemoment_rankpool = get_inthemoment_rankpool(str(form.select_BU.data), str(form.select_BU_TEAM_LEVEL.data))
-        form = populate_BTL(form, str(form.select_BU.data))     
+        form = populate_BTL(form, str(form.select_BU.data))
+        ChairmanCircle_leaderboard = get_ChairmanCircle_leaderboard(current_BU_TEAM_LEVEL)
+        ChairmanCircle_inthemoment = get_ChairmanCircle_inthemoment(current_BU_TEAM_LEVEL) 
         
         return render_template("configurator.html", form=form, chairman_circle_data=chairman_circle_data,  status=status, leaderboard_rankpool=leaderboard_rankpool, inthemoment_rankpool=inthemoment_rankpool)
     else:

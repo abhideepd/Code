@@ -348,11 +348,14 @@ def temp_to_confirm_config():
     shutil.move(temp, perm)
     #os.rename()
 
-def generate_leaderboard(current_BU_TEAM_LEVEL):
-    print("Function name: generate_leaderboard()")
-    query  = "SELECT * FROM configuration where BU_TEAM_LEVEL="+"'"+current_BU_TEAM_LEVEL+"'"
-    winners_query = db.session.execute(query)
-    winners=[]
-    for data in winners_query:
-        winners.append(data)
-    return winners
+def get_ChairmanCircle_leaderboard(current_BU_TEAM_LEVEL):
+    print("Function name: get_ChairmanCircle_leaderboard()")
+    query_rankpool = "SELECT DISTINCT RANK_POOL_PSEUDONAME, RANK_POOL from configuration WHERE BU_TEAM_LEVEL="+"'"+current_BU_TEAM_LEVEL+"'"+" AND DATA_TYPE=LEADERBOARD AND RANK_POOL_VISIBILITY_FLAG=1"
+    dummy=[]
+    return dummy
+
+
+def get_ChairmanCircle_inthemoment(current_BU_TEAM_LEVEL):
+    print("Function name: get_ChairmanCircle_inthemoment()")
+    dummy=[]
+    return dummy
