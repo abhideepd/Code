@@ -68,29 +68,33 @@ def config():
         ## HANDLE REQUEST FROM JAVASCRIPT JSON
         if request.get_json() != None:
             data = request.get_json()
-            if data.get('current_BU_TEAM_LEVEL_NAME')!=None:
-                current_BU_TEAM_LEVEL = data['current_BU_TEAM_LEVEL_NAME']
-            elif data.get('Refresh_config') != None:
+            #if data.get('current_BU_TEAM_LEVEL_NAME') != None:
+                #current_BU_TEAM_LEVEL = data['current_BU_TEAM_LEVEL_NAME']
+            if data.get('Refresh_config') != None:
                 delete_existing_configuration()
                 create_configuration()
                 #create_configuration_file()
-            elif data.get('Rank_Pool_Visibility') != None:
+            if data.get('Rank_Pool_Visibility') != None:
                 config_id = data['Id']
                 rankpool_visibility_flag = data['Rank_Pool_Visibility']
+                current_BU_TEAM_LEVEL = data['current_BU_TEAM_LEVEL_NAME']
                 update_configuration(config_id, rankpool_visibility_flag)
-            elif data.get('rankpool_pseudoname') != None:
+            if data.get('rankpool_pseudoname') != None:
+                current_BU_TEAM_LEVEL = data['current_BU_TEAM_LEVEL_NAME']
                 update_configuration_rankpool_pseudoname(data['Id'], data['rankpool_pseudoname'])
 
         leaderboard_rankpool = get_leaderboard_rankpool(str(form.select_BU.data), str(form.select_BU_TEAM_LEVEL.data))
         inthemoment_rankpool = get_inthemoment_rankpool(str(form.select_BU.data), str(form.select_BU_TEAM_LEVEL.data))
         form = populate_BTL(form, str(form.select_BU.data))
         ChairmanCircle_leaderboard = get_ChairmanCircle_leaderboard(current_BU_TEAM_LEVEL)
-        ChairmanCircle_inthemoment = get_ChairmanCircle_inthemoment(current_BU_TEAM_LEVEL) 
+        print("Leaderboard: "+str(ChairmanCircle_leaderboard))
+        print("Length of list: "+str(len(ChairmanCircle_leaderboard)))
+        #ChairmanCircle_inthemoment = get_ChairmanCircle_inthemoment(current_BU_TEAM_LEVEL) 
         
-        return render_template("configurator.html", form=form, chairman_circle_data=chairman_circle_data,  status=status, leaderboard_rankpool=leaderboard_rankpool, inthemoment_rankpool=inthemoment_rankpool)
+        return render_template("configurator.html", form=form, ChairmanCircle_leaderboard=ChairmanCircle_leaderboard,  status=status, leaderboard_rankpool=leaderboard_rankpool, inthemoment_rankpool=inthemoment_rankpool)
     else:
         form = populate_dropdown(form)
-        return render_template("configurator.html", form=form, chairman_circle_data=chairman_circle_data)
+        return render_template("configurator.html", form=form)
 
 @app.route("/leaderboard_document")
 def leaderboard_document():
