@@ -88,9 +88,10 @@ def config():
         form = populate_BTL(form, str(form.select_BU.data))
         ChairmanCircle_leaderboard = get_ChairmanCircle_leaderboard(current_BU_TEAM_LEVEL)
         print("Leaderboard: "+str(ChairmanCircle_leaderboard))
+        print("Length of list: "+str(len(ChairmanCircle_leaderboard)))
         #ChairmanCircle_inthemoment = get_ChairmanCircle_inthemoment(current_BU_TEAM_LEVEL) 
         
-        return render_template("configurator.html", form=form,  status=status, leaderboard_rankpool=leaderboard_rankpool, inthemoment_rankpool=inthemoment_rankpool)
+        return render_template("configurator.html", form=form, ChairmanCircle_leaderboard=ChairmanCircle_leaderboard,  status=status, leaderboard_rankpool=leaderboard_rankpool, inthemoment_rankpool=inthemoment_rankpool)
     else:
         form = populate_dropdown(form)
         return render_template("configurator.html", form=form)

@@ -362,6 +362,8 @@ def get_ChairmanCircle_leaderboard(current_BU_TEAM_LEVEL):
             temp_pseudoname = ""
         elif temp_pseudoname.strip() == "":
             temp_pseudoname = ""
+        elif temp_pseudoname == "None":
+            temp_pseudoname = ""
         ## QUERY FOR THE WINNERS IN LEADERBOARD WRT THE SELECTED RANKPOOL IN "temp_rankpool"
         query_leaderboard = "SELECT FULLNAME, FINAL_RANK FROM leaderboard WHERE RANK_POOL="+"'"+temp_rankpool+"'"+" AND FINAL_RANK<=10 ORDER BY FINAL_RANK"
         data_leaderboard_reps = db.session.execute(query_leaderboard)
