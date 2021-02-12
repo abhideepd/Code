@@ -348,30 +348,42 @@ def temp_to_confirm_config():
 
 def get_ChairmanCircle_leaderboard(current_BU_TEAM_LEVEL):
     print("Function name: get_ChairmanCircle_leaderboard()")
-    query_rankpool = "SELECT DISTINCT RANK_POOL_PSEUDONAME, RANK_POOL from configuration WHERE BU_TEAM_LEVEL="+"'"+current_BU_TEAM_LEVEL+"'"+" AND DATA_TYPE=LEADERBOARD AND RANK_POOL_VISIBILITY_FLAG=1"
+    print("current_BU_TEAM_LEVEL: "+current_BU_TEAM_LEVEL)
+    ## SQL QUERY TO CAPTURE "RANK_POOL" AND "RANK_POOL_PSEUDONAMES" FROM "CONFIGURATIONS" FILE WRT "CURRENT__BUTEAMLEVEL"
+    query_rankpool = "SELECT DISTINCT RANK_POOL_PSEUDONAME, RANK_POOL from configuration WHERE BU_TEAM_LEVEL="+"'"+current_BU_TEAM_LEVEL+"'"+" AND DATA_TYPE LIKE '%LEADERBOARD%' AND RANK_POOL_VISIBILITY_FLAG='1'"
     data = db.session.execute(query_rankpool)
-    final_ranks={}
-    i=0
+    final_data = []
 
+    ## TRAVERSE EACH RANKPOOL IN LEADERBOARD FILE WRT THE SELECTED BU_TEAM_LEVEL
     for row in data:
+        temp_rankpool = row['RANK_POOL']
+        temp_pseudoname = row['RANK_POOL_PSEUDONAME']
+        if temp_pseudoname == None:
+            temp_pseudoname = ""
+        elif temp_pseudoname.strip() == "":
+            temp_pseudoname = ""
+        ## QUERY FOR THE WINNERS IN LEADERBOARD WRT THE SELECTED RANKPOOL IN "temp_rankpool"
+        query_leaderboard = "SELECT FULLNAME, FINAL_RANK FROM leaderboard WHERE RANK_POOL="+"'"+temp_rankpool+"'"+" AND FINAL_RANK<=10 ORDER BY FINAL_RANK"
+        data_leaderboard_reps = db.session.execute(query_leaderboard)
 
-        temp_pseudo_name = data['RANK_POOL_PSEUDONAME']
+        temp_reps = []
+        ## TRAVERSE LEADERBOARD REPS
+        for reps in data_leaderboard_reps:
+            temp_fullname = reps['FULLNAME']
+            temp_rank = reps['FINAL_RANK']
+            temp_list = []
+            temp_list.append(temp_fullname)
+            temp_list.append(temp_rank)
+            temp_reps.append(temp_list)
+        
+        ## JOIN RANKPOOL AND ITS CORROSPONDING REPS
+        component = []
+        component.append(temp_pseudoname)
+        component.append(temp_reps)
 
-        if temp_pseudo_name == None:
-            temp_pseudo_name="@"+str(i)
-            i=i+1
-        elif temp_pseudo_name.strip() == "":
-            temp_pseudo_name="@"+str(i)
-            i=i+1
-
-        temp_rankpool_name = data['RANK_POOL']
-        query_leaderboard = "SELECT FINAL_RANK, FULLNAME from leaderboard WHERE RANK_POOL="+"'"+temp_rankpool_name+"'"+" AND FINAL_RANK<=10 ORDER BY FINAL_RANK ASC"
-        leaderboard_data = db.session.execute(query_leaderboard)
-        dummy = []
-
-        for winner in leaderboard_data:
-            dummy.append()
-    return dummy
+        final_data.append(component)
+        
+    return final_data
 
 
 def get_ChairmanCircle_inthemoment(current_BU_TEAM_LEVEL):
