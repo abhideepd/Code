@@ -47,10 +47,11 @@ def home():
 @app.route("/configurator", methods=["GET", "POST"])
 def config():
     form=selector()
-    chairman_circle_data = []
-    current_BU_TEAM_LEVEL = str(form.select_BU_TEAM_LEVEL.data)
+    
     if request.method == 'POST':
         status=[]
+        chairman_circle_data = []
+        current_BU_TEAM_LEVEL = str(form.select_BU_TEAM_LEVEL.data)
         #upload_config_file=''
 
         ## UPLOAD USER INPUT CONFIGURATIONS
