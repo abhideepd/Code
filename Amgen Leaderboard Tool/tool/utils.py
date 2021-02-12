@@ -344,14 +344,33 @@ def temp_to_confirm_config():
     perm = "configuration.txt"
     temp = os.path.join(app.config['TEMP_UPLOAD_FOLDER'], temp)
     perm = os.path.join(app.config['UPLOAD_FOLDER'], perm)
-    #rename = os.path.join()
     shutil.move(temp, perm)
-    #os.rename()
 
 def get_ChairmanCircle_leaderboard(current_BU_TEAM_LEVEL):
     print("Function name: get_ChairmanCircle_leaderboard()")
     query_rankpool = "SELECT DISTINCT RANK_POOL_PSEUDONAME, RANK_POOL from configuration WHERE BU_TEAM_LEVEL="+"'"+current_BU_TEAM_LEVEL+"'"+" AND DATA_TYPE=LEADERBOARD AND RANK_POOL_VISIBILITY_FLAG=1"
-    dummy=[]
+    data = db.session.execute(query_rankpool)
+    final_ranks={}
+    i=0
+
+    for row in data:
+
+        temp_pseudo_name = data['RANK_POOL_PSEUDONAME']
+
+        if temp_pseudo_name == None:
+            temp_pseudo_name="@"+str(i)
+            i=i+1
+        elif temp_pseudo_name.strip() == "":
+            temp_pseudo_name="@"+str(i)
+            i=i+1
+
+        temp_rankpool_name = data['RANK_POOL']
+        query_leaderboard = "SELECT FINAL_RANK, FULLNAME from leaderboard WHERE RANK_POOL="+"'"+temp_rankpool_name+"'"+" AND FINAL_RANK<=10 ORDER BY FINAL_RANK ASC"
+        leaderboard_data = db.session.execute(query_leaderboard)
+        dummy = []
+
+        for winner in leaderboard_data:
+            dummy.append()
     return dummy
 
 
