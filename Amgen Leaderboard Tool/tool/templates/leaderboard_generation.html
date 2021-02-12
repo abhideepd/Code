@@ -1,242 +1,249 @@
 
-<!-- DUMMY TEST PURPOSES [ # IGNORE ] -->
+{% extends "configurator.html" %}
 
-<div class="Leaderboard_Iframe">
-	<style>
-		.row {
-			width: 100%;
-			display: table;
-		}
-		
-		.carrousel {
-			overflow-x: hidden;
-		}
-		
-		.carrousel .slides {
-			text-align: center;
-			width: 200%;
-			overflow: hidden;
-			list-style: none;
-			-webkit-transition: transform .5s;
-			-moz-transition: transform .5s;
-			-o-transition: transform .5s;
-			transition: transform .5s;
-		}
-		
-		.carrousel .slides li {
-			width: 50%;
-			float: left;
-		}
-		
-		.Terr svg {
-			vertical-align: middle;
-		}
-		
-		.carrousel .slidesNavigation {
-			text-align: center;
-			width: 100%;
-		}
-		
-		.carrousel input {
-			display: none;
-		}
-		
-		.carrousel .slidesNavigation label {
-			margin: 10px;
-			display: inline-block;
-		}
-		
-		#radio-1:checked~.slides {
-			padding: 1px;
-			transform: translateX(0%);
-		}
-		
-		#radio-2:checked~.slides {
-			padding: 1px;
-			transform: translateX(-50%);
-		}
-		
-		.carrousel .slidesNavigation label:hover {
-			cursor: pointer;
-		}
-		
-		.carrousel #radio-1:checked~.slidesNavigation label#dotForRadio-1,
-		.carrousel #radio-2:checked~.slidesNavigation label#dotForRadio-2,
-		.carrousel #radio-3:checked~.slidesNavigation label#dotForRadio-3,
-		.carrousel #radio-4:checked~.slidesNavigation label#dotForRadio-4 {
-			font-weight: bold;
-			color: white;
-			transform: scale(1.2);
-			box-shadow: 0 4px 18px 0 rgba(0, 0, 0, 0.2), 0 6px 40px 0 rgba(0, 0, 0, 0.19);
-			background: rgb(11, 148, 246);
-			background: linear-gradient(180deg, rgba(11, 148, 246, 1) 0%, rgba(24, 22, 88, 1) 100%);
-		}
-		
-		.tablehead {
-			color: #f2f2f2;
-			height: 30px;
-			width: 100%;
-			background-image: linear-gradient(#0070c0, #221F7A);
-			display: table;
-			border-radius: 3px;
-		}
-		
-		.details {
-			margin-top: 5px;
-			overflow-y: auto;
-		}
-		
-		.rank {
-			padding-left: 5px;
-			width: 20%;
-		}
-		
-		.Name {
-			width: 62%;
-		}
-		
-		.Name1 {
-			width: 70%;
-		}
-		
-		.Terr1 {
-			width: 30%;
-		}
-		
-		.invisible {
-			visibility: hidden !important;
-		}
-		
-		.no_display {
-			display: none !important;
-		}
-		
-		.Terr1 img {
-			margin-right: 10px;
-			width: 20px;
-			height: 18px;
-		}
-		
-		.heading {
-			text-align: center;
-			background-color: #0658AA;
-			padding: 5px;
-		}
-		
-		.inline_block {
-			display: inline-block;
-		}
-		
-		.heading_description {
-			vertical-align: middle;
-			font-size: 21px;
-			color: white;
-			width: 75%;
-		}
-		
-		.trophy_image {
-			background-color: white;
-			border-radius: 50%;
-		}
-		
-		.trophy_image img {
-			width: 4em;
-			height: 4em;
-			vertical-align: middle;
-			padding: 5px;
-		}
-		
-		.more_link {
-			text-align: right;
-		}
-		
-		.Leaderboard {
-			position: relative;
-			left: 20px;
-			width: 87%;
-			margin-bottom: -10px;
-		}
-		
-		.rank,
-		.Name,
-		.Terr,
-		.Name1,
-		.Terr1 {
-			display: table-cell;
-			vertical-align: middle;
-		}
-		
-		.head {
-			vertical-align: middle;
-		}
-		
-		label#dotForRadio-1, label#dotForRadio-2{
-			background-color: #e1e9ef;
-			border-radius: 9px;
-			padding: 5px;
-			vertical-align: middle;
-			box-shadow: 0 4px 8px 0 rgb(0 0 0 / 20%), 0 6px 20px 0 rgb(0 0 0 / 0%);
-		}
-	</style>
-		
-	<div  class="Leaderboard">
-		
-		<div class="carrousel">
+{% block result %}
+	{% if ChairmanCircle_leaderboard|length > 1 %}
+		{{"GOOD"}}
+	{% else %}
+		{{"BAD"}}
+	{% endif %}
+	<div class="Leaderboard_Iframe">
+		<style>
+			.row {
+				width: 100%;
+				display: table;
+			}
 			
-			<div class="more_link">
-			<a href="https://javelin.zsservices.com/AmgenUS/0026a/Web/Preview/Batch/3088" target="_blank">Navigate to Chairman's Circle report</a>
-			</div>
+			.carrousel {
+				overflow-x: hidden;
+			}
 			
-			<input type="radio" name="slides" id="radio-1" checked>
-			<input type="radio" name="slides" id="radio-2">
-			<div class="slidesNavigation">			
-				<label for="radio-1" id="dotForRadio-1">Leaderboard</label>
-				<label for="radio-2" id="dotForRadio-2">In the Moment</label>
-			</div>
-			<div class="heading">
-				<div class="trophy_image inline_block">
-					<img src="https://img.icons8.com/emoji/452/trophy-emoji.png"/>
+			.carrousel .slides {
+				text-align: center;
+				width: 200%;
+				overflow: hidden;
+				list-style: none;
+				-webkit-transition: transform .5s;
+				-moz-transition: transform .5s;
+				-o-transition: transform .5s;
+				transition: transform .5s;
+			}
+			
+			.carrousel .slides li {
+				width: 50%;
+				float: left;
+			}
+			
+			.Terr svg {
+				vertical-align: middle;
+			}
+			
+			.carrousel .slidesNavigation {
+				text-align: center;
+				width: 100%;
+			}
+			
+			.carrousel input {
+				display: none;
+			}
+			
+			.carrousel .slidesNavigation label {
+				margin: 10px;
+				display: inline-block;
+			}
+			
+			#radio-1:checked~.slides {
+				padding: 1px;
+				transform: translateX(0%);
+			}
+			
+			#radio-2:checked~.slides {
+				padding: 1px;
+				transform: translateX(-50%);
+			}
+			
+			.carrousel .slidesNavigation label:hover {
+				cursor: pointer;
+			}
+			
+			.carrousel #radio-1:checked~.slidesNavigation label#dotForRadio-1,
+			.carrousel #radio-2:checked~.slidesNavigation label#dotForRadio-2,
+			.carrousel #radio-3:checked~.slidesNavigation label#dotForRadio-3,
+			.carrousel #radio-4:checked~.slidesNavigation label#dotForRadio-4 {
+				font-weight: bold;
+				color: white;
+				transform: scale(1.2);
+				box-shadow: 0 4px 18px 0 rgba(0, 0, 0, 0.2), 0 6px 40px 0 rgba(0, 0, 0, 0.19);
+				background: rgb(11, 148, 246);
+				background: linear-gradient(180deg, rgba(11, 148, 246, 1) 0%, rgba(24, 22, 88, 1) 100%);
+			}
+			
+			.tablehead {
+				color: #f2f2f2;
+				height: 30px;
+				width: 100%;
+				background-image: linear-gradient(#0070c0, #221F7A);
+				display: table;
+				border-radius: 3px;
+			}
+			
+			.details {
+				margin-top: 5px;
+				overflow-y: auto;
+			}
+			
+			.rank {
+				padding-left: 5px;
+				width: 20%;
+			}
+			
+			.Name {
+				width: 62%;
+			}
+			
+			.Name1 {
+				width: 70%;
+			}
+			
+			.Terr1 {
+				width: 30%;
+			}
+			
+			.invisible {
+				visibility: hidden !important;
+			}
+			
+			.no_display {
+				display: none !important;
+			}
+			
+			.Terr1 img {
+				margin-right: 10px;
+				width: 20px;
+				height: 18px;
+			}
+			
+			.heading {
+				text-align: center;
+				background-color: #0658AA;
+				padding: 5px;
+			}
+			
+			.inline_block {
+				display: inline-block;
+			}
+			
+			.heading_description {
+				vertical-align: middle;
+				font-size: 21px;
+				color: white;
+				width: 75%;
+			}
+			
+			.trophy_image {
+				background-color: white;
+				border-radius: 50%;
+			}
+			
+			.trophy_image img {
+				width: 4em;
+				height: 4em;
+				vertical-align: middle;
+				padding: 5px;
+			}
+			
+			.more_link {
+				text-align: right;
+			}
+			
+			.Leaderboard {
+				position: relative;
+				left: 20px;
+				width: 87%;
+				margin-bottom: -10px;
+			}
+			
+			.rank,
+			.Name,
+			.Terr,
+			.Name1,
+			.Terr1 {
+				display: table-cell;
+				vertical-align: middle;
+			}
+			
+			.head {
+				vertical-align: middle;
+			}
+			
+			label#dotForRadio-1, label#dotForRadio-2{
+				background-color: #e1e9ef;
+				border-radius: 9px;
+				padding: 5px;
+				vertical-align: middle;
+				box-shadow: 0 4px 8px 0 rgb(0 0 0 / 20%), 0 6px 20px 0 rgb(0 0 0 / 0%);
+			}
+		</style>
+			
+		<div  class="Leaderboard">
+			
+			<div class="carrousel">
+				
+				<div class="more_link">
+				<a href="https://javelin.zsservices.com/AmgenUS/0026a/Web/Preview/Batch/3088" target="_blank">Navigate to Chairman's Circle report</a>
 				</div>
-				<div class="heading_description inline_block">
-					August-2020 Chairman's Circle
+				
+				<input type="radio" name="slides" id="radio-1" checked>
+				<input type="radio" name="slides" id="radio-2">
+				<div class="slidesNavigation">			
+					<label for="radio-1" id="dotForRadio-1">Leaderboard</label>
+					<label for="radio-2" id="dotForRadio-2">In the Moment</label>
 				</div>
-			</div>
-			<ul class="slides">
-				<li class="slide">
-					<div class="tablehead">
-						<div class="rank invisible head">Rank</div>
-						<div class="Name head">Name</div>
-						<div class="Terr head">Rank</div>
+				<div class="heading">
+					<div class="trophy_image inline_block">
+						<img src="https://img.icons8.com/emoji/452/trophy-emoji.png"/>
 					</div>
-					<div class="details">
-						<div class="row">
-							<div class="rank">Rank 1</div>
-							<div class="Name">Orlando Todd</div>
-							<div class="Terr">
-								<svg width="16" height="16" fill="currentColor" viewBox="0 0 16 16">
-									<path d="M2.5.5A.5.5 0 0 1 3 0h10a.5.5 0 0 1 .5.5c0 .538-.012 1.05-.034 1.536a3 3 0 1 1-1.133 5.89c-.79 1.865-1.878 2.777-2.833 3.011v2.173l1.425.356c.194.048.377.135.537.255L13.3 15.1a.5.5 0 0 1-.3.9H3a.5.5 0 0 1-.3-.9l1.838-1.379c.16-.12.343-.207.537-.255L6.5 13.11v-2.173c-.955-.234-2.043-1.146-2.833-3.012a3 3 0 1 1-1.132-5.89A33.076 33.076 0 0 1 2.5.5zm.099 2.54a2 2 0 0 0 .72 3.935c-.333-1.05-.588-2.346-.72-3.935zm10.083 3.935a2 2 0 0 0 .72-3.935c-.133 1.59-.388 2.885-.72 3.935z"/>
-								</svg>
+					<div class="heading_description inline_block">
+						August-2020 Chairman's Circle
+					</div>
+				</div>
+				<ul class="slides">
+					<li class="slide">
+						<div class="tablehead">
+							<div class="rank invisible head">Rank</div>
+							<div class="Name head">Name</div>
+							<div class="Terr head">Rank</div>
+						</div>
+						<div class="details">
+							<div class="row">
+								<div class="rank">Rank 1</div>
+								<div class="Name">Orlando Todd</div>
+								<div class="Terr">
+									<svg width="16" height="16" fill="currentColor" viewBox="0 0 16 16">
+										<path d="M2.5.5A.5.5 0 0 1 3 0h10a.5.5 0 0 1 .5.5c0 .538-.012 1.05-.034 1.536a3 3 0 1 1-1.133 5.89c-.79 1.865-1.878 2.777-2.833 3.011v2.173l1.425.356c.194.048.377.135.537.255L13.3 15.1a.5.5 0 0 1-.3.9H3a.5.5 0 0 1-.3-.9l1.838-1.379c.16-.12.343-.207.537-.255L6.5 13.11v-2.173c-.955-.234-2.043-1.146-2.833-3.012a3 3 0 1 1-1.132-5.89A33.076 33.076 0 0 1 2.5.5zm.099 2.54a2 2 0 0 0 .72 3.935c-.333-1.05-.588-2.346-.72-3.935zm10.083 3.935a2 2 0 0 0 .72-3.935c-.133 1.59-.388 2.885-.72 3.935z"/>
+									</svg>
+								</div>
 							</div>
+							<hr class="line" style="border-top: 1px dashed #DCDCDC; border-bottom: 0px">
 						</div>
-						<hr class="line" style="border-top: 1px dashed #DCDCDC; border-bottom: 0px">
-					</div>
-				</li>
-				<li class="slide">	
-					<div class="tablehead">
-						<div class="rank no_display head" >Rank</div>
-						<div class="Name1 head" >Name</div>
-						<div class="Terr1 head" >Gain in Rank</div>
-					</div>
-					<div class="details">
-						<div class="row">
-							<div class="rank no_display">Rank 1</div>
-							<div class="Name1">Orlando Todd</div>
-							<div class="Terr1"><img class="image_arrow" src="https://img.icons8.com/metro/344/26e07f/long-arrow-up.png" ><b>53</b></div>
+					</li>
+					<li class="slide">	
+						<div class="tablehead">
+							<div class="rank no_display head" >Rank</div>
+							<div class="Name1 head" >Name</div>
+							<div class="Terr1 head" >Gain in Rank</div>
 						</div>
-						<hr class="line" style="border-top: 1px dashed #DCDCDC; border-bottom: 0px">
-					</div>
-				</li>					
-			</ul>
+						<div class="details">
+							<div class="row">
+								<div class="rank no_display">Rank 1</div>
+								<div class="Name1">Orlando Todd</div>
+								<div class="Terr1"><img class="image_arrow" src="https://img.icons8.com/metro/344/26e07f/long-arrow-up.png" ><b>53</b></div>
+							</div>
+							<hr class="line" style="border-top: 1px dashed #DCDCDC; border-bottom: 0px">
+						</div>
+					</li>					
+				</ul>
+			</div>
 		</div>
 	</div>
-</div>
+{% endblock %} 

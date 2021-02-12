@@ -5,8 +5,7 @@ function current_BU_TEAM_LEVEL(){
 }
 
 function rankpool_pseudo_name(id, value){
-
-    fetch('http://localhost:5000/configurator', {
+    fetch('http://localhost:5000/leaderboard_generation', {
     method: 'POST', 
     headers: {
         'Content-Type': 'application/json'
@@ -19,7 +18,7 @@ function rankpool_pseudo_name(id, value){
 }
 
 function refresh_config(){
-    fetch('http://localhost:5000/configurator', {
+    fetch('http://localhost:5000/leaderboard_generation', {
     method: 'POST', 
     headers: {
         'Content-Type': 'application/json'
@@ -39,8 +38,7 @@ document.getElementById('submit_BU').style.display='block';
 }
 
 function rankpool_visibility_checkbox(id, check_status){
-
-fetch('http://localhost:5000/configurator', {
+fetch('http://localhost:5000/leaderboard_generation', {
     method: 'POST', 
     headers: {
         'Content-Type': 'application/json'
