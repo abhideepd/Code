@@ -49,4 +49,5 @@ fetch('http://localhost:5000/leaderboard_generation', {
     current_BU_TEAM_LEVEL_NAME:current_BU_TEAM_LEVEL()
 
 })}).then(results=>results.json());
+location.reload();
 }

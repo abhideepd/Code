@@ -61,7 +61,7 @@
                     <div class="leaderboard_rankpool">
                         {% for rankpool in leaderboard_rankpool %}
                             <div class="">{{rankpool['RANK_POOL']}}</div>
-                            <input class="checkbox" onchange="rankpool_visibility_checkbox(this.id, this.checked); location.reload();" type="checkbox" name="rankpoolvisibilityflag" id="{{rankpool['Id']}}" {% if rankpool['RANK_POOL_VISIBILITY_FLAG']==1 %}checked{% endif %}/>
+                            <input class="checkbox" onchange="rankpool_visibility_checkbox(this.id, this.checked);" type="checkbox" name="rankpoolvisibilityflag" id="{{rankpool['Id']}}" {% if rankpool['RANK_POOL_VISIBILITY_FLAG']==1 %}checked{% endif %}/>
                             <input class="text" onchange="rankpool_pseudo_name(this.id, this.value);" type="text" name="rankpool_pseudoname" id="{{rankpool['Id']}}" value="{{rankpool['RANK_POOL_PSEUDONAME']}}"/>
                         {% endfor %}
                     </div>
