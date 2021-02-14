@@ -61,9 +61,20 @@ fetch('http://localhost:5000/configurator', {
 });
 }
 
-function copy_html(){
-    var selButton = document.getElementById('');
-    var frame = document.getElementById('');
-    var framecontent = frame.contentDocument;
-    framecontent.execCommand('selectAll');
-}
+function getIframeContent(chairman_circle) { 
+
+    var frameObj = document.getElementById(chairman_circle); 
+
+    var frameContent = frameObj.contentWindow.document.body.innerHTML; 
+    //frameContent.select();
+    //document.execCommand("copy")
+
+    var $temp = $("<input>");
+    $("body").append($temp);
+    //$temp.val("ss").select();
+    $temp.val(frameContent).select();
+    document.execCommand("copy");
+    $temp.remove();
+    //console.log(frameContent)
+    //alert("frame content : " + frameContent); 
+} 

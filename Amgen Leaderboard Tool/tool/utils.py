@@ -253,8 +253,9 @@ def create_configuration():
         RANK_POOL = row['RANK_POOL']
         DATA_TYPE = "LEADERBOARD"
         BU_TEAM_LEVEL = row['BU_TEAM_LEVEL']
+        RANK_POOL_PSEUDONAME = RANK_POOL.replace("_", " ")
 
-        updater = configuration(RANK_POOL=RANK_POOL, DATA_TYPE=DATA_TYPE, BU_TEAM_LEVEL=BU_TEAM_LEVEL)
+        updater = configuration(RANK_POOL=RANK_POOL, DATA_TYPE=DATA_TYPE, BU_TEAM_LEVEL=BU_TEAM_LEVEL, RANK_POOL_PSEUDONAME=RANK_POOL_PSEUDONAME)
         db.session.add(updater)
     print("Leaderboard Configration Updated")
     # Query InTheMoment
@@ -266,8 +267,9 @@ def create_configuration():
         RANK_POOL = row['RANK_POOL']
         DATA_TYPE = "INTHEMOMENT"
         BU_TEAM_LEVEL = row['BU_TEAM_LEVEL']
+        RANK_POOL_PSEUDONAME = RANK_POOL.replace("_", " ")
 
-        updater = configuration(RANK_POOL=RANK_POOL, DATA_TYPE=DATA_TYPE, BU_TEAM_LEVEL=BU_TEAM_LEVEL)
+        updater = configuration(RANK_POOL=RANK_POOL, DATA_TYPE=DATA_TYPE, BU_TEAM_LEVEL=BU_TEAM_LEVEL, RANK_POOL_PSEUDONAME=RANK_POOL_PSEUDONAME)
         db.session.add(updater)
     print("IntheMoment COnfiguration updated "+str(i))
     db.session.commit()
