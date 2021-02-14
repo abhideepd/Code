@@ -426,7 +426,7 @@ def get_ChairmanCircle_inthemoment(current_BU_TEAM_LEVEL):
             temp_list.append(temp_fullname)
             temp_list.append(temp_diff_rank)
             temp_reps.append(temp_list)
-            i+1
+            i=i+1
         
         ## JOIN RANKPOOL AND ITS CORROSPONDING REPS
         component = []

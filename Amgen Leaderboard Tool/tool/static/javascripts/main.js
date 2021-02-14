@@ -60,3 +60,10 @@ fetch('http://localhost:5000/configurator', {
     results.json()
 });
 }
+
+function copy_html(){
+    var selButton = document.getElementById('');
+    var frame = document.getElementById('');
+    var framecontent = frame.contentDocument;
+    framecontent.execCommand('selectAll');
+}
