@@ -75,6 +75,6 @@ function getIframeContent(chairman_circle) {
     $temp.val(frameContent).select();
     document.execCommand("copy");
     $temp.remove();
-    //console.log(frameContent)
+    console.log(frameContent)
     //alert("frame content : " + frameContent); 
 } 
