@@ -5,7 +5,7 @@ function current_BU_TEAM_LEVEL(){
 }
 
 function rankpool_pseudo_name(id, value){
-    fetch('http://localhost:5000/leaderboard_generation', {
+    fetch('http://localhost:5000/configurator', {
     method: 'POST', 
     headers: {
         'Content-Type': 'application/json'
@@ -14,17 +14,20 @@ function rankpool_pseudo_name(id, value){
     Id: id,
     rankpool_pseudoname: value,
     current_BU_TEAM_LEVEL_NAME: current_BU_TEAM_LEVEL()
-})}).then(results=>results.json());
+})}).then(results=>{
+    REFRESH_chairman_circle()
+    results.json()
+});
 }
 
 function refresh_config(){
-    fetch('http://localhost:5000/leaderboard_generation', {
+    fetch('http://localhost:5000/configurator', {
     method: 'POST', 
     headers: {
         'Content-Type': 'application/json'
     },
     body: JSON.stringify({
-    Refresh_config:'Refresh COnfiguration'
+    Refresh_config:'Refresh Configuration'
 
 })}).then(results=>results.json());
 }
@@ -33,10 +36,8 @@ function switch_off_visiblity(){
     document.getElementById('submit_BU').style.display='none';
 }
 
-function tempo(){
-    console.log("tempo")
-    document.getElementById('forecast_embed').contentDocument.location.reload(true);
-
+function REFRESH_chairman_circle(){
+    document.getElementById('chairman_circle').contentDocument.location.reload(true);
 }
 
 function submit_visible(){
@@ -44,7 +45,7 @@ document.getElementById('submit_BU').style.display='block';
 }
 
 function rankpool_visibility_checkbox(id, check_status){
-fetch('http://localhost:5000/leaderboard_generation', {
+fetch('http://localhost:5000/configurator', {
     method: 'POST', 
     headers: {
         'Content-Type': 'application/json'
@@ -54,6 +55,8 @@ fetch('http://localhost:5000/leaderboard_generation', {
     Rank_Pool_Visibility:(check_status?'1':'0'),
     current_BU_TEAM_LEVEL_NAME:current_BU_TEAM_LEVEL()
 
-})}).then(results=>results.json());
-/*location.reload();*/
+})}).then(results=>{
+    REFRESH_chairman_circle()
+    results.json()
+});
 }

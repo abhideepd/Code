@@ -8,6 +8,9 @@ from tool.models import leaderboard, inthemoment, configuration
 from tool import db
 import shutil
 
+leaderboard_final_data = []
+inthemoment_final_data = []
+
 def check_file_content(file, name):
     print(name)
     if name=="Leaderboard":
@@ -384,11 +387,60 @@ def get_ChairmanCircle_leaderboard(current_BU_TEAM_LEVEL):
         component.append(temp_reps)
 
         final_data.append(component)
-        
+    global leaderboard_final_data
+    leaderboard_final_data = final_data.copy()
+    print("Value of leaderboard_final_data: "+str(leaderboard_final_data))
     return final_data
-
 
 def get_ChairmanCircle_inthemoment(current_BU_TEAM_LEVEL):
     print("Function name: get_ChairmanCircle_inthemoment()")
-    dummy=[]
-    return dummy
+    print("current_BU_TEAM_LEVEL: "+current_BU_TEAM_LEVEL)
+    ## SQL QUERY TO CAPTURE "RANK_POOL" AND "RANK_POOL_PSEUDONAMES" FROM "CONFIGURATIONS" FILE WRT "CURRENT__BUTEAMLEVEL"
+    query_rankpool = "SELECT DISTINCT RANK_POOL_PSEUDONAME, RANK_POOL from configuration WHERE BU_TEAM_LEVEL="+"'"+current_BU_TEAM_LEVEL+"'"+" AND DATA_TYPE LIKE '%INTHEMOMENT%' AND RANK_POOL_VISIBILITY_FLAG='1'"
+    data = db.session.execute(query_rankpool)
+    final_data = []
+
+    ## TRAVERSE EACH RANKPOOL IN INTHEMOMENT FILE WRT THE SELECTED BU_TEAM_LEVEL
+    for row in data:
+        temp_rankpool = row['RANK_POOL']
+        temp_pseudoname = row['RANK_POOL_PSEUDONAME']
+        if temp_pseudoname == None:
+            temp_pseudoname = ""
+        elif temp_pseudoname.strip() == "":
+            temp_pseudoname = ""
+        elif temp_pseudoname == "None":
+            temp_pseudoname = ""
+        ## QUERY FOR THE REPS IN INTHEMOMENT WRT THE SELECTED RANKPOOL IN "temp_rankpool"
+        query_inthemoment = "SELECT FULLNAME, DIFFERENCE_CC_RANK FROM inthemoment WHERE RANK_POOL="+"'"+temp_rankpool+"'"+" AND DIFFERENCE_CC_RANK>0 ORDER BY DIFFERENCE_CC_RANK DESC"
+        data_inthemoment_reps = db.session.execute(query_inthemoment)
+
+        temp_reps = []
+        i=0
+        ## TRAVERSE LEADERBOARD REPS
+        for reps in data_inthemoment_reps:
+            if(i==10):
+                break;
+            temp_fullname = reps['FULLNAME']
+            temp_diff_rank = reps['DIFFERENCE_CC_RANK']
+            temp_list = []
+            temp_list.append(temp_fullname)
+            temp_list.append(temp_diff_rank)
+            temp_reps.append(temp_list)
+            i+1
+        
+        ## JOIN RANKPOOL AND ITS CORROSPONDING REPS
+        component = []
+        component.append(temp_pseudoname)
+        component.append(temp_reps)
+
+        final_data.append(component)
+    global inthemoment_final_data
+    inthemoment_final_data = final_data.copy()
+    print("Value of leaderboard_final_data: "+str(inthemoment_final_data))
+    return final_data
+
+def retrieve_leaderboard_data():
+    return leaderboard_final_data
+
+def retrieve_inthemoment_data():
+    return inthemoment_final_data

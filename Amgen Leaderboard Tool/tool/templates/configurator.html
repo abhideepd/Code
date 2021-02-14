@@ -23,7 +23,7 @@
             </button>
         </a>
         
-        <form method="POST" action="/leaderboard_generation" enctype="multipart/form-data">
+        <form method="POST" action="/configurator" enctype="multipart/form-data">
             <a href="{{url_for('config')}}">
                 <button type="button" class="btn btn-info" onclick="refresh_config();">
                     <svg width="16" height="16" fill="currentColor" class="bi bi-gear-fill" viewBox="0 0 16 16">
@@ -77,7 +77,7 @@
             </div>
         </form>
     </div>
-    <div class="result">
-        {% block result %}    {% endblock %}
+    <div class="chairmancircle_IFRAME">
+        <iframe id="chairman_circle" src="/leaderboard_generation" title="Chairman's Circle"></iframe> 
     </div>
 {% endblock %}
