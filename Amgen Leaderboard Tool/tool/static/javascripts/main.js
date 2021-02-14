@@ -33,6 +33,12 @@ function switch_off_visiblity(){
     document.getElementById('submit_BU').style.display='none';
 }
 
+function tempo(){
+    console.log("tempo")
+    document.getElementById('forecast_embed').contentDocument.location.reload(true);
+
+}
+
 function submit_visible(){
 document.getElementById('submit_BU').style.display='block';
 }

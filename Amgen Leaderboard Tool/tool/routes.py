@@ -105,3 +105,7 @@ def config():
     else:
         form = populate_dropdown(form)
         return render_template("leaderboard_generation.html", form=form)
+
+@app.route("/tempo1")
+def tempo():
+    return render_template("tempo1.html")
