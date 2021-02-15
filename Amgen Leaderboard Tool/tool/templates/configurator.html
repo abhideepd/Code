@@ -58,7 +58,7 @@
                     <div class="Rank_Pool form-control mt-2">
                         <h3>Rank Pools</h3>
                         <table class="table form-control">
-                            <h5 class="bg-info text-dark">Leaderboard</h5>
+                            <h5 class="bg-light text-dark">Leaderboard</h5>
                             <thead class="thead-light">
                                 <tr>
                                   <th scope="col">Rank Pool</th>
@@ -71,13 +71,13 @@
                                 <tr>
                                   <td>{{rankpool['RANK_POOL']}}</td>
                                   <td><input class="checkbox" onchange="rankpool_visibility_checkbox(this.id, this.checked);" type="checkbox" name="rankpoolvisibilityflag" id="{{rankpool['Id']}}" {% if rankpool['RANK_POOL_VISIBILITY_FLAG']==1 %}checked{% endif %}/></td>
-                                  <td><input class="text" onchange="rankpool_pseudo_name(this.id, this.value);" type="text" name="rankpool_pseudoname" id="{{rankpool['Id']}}" value="{{rankpool['RANK_POOL_PSEUDONAME']}}"/></td>
+                                  <td><input class="text form-control" onchange="rankpool_pseudo_name(this.id, this.value);" type="text" name="rankpool_pseudoname" id="{{rankpool['Id']}}" value="{{rankpool['RANK_POOL_PSEUDONAME']}}"/></td>
                                 </tr>
                                 {% endfor %}
                             </tbody>
                         </table>
                         <table class="table form-control">
-                            <h5 class="bg-info text-dark">InTheMoment</h5>
+                            <h5 class="bg-light text-dark">InTheMoment</h5>
                             <thead class="thead-light">
                                 <tr>
                                   <th scope="col">Rank Pool</th>
@@ -90,7 +90,7 @@
                                 <tr>
                                   <td>{{rankpool['RANK_POOL']}}</td>
                                   <td><input class="checkbox" onchange="rankpool_visibility_checkbox(this.id, this.checked);" type="checkbox" name="rankpoolvisibilityflag" id="{{rankpool['Id']}}" {% if rankpool['RANK_POOL_VISIBILITY_FLAG']==1 %}checked{% endif %}/></td>
-                                  <td><input class="text" onchange="rankpool_pseudo_name(this.id, this.value);" type="text" name="rankpool_pseudoname" id="{{rankpool['Id']}}" value="{{rankpool['RANK_POOL_PSEUDONAME']}}"/></td>
+                                  <td><input class="text form-control" onchange="rankpool_pseudo_name(this.id, this.value);" type="text" name="rankpool_pseudoname" id="{{rankpool['Id']}}" value="{{rankpool['RANK_POOL_PSEUDONAME']}}"/></td>
                                 </tr>
                                 {% endfor %}
                             </tbody>

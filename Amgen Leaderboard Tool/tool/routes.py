@@ -39,7 +39,7 @@ def home():
             create_configuration()
 
         if 'generate' in request.form:
-            if request.form['generate']=='Generate HTML':
+            if request.form['generate']=='Preview HTML':
                 initialize_leaderboard_generator()
                 return redirect(url_for('config'))
 

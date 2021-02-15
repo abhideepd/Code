@@ -76,8 +76,6 @@ function getIframeContent() {
     document.execCommand('copy');
     document.body.removeChild(el);
     
-    //console.log(frameContent)
-    //alert("frame content : " + frameContent); 
 }
 
 function leaderboard_parameter(Heading_Value){
