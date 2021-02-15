@@ -11,9 +11,7 @@
 #submit_BU{
   display:none;
 }
-#Upload_Config{
-  width:40%;
-}
+
 .success{
   font-weight:bold;
   background-color:#478b5fab;
@@ -35,100 +33,70 @@
   border-radius:5px;
 }
 .Error{
-  /*font-weight:bold;*/
   background-color:rgb(160, 14, 4);
   border: 1px red solid;
   color:white;
   padding:2px;
-  /*text-align:center;*/
-  /*width:80%;*/
   width:auto;
   margin-top:2px;
   vertical-align:middle;
   border-radius:5px;
 }
+#upload_config_status{
+  display:none;
+}
 .inline_block{
   display:inline-block;
 }
-.Rank_Pool{
-  margin-top:50px;
-width:40%
-}
-.leaderboard_rankpool{
-width:45%;
-display:inline-block;
-}
-.inthemoment_rankpool{
+.upload_config{
+  vertical-align:middle;
   width:45%;
   display:inline-block;
 }
-.select_BU_label{
+.config_input{
+  position:relative;
+}
+.select_config{
+  position:relative;
+  vertical-align:middle;
+  margin-top:2px;
+  margin-left:5px;
+ width:45%;
   display:inline-block;
 }
+.Rank_Pool{
+  
+}
+.leaderboard_rankpool{
+
+}
+.inthemoment_rankpool{
+  
+}
+.select_BU_label{
+
+}
 .select_BU_TEAM_LEVEL_label{
-  display:inline-block;
-  margin-left:50px;
+ 
 }
 .rankpool_separator{
   width:10%;
   display:none;
 }
-.configurator{
-  margin-top:3%;
-  margin-left:3%;
-}
 .chairman_circle{
-  width:50%;
-  margin-left:50px;
-  margin-top: 50px;
 }
-
-/* REFRESH ANIMATION ICON */
-@mixin animation-name($name){
-  animation-name: $name;
-  -webkit-animation-name: $name;
-  -moz-animation-name: $name;
-  -ms-animation-name: $name;
+.config_form{
+  margin-top:5px;
 }
-
-@mixin animation-duration($duration){
-  animation-duration: $duration;
-  -webkit-animation-duration: $duration;
-  -moz-animation-duration: $duration;
-  -ms-animation-duration: $duration;
+.Configs{
+  float:left;
 }
-
-@mixin animation-timing-function($func){
-  animation-timing-function: $func;
-  -webkit-animation-timing-function: $func;
-  -moz-animation-timing-function: $func;
-  -ms-animation-timing-function: $func;
+.chairmancircle_IFRAME{
+  float:right;
 }
-
-@mixin animation($name, $duration, $timing-func){
-  @include animation-name($name);
-  @include animation-duration($duration);
-  @include animation-timing-function($timing-func);
+.copy_button{
+  float:right;
 }
-
-@keyframes spin{
-  to { transform: rotate(360deg) }
+.configurator{
+  margin:50px;
 }
-
-.icon-btn{
-  border: none;
-  background-color: transparent;
-  outline: 0;
-  
-  i{
-      color: #446CB3;
-      font-size: 2em;
-      cursor: pointer;
-  }
-  
-  
-  i.spin-animation{
-      @include animation(spin, 0.5s, ease-in);
-  }
-}
-/* END */
