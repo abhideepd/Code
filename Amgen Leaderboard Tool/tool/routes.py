@@ -18,6 +18,20 @@ def home():
     
     if request.method == 'POST':
 
+        leaderboard_file = request.files['leaderboard']
+        if leaderboard_file and allowed_file(leaderboard_file.filename):
+            leaderboard_file.save(os.path.join(app.config['UPLOAD_FOLDER'], "Leaderboard.txt"))
+        elif leaderboard_file.filename!='':
+            flash("Incorrect Leaderboard file extention")
+            return render_template("input.html", form=form, leaderboard_message=check_file("Leaderboard.txt"), inthemoment_message=check_file("InTheMoment.txt"))
+
+        inthemoment_file = request.files['inthemoment']
+        if inthemoment_file and allowed_file(inthemoment_file.filename):
+            inthemoment_file.save(os.path.join(app.config['UPLOAD_FOLDER'], "InTheMoment.txt"))
+        elif inthemoment_file.filename!='':
+            flash("Incorrect InTheMoment file extention")
+            return render_template("input.html", form=form, leaderboard_message=check_file("Leaderboard.txt"), inthemoment_message=check_file("InTheMoment.txt"))
+
         if 'submit' in request.form:
             delete_existing_database()
             import_file_to_database()
@@ -27,23 +41,8 @@ def home():
         if 'generate' in request.form:
             if request.form['generate']=='Generate HTML':
                 initialize_leaderboard_generator()
-                delete_existing_database()
-                import_file_to_database()
-                delete_existing_configuration()
-                create_configuration()
                 return redirect(url_for('config'))
 
-        leaderboard_file = request.files['leaderboard']
-        if leaderboard_file and allowed_file(leaderboard_file.filename):
-            leaderboard_file.save(os.path.join(app.config['UPLOAD_FOLDER'], "Leaderboard.txt"))
-        elif leaderboard_file.filename!='':
-            flash("Incorrect Leaderboard file extention")
-
-        inthemoment_file = request.files['inthemoment']
-        if inthemoment_file and allowed_file(inthemoment_file.filename):
-            inthemoment_file.save(os.path.join(app.config['UPLOAD_FOLDER'], "InTheMoment.txt"))
-        elif inthemoment_file.filename!='':
-            flash("Incorrect InTheMoment file extention")
         return render_template("input.html", form=form, leaderboard_message=check_file("Leaderboard.txt"), inthemoment_message=check_file("InTheMoment.txt"))
     
     return render_template("input.html", form=form, leaderboard_message=check_file("Leaderboard.txt"), inthemoment_message=check_file("InTheMoment.txt"))

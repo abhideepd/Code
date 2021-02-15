@@ -1,75 +1,75 @@
 {% extends "layout.html" %}
 
 {% block Content %}
-<div class="input">
-   
-    <form method="POST" action="/input" enctype="multipart/form-data">
-        <div class="heading display-6 mb-3">
-            Upload Files
-        </div>
-        {% with messages=get_flashed_messages() %}
-            {% if messages %}
-                {% for msg in messages  %}
-                    <div class="badge bg-danger text-wrap">{{msg}}</div>
-                {% endfor %}
-            {% endif %}
-        {% endwith %}
-        <div class="Leaderboard file mb-3">
-            {{form.leaderboard.label(class="form-label")}} 
-            {{form.leaderboard(class="form-control")}}
-            
-            {% if leaderboard_message=="success" %}
-            <div class="success">
-                File Present <a href="{{url_for('leaderboard_document')}}" style="
-                color: #270dfd;" download>Download<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-file-earmark-arrow-down" viewBox="0 0 16 16">
-                    <path d="M8.5 6.5a.5.5 0 0 0-1 0v3.793L6.354 9.146a.5.5 0 1 0-.708.708l2 2a.5.5 0 0 0 .708 0l2-2a.5.5 0 0 0-.708-.708L8.5 10.293V6.5z"/>
-                    <path d="M14 14V4.5L9.5 0H4a2 2 0 0 0-2 2v12a2 2 0 0 0 2 2h8a2 2 0 0 0 2-2zM9.5 3A1.5 1.5 0 0 0 11 4.5h2V14a1 1 0 0 1-1 1H4a1 1 0 0 1-1-1V2a1 1 0 0 1 1-1h5.5v2z"/>
-                  </svg></a>
-            </div>            
-            {% elif leaderboard_message=="no"%}
-            <div class="Empty">
-                Empty
+    <div class="input">
+    
+        <form method="POST" action="/input" enctype="multipart/form-data">
+            <div class="heading display-6 mb-3">
+                Upload Files
             </div>
-            {% else %}
-            <div class="Error"> 
-                <b><u>Columns not present:</u></b><br>          
-                {% for error in leaderboard_message %}
-                    {{error}}<br>
-                {% endfor %}
+            {% with messages=get_flashed_messages() %}
+                {% if messages %}
+                    {% for msg in messages  %}
+                        <div class="badge bg-danger text-wrap">{{msg}}</div>
+                    {% endfor %}
+                {% endif %}
+            {% endwith %}
+            <div class="Leaderboard file mb-3">
+                {{form.leaderboard.label(class="form-label")}} 
+                {{form.leaderboard(class="form-control")}}
+                
+                {% if leaderboard_message=="success" %}
+                <div class="success">
+                    File Present <a href="{{url_for('leaderboard_document')}}" style="
+                    color: #270dfd;" download>Download<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-file-earmark-arrow-down" viewBox="0 0 16 16">
+                        <path d="M8.5 6.5a.5.5 0 0 0-1 0v3.793L6.354 9.146a.5.5 0 1 0-.708.708l2 2a.5.5 0 0 0 .708 0l2-2a.5.5 0 0 0-.708-.708L8.5 10.293V6.5z"/>
+                        <path d="M14 14V4.5L9.5 0H4a2 2 0 0 0-2 2v12a2 2 0 0 0 2 2h8a2 2 0 0 0 2-2zM9.5 3A1.5 1.5 0 0 0 11 4.5h2V14a1 1 0 0 1-1 1H4a1 1 0 0 1-1-1V2a1 1 0 0 1 1-1h5.5v2z"/>
+                    </svg></a>
+                </div>            
+                {% elif leaderboard_message=="no"%}
+                <div class="Empty">
+                    Empty
+                </div>
+                {% else %}
+                <div class="Error"> 
+                    <b><u>Columns not present:</u></b><br>          
+                    {% for error in leaderboard_message %}
+                        {{error}}<br>
+                    {% endfor %}
+                </div>
+                {% endif %}
             </div>
-            {% endif %}
-        </div>
-        <div class="InTheMoment file mb-3">
-            {{form.inthemoment.label(class="form-label")}}
-            {{form.inthemoment(class="form-control")}}
-            
-            {% if inthemoment_message=="success" %}
-            <div class="success">
-                File Present <a href="{{url_for('inthemoment_document')}}" style="
-                color: #270dfd;" download>Download<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-file-earmark-arrow-down" viewBox="0 0 16 16">
-                    <path d="M8.5 6.5a.5.5 0 0 0-1 0v3.793L6.354 9.146a.5.5 0 1 0-.708.708l2 2a.5.5 0 0 0 .708 0l2-2a.5.5 0 0 0-.708-.708L8.5 10.293V6.5z"/>
-                    <path d="M14 14V4.5L9.5 0H4a2 2 0 0 0-2 2v12a2 2 0 0 0 2 2h8a2 2 0 0 0 2-2zM9.5 3A1.5 1.5 0 0 0 11 4.5h2V14a1 1 0 0 1-1 1H4a1 1 0 0 1-1-1V2a1 1 0 0 1 1-1h5.5v2z"/>
-                  </svg></a>
+            <div class="InTheMoment file mb-3">
+                {{form.inthemoment.label(class="form-label")}}
+                {{form.inthemoment(class="form-control")}}
+                
+                {% if inthemoment_message=="success" %}
+                <div class="success">
+                    File Present <a href="{{url_for('inthemoment_document')}}" style="
+                    color: #270dfd;" download>Download<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-file-earmark-arrow-down" viewBox="0 0 16 16">
+                        <path d="M8.5 6.5a.5.5 0 0 0-1 0v3.793L6.354 9.146a.5.5 0 1 0-.708.708l2 2a.5.5 0 0 0 .708 0l2-2a.5.5 0 0 0-.708-.708L8.5 10.293V6.5z"/>
+                        <path d="M14 14V4.5L9.5 0H4a2 2 0 0 0-2 2v12a2 2 0 0 0 2 2h8a2 2 0 0 0 2-2zM9.5 3A1.5 1.5 0 0 0 11 4.5h2V14a1 1 0 0 1-1 1H4a1 1 0 0 1-1-1V2a1 1 0 0 1 1-1h5.5v2z"/>
+                    </svg></a>
+                </div>
+                {% elif inthemoment_message=="no"%}
+                <div class="Empty">
+                    Empty
+                </div>
+                {% else %}
+                <div class="Error">
+                    <b><u>Columns not present:</u></b><br>          
+                    {% for error in inthemoment_message %}
+                        {{error}}<br>
+                    {% endfor %}
+                </div>
+                {% endif %}
             </div>
-            {% elif inthemoment_message=="no"%}
-            <div class="Empty">
-                Empty
+            <div class="requests">
+                {{form.submit(class="btn btn-primary")}}
+                {% if leaderboard_message=="success" %}
+                    {{form.generate(class="btn btn-success")}}
+                {% endif %}
             </div>
-            {% else %}
-            <div class="Error">
-                <b><u>Columns not present:</u></b><br>          
-                {% for error in inthemoment_message %}
-                    {{error}}<br>
-                {% endfor %}
-            </div>
-            {% endif %}
-        </div>
-        <div class="requests">
-            {{form.submit(class="btn btn-primary")}}
-            {% if leaderboard_message=="success" %}
-                {{form.generate(class="btn btn-success")}}
-            {% endif %}
-        </div>
-    </form>
-</div>
+        </form>
+    </div>
 {% endblock %}
