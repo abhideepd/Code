@@ -64,17 +64,18 @@ fetch('http://localhost:5000/configurator', {
 function getIframeContent() { 
 
     var frameObj = document.getElementById('chairman_circle'); 
-
     var frameContent = frameObj.contentWindow.document.body.innerHTML; 
-    //frameContent.select();
-    //document.execCommand("copy")
 
-    var $temp = $("<input>");
-    $("body").append($temp);
-    $temp.val("ss").select();
-    //$temp.val(frameContent).select();
-    document.execCommand("copy");
-    $temp.remove();
-    console.log(frameContent)
+    var el = document.createElement('textarea');
+    el.value = frameContent;
+
+    el.setAttribute('readonly', '');
+    el.style = {position: 'absolute', left: '-9999px'};
+    document.body.appendChild(el);
+    el.select();
+    document.execCommand('copy');
+    document.body.removeChild(el);
+    
+    //console.log(frameContent)
     //alert("frame content : " + frameContent); 
 } 
