@@ -162,7 +162,7 @@ def import_file_to_database():
     print("Function name: import_file_to_database()")
     leaderboard_filename='Leaderboard.txt'
     inthemoment_filename='InTheMoment.txt'
-    print("InTheMoment File Status: "+check_file(leaderboard_filename))
+    print("InTheMoment File Status: "+str(check_file(leaderboard_filename)))
     if check_file(leaderboard_filename)=="success":
         leaderboard_filename=os.path.join(app.config['UPLOAD_FOLDER'], leaderboard_filename)
 
@@ -468,5 +468,5 @@ def get_Parameter(Parameter):
 
     for row in data:
         Parameter_Value=row['parameter_value']
-        
+
     return Parameter_Value

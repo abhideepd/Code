@@ -87,7 +87,8 @@ function leaderboard_parameter(Heading_Value){
         'Content-Type': 'application/json'
     },
     body: JSON.stringify({
-    New_Heading: Heading_Value
+    New_Heading: Heading_Value,
+    current_BU_TEAM_LEVEL_NAME:current_BU_TEAM_LEVEL()
 
 })}).then(results=>{
     REFRESH_chairman_circle()

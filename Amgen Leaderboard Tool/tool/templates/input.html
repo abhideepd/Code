@@ -66,7 +66,7 @@
         </div>
         <div class="requests">
             {{form.submit(class="btn btn-primary")}}
-            {% if inthemoment_message=="success" or leaderboard_message=="success" %}
+            {% if leaderboard_message=="success" %}
                 {{form.generate(class="btn btn-success")}}
             {% endif %}
         </div>

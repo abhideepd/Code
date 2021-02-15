@@ -26,7 +26,11 @@ def home():
 
         if 'generate' in request.form:
             if request.form['generate']=='Generate HTML':
-                initialize_leaderboard_generator();
+                initialize_leaderboard_generator()
+                delete_existing_database()
+                import_file_to_database()
+                delete_existing_configuration()
+                create_configuration()
                 return redirect(url_for('config'))
 
         leaderboard_file = request.files['leaderboard']
@@ -41,6 +45,7 @@ def home():
         elif inthemoment_file.filename!='':
             flash("Incorrect InTheMoment file extention")
         return render_template("input.html", form=form, leaderboard_message=check_file("Leaderboard.txt"), inthemoment_message=check_file("InTheMoment.txt"))
+    
     return render_template("input.html", form=form, leaderboard_message=check_file("Leaderboard.txt"), inthemoment_message=check_file("InTheMoment.txt"))
 
 @app.route("/leaderboard_document")
@@ -70,7 +75,8 @@ def config():
             upload_config_file = request.files['Upload_Config']
             if upload_config_file.filename!='':
                 status = upload_config(upload_config_file, upload_config_file.filename)
-                if(status=="success"):
+                print(str(status))
+                if(status[0]=="success"):
                     temp_to_confirm_config()
                     delete_existing_configuration()
                     import_configuration_to_database()
@@ -82,6 +88,7 @@ def config():
             if data.get('New_Heading') != None:
                 print("New_Heading_route")
                 new_heading = data['New_Heading']
+                current_BU_TEAM_LEVEL = data['current_BU_TEAM_LEVEL_NAME']
                 Update_Leaderboard_Parameter('Heading', new_heading)
 
             if data.get('Refresh_config') != None:
