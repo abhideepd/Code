@@ -103,18 +103,20 @@
                 <h3>Leaderboard Constants</h3>
                 <label>Heading</label>
                 <input class="Heading form-control" onchange="leaderboard_parameter('Heading', this.value);" type="text" name="Heading" id="Heading" value="{{Heading}}"/>
-                <label>Heading Image Link</label>
+                <label class="mt-1">Heading Image Link</label>
                 <input class="Heading_Link form-control" onchange="leaderboard_parameter('Heading_Link', this.value);" type="text" name="Heading_Link" id="Heading_Link" value="{{Heading_Link}}"/>
-                <label><u>Navigate to</u> Link</label>
+                <label class="mt-1"><u>Navigate to</u> Link</label>
                 <input class="Heading_Link form-control" onchange="leaderboard_parameter('Navigate_Link', this.value);" type="text" name="Navigate_Link" id="Navigate_Link" value="{{Navigate_Link}}"/>
-                <label><u>Navigate to</u> Text</label>
+                <label class="mt-1"><u>Navigate to</u> Text</label>
                 <input class="Heading_Link form-control" onchange="leaderboard_parameter('Navigate_Text', this.value);" type="text" name="Navigate_Text" id="Navigate_Text" value="{{Navigate_Text}}"/>
                 <button class="Leaderboard_Constants btn btn-primary btn-sm mt-1">Confirm</button>
             </div>
         </div>
         <div class="chairmancircle_IFRAME">
             <iframe id="chairman_circle" src="/leaderboard_generation" style="height:550px;width:100%;" title="Chairman's Circle"></iframe> 
-            <button class="copy_button btn btn-dark mt-1" onclick="getIframeContent()">Copy Code</button>
+            <button class="copy_button btn btn-dark mt-1" onclick="getIframeContent(); tooltip();" onmouseout="tooltip_outFunc();">
+                <span class="tooltiptext" id="myTooltip">Copy Code to clipboard</span>
+            </button>
         </div>
     </div>
 {% endblock %}

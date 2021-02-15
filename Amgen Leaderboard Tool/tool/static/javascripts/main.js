@@ -94,3 +94,13 @@ function leaderboard_parameter(parameter, parameter_value){
     results.json()
 });
 }
+
+function tooltip() { 
+var tooltip = document.getElementById("myTooltip");
+tooltip.innerHTML = "Code Copied";
+}
+
+function tooltip_outFunc() {
+var tooltip = document.getElementById("myTooltip");
+tooltip.innerHTML = "Copy Code to clipboard";
+}
