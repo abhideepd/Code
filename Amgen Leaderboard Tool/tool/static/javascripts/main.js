@@ -61,9 +61,9 @@ fetch('http://localhost:5000/configurator', {
 });
 }
 
-function getIframeContent(chairman_circle) { 
+function getIframeContent() { 
 
-    var frameObj = document.getElementById(chairman_circle); 
+    var frameObj = document.getElementById('chairman_circle'); 
 
     var frameContent = frameObj.contentWindow.document.body.innerHTML; 
     //frameContent.select();
@@ -71,8 +71,8 @@ function getIframeContent(chairman_circle) {
 
     var $temp = $("<input>");
     $("body").append($temp);
-    //$temp.val("ss").select();
-    $temp.val(frameContent).select();
+    $temp.val("ss").select();
+    //$temp.val(frameContent).select();
     document.execCommand("copy");
     $temp.remove();
     console.log(frameContent)
