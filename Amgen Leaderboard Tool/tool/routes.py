@@ -84,11 +84,12 @@ def config():
         if request.get_json() != None:
             data = request.get_json()
 
-            if data.get('New_Heading') != None:
-                print("New_Heading_route")
-                new_heading = data['New_Heading']
+            if data.get('parameter') != None:
+                print("Leaderboard Constants Route")
+                parameter = data['parameter']
+                parameter_value = data['parameter_value']
                 current_BU_TEAM_LEVEL = data['current_BU_TEAM_LEVEL_NAME']
-                Update_Leaderboard_Parameter('Heading', new_heading)
+                Update_Leaderboard_Parameter(parameter, parameter_value)
 
             if data.get('Refresh_config') != None:
                 delete_existing_configuration()
@@ -110,6 +111,9 @@ def config():
         ChairmanCircle_leaderboard = get_ChairmanCircle_leaderboard(current_BU_TEAM_LEVEL)
         ChairmanCircle_inthemoment = get_ChairmanCircle_inthemoment(current_BU_TEAM_LEVEL)
         Heading = get_Parameter('Heading')
+        Heading_Link = get_Parameter('Heading_Link')
+        Navigate_Link = get_Parameter('Navigate_Link')
+        Navigate_Text = get_Parameter('Navigate_Text')
         print("\nINSIDE CONFIGURATOR\n")
         print("Leaderboard: "+str(ChairmanCircle_leaderboard))
         print("Length of Leaderboard list: "+str(len(ChairmanCircle_leaderboard)))
@@ -118,17 +122,23 @@ def config():
         print('Heading: '+Heading)
         print("\nCONFIGURATOR ENDS\n")
         
-        return render_template("configurator.html", form=form, Heading=Heading, status=status, leaderboard_rankpool=leaderboard_rankpool, inthemoment_rankpool=inthemoment_rankpool)
+        return render_template("configurator.html", form=form, Heading=Heading, Heading_Link=Heading_Link, Navigate_Text=Navigate_Text, Navigate_Link=Navigate_Link, status=status, leaderboard_rankpool=leaderboard_rankpool, inthemoment_rankpool=inthemoment_rankpool)
     else:
         Heading = get_Parameter('Heading')
+        Heading_Link = get_Parameter('Heading_Link')
+        Navigate_Link = get_Parameter('Navigate_Link')
+        Navigate_Text = get_Parameter('Navigate_Text')
         form = populate_dropdown(form)
-        return render_template("configurator.html", form=form, Heading=Heading )
+        return render_template("configurator.html", form=form, Navigate_Text=Navigate_Text, Navigate_Link=Navigate_Link, Heading=Heading, Heading_Link=Heading_Link )
 
 @app.route("/leaderboard_generation")
 def generator():
     ChairmanCircle_leaderboard = retrieve_leaderboard_data()
     ChairmanCircle_inthemoment = retrieve_inthemoment_data()
     Heading = get_Parameter('Heading')
+    Heading_Link = get_Parameter('Heading_Link')
+    Navigate_Link = get_Parameter('Navigate_Link')
+    Navigate_Text = get_Parameter('Navigate_Text')
     print("\nINSIDE IFRAME\n")
     print("Inside tempo1 route")
     print("Leaderboard: "+str(ChairmanCircle_leaderboard))
@@ -136,4 +146,4 @@ def generator():
     print("InTheMoment: "+str(ChairmanCircle_inthemoment))
     print("Length of InTheMoment list: "+str(len(ChairmanCircle_inthemoment)))
     print("\nIFRAME ENDS\n")
-    return render_template("leaderboard_generation.html", Heading=Heading, ChairmanCircle_leaderboard=ChairmanCircle_leaderboard, ChairmanCircle_inthemoment=ChairmanCircle_inthemoment)
+    return render_template("leaderboard_generation.html", Heading=Heading, Navigate_Text=Navigate_Text, Navigate_Link=Navigate_Link, Heading_Link=Heading_Link, ChairmanCircle_leaderboard=ChairmanCircle_leaderboard, ChairmanCircle_inthemoment=ChairmanCircle_inthemoment)

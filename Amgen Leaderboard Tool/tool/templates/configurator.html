@@ -42,7 +42,7 @@
                             {{form.Upload_Config(class="form-control", onchange="submit_visible()")}}
                             {{form.submit_BU(class="btn btn-primary btn-sm mt-1", onclick="switch_off_visiblity()")}}
                             <div class="upload_config_status" id="upload_config_status">
-                                <div class="border border-danger text-light bg-secondary mt-1">Status:
+                                <div class="border border-danger rounded text-light bg-secondary mt-1"><b>Status:</b>
                                 {% for stat in status %}
                                     <div class="">{{stat}}</div>
                                 {% endfor %}
@@ -100,8 +100,16 @@
                 </form>
             </div>
             <div class="set_leaderboard_parametres form-control mt-1">
-                <input class="Heading form-control" onchange="leaderboard_parameter(this.value);" type="text" name="Heading" id="Heading" value="{{Heading}}"/>
-                <button class="Submit_Heading btn btn-primary mt-1">Confirm Heading</button>
+                <h3>Leaderboard Constants</h3>
+                <label>Heading</label>
+                <input class="Heading form-control" onchange="leaderboard_parameter('Heading', this.value);" type="text" name="Heading" id="Heading" value="{{Heading}}"/>
+                <label>Heading Image Link</label>
+                <input class="Heading_Link form-control" onchange="leaderboard_parameter('Heading_Link', this.value);" type="text" name="Heading_Link" id="Heading_Link" value="{{Heading_Link}}"/>
+                <label><u>Navigate to</u> Link</label>
+                <input class="Heading_Link form-control" onchange="leaderboard_parameter('Navigate_Link', this.value);" type="text" name="Navigate_Link" id="Navigate_Link" value="{{Navigate_Link}}"/>
+                <label><u>Navigate to</u> Text</label>
+                <input class="Heading_Link form-control" onchange="leaderboard_parameter('Navigate_Text', this.value);" type="text" name="Navigate_Text" id="Navigate_Text" value="{{Navigate_Text}}"/>
+                <button class="Leaderboard_Constants btn btn-primary btn-sm mt-1">Confirm</button>
             </div>
         </div>
         <div class="chairmancircle_IFRAME">

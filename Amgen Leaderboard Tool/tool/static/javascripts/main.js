@@ -78,14 +78,15 @@ function getIframeContent() {
     
 }
 
-function leaderboard_parameter(Heading_Value){
+function leaderboard_parameter(parameter, parameter_value){
     fetch('http://localhost:5000/configurator', {
     method: 'POST', 
     headers: {
         'Content-Type': 'application/json'
     },
     body: JSON.stringify({
-    New_Heading: Heading_Value,
+    parameter: parameter,
+    parameter_value: parameter_value,
     current_BU_TEAM_LEVEL_NAME:current_BU_TEAM_LEVEL()
 
 })}).then(results=>{

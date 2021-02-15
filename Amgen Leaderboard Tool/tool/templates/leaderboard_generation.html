@@ -188,18 +188,22 @@
 		<div class="carrousel">
 			
 			<div class="more_link">
-			<a href="https://javelin.zsservices.com/AmgenUS/0026a/Web/Preview/Batch/3088" target="_blank">Navigate to Chairman's Circle report</a>
+			<a href="{{Navigate_Link}}" target="_blank">{{Navigate_Text}}</a>
 			</div>
 			
-			<input type="radio" name="slides" id="radio-2" checked>
-			<input type="radio" name="slides" id="radio-1" checked>
-			<div class="slidesNavigation">			
+			<input type="radio" name="slides" id="radio-2" checked>	<!--INTHEMOMENT-->
+			<input type="radio" name="slides" id="radio-1"  {% if ChairmanCircle_leaderboard|length > 0 %} checked {% endif %}>	<!--LEADERBOARD-->
+			<div class="slidesNavigation">	
+				{% if ChairmanCircle_leaderboard|length > 0 %}		
 				<label for="radio-1" id="dotForRadio-1">Leaderboard</label>
+				{% endif %}
+				{% if ChairmanCircle_inthemoment|length > 0 %}
 				<label for="radio-2" id="dotForRadio-2">In the Moment</label>
+				{% endif %}
 			</div>
 			<div class="heading">
 				<div class="trophy_image inline_block">
-					<img src="https://img.icons8.com/emoji/452/trophy-emoji.png"/>
+					<img src="{{Heading_Link}}"/>
 				</div>
 				<div class="heading_description inline_block">
 					{{Heading}}
