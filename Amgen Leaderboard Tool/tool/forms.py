@@ -10,7 +10,7 @@ class input(FlaskForm):
     inthemoment=FileField('InTheMoment', validators=[FileAllowed(['txt'])])    
     submit=SubmitField('Submit')
     load_previous=SubmitField('Load Previous')
-    generate=SubmitField('Generate HTML')
+    generate=SubmitField('Preview HTML')
 
 class leaderboard_configuration(FlaskForm):
     

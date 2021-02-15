@@ -5,23 +5,11 @@
 .file{
   width:30%;
 }
-.heading{
- /* margin-bottom:3%;*/
-}
+
 #submit_BU{
   display:none;
 }
 
-.success{
-  font-weight:bold;
-  background-color:#478b5fab;
-  color:white;
-  text-align:center;
-  width:30%;
-  margin-top:2px;
-  vertical-align:middle;
-  border-radius:5px;
-}
 .Empty{
   font-weight:bold;
   background-color:rgb(128, 22, 15);
@@ -43,7 +31,7 @@
   border-radius:5px;
 }
 #upload_config_status{
-  display:none;
+  display:block;
 }
 .inline_block{
   display:inline-block;
@@ -64,39 +52,28 @@
  width:45%;
   display:inline-block;
 }
-.Rank_Pool{
-  
-}
-.leaderboard_rankpool{
 
-}
-.inthemoment_rankpool{
-  
-}
-.select_BU_label{
-
-}
-.select_BU_TEAM_LEVEL_label{
- 
-}
 .rankpool_separator{
   width:10%;
   display:none;
 }
-.chairman_circle{
-}
+
 .config_form{
   margin-top:5px;
 }
+
 .Configs{
-  float:left;
+  vertical-align:top;
+  display:inline-block;
 }
 .chairmancircle_IFRAME{
-  float:right;
+  display:inline-block;
 }
+
 .copy_button{
-  float:right;
+
+float:right;
 }
 .configurator{
-  margin:50px;
+  margin:20px;
 }

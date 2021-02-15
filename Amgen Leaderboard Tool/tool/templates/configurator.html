@@ -25,27 +25,28 @@
                         Download Config
                     </button>
                 </a>
+                <a href="{{url_for('config')}}">
+                    <button type="button" class="btn btn-primary" onclick="refresh_config();">
+                        <svg width="16" height="16" fill="currentColor" class="bi bi-gear-fill" viewBox="0 0 16 16">
+                            <path d="M9.405 1.05c-.413-1.4-2.397-1.4-2.81 0l-.1.34a1.464 1.464 0 0 1-2.105.872l-.31-.17c-1.283-.698-2.686.705-1.987 1.987l.169.311c.446.82.023 1.841-.872 2.105l-.34.1c-1.4.413-1.4 2.397 0 2.81l.34.1a1.464 1.464 0 0 1 .872 2.105l-.17.31c-.698 1.283.705 2.686 1.987 1.987l.311-.169a1.464 1.464 0 0 1 2.105.872l.1.34c.413 1.4 2.397 1.4 2.81 0l.1-.34a1.464 1.464 0 0 1 2.105-.872l.31.17c1.283.698 2.686-.705 1.987-1.987l-.169-.311a1.464 1.464 0 0 1 .872-2.105l.34-.1c1.4-.413 1.4-2.397 0-2.81l-.34-.1a1.464 1.464 0 0 1-.872-2.105l.17-.31c.698-1.283-.705-2.686-1.987-1.987l-.311.169a1.464 1.464 0 0 1-2.105-.872l-.1-.34zM8 10.93a2.929 2.929 0 1 1 0-5.86 2.929 2.929 0 0 1 0 5.858z"/>
+                        </svg>
+                        Refresh Config
+                    </button>
+                </a>
             </div>
             <div class="form-group config_form">
                 <form method="POST" action="/configurator" enctype="multipart/form-data">
-                    <a href="{{url_for('config')}}">
-                        <button type="button" class="btn btn-info" onclick="refresh_config();">
-                            <svg width="16" height="16" fill="currentColor" class="bi bi-gear-fill" viewBox="0 0 16 16">
-                                <path d="M9.405 1.05c-.413-1.4-2.397-1.4-2.81 0l-.1.34a1.464 1.464 0 0 1-2.105.872l-.31-.17c-1.283-.698-2.686.705-1.987 1.987l.169.311c.446.82.023 1.841-.872 2.105l-.34.1c-1.4.413-1.4 2.397 0 2.81l.34.1a1.464 1.464 0 0 1 .872 2.105l-.17.31c-.698 1.283.705 2.686 1.987 1.987l.311-.169a1.464 1.464 0 0 1 2.105.872l.1.34c.413 1.4 2.397 1.4 2.81 0l.1-.34a1.464 1.464 0 0 1 2.105-.872l.31.17c1.283.698 2.686-.705 1.987-1.987l-.169-.311a1.464 1.464 0 0 1 .872-2.105l.34-.1c1.4-.413 1.4-2.397 0-2.81l-.34-.1a1.464 1.464 0 0 1-.872-2.105l.17-.31c.698-1.283-.705-2.686-1.987-1.987l-.311.169a1.464 1.464 0 0 1-2.105-.872l-.1-.34zM8 10.93a2.929 2.929 0 1 1 0-5.86 2.929 2.929 0 0 1 0 5.858z"/>
-                            </svg>
-                            Refresh Config
-                        </button>
-                    </a>
                     <div class="config_input form-group">
                         <div class="upload_config form-control">
                             {{form.Upload_Config.label(class="form-label")}} 
                             {{form.Upload_Config(class="form-control", onchange="submit_visible()")}}
-                            {{form.submit_BU(onclick="switch_off_visiblity()")}}
+                            {{form.submit_BU(class="btn btn-primary btn-sm mt-1", onclick="switch_off_visiblity()")}}
                             <div class="upload_config_status" id="upload_config_status">
-                                <div class="error">Status:</div>
+                                <div class="border border-danger text-light bg-secondary mt-1">Status:
                                 {% for stat in status %}
-                                    <div class="err">{{stat}}</div>
+                                    <div class="">{{stat}}</div>
                                 {% endfor %}
+                                </div>
                             </div>
                         </div>
                         <div class="select_config form-control">
@@ -56,38 +57,55 @@
                     </div>
                     <div class="Rank_Pool form-control mt-2">
                         <h3>Rank Pools</h3>
-                        <div class="heading">
-                            <div class="leaderboard_rankpool">
-                                <h5>Leaderboard</h5>
+                        <table class="table form-control">
+                            <h5 class="bg-info text-dark">Leaderboard</h5>
+                            <thead class="thead-light">
+                                <tr>
+                                  <th scope="col">Rank Pool</th>
+                                  <th scope="col">Visibility</th>
+                                  <th scope="col">Pseudoname</th>
+                                </tr>
+                            </thead>
+                            <tbody>
                                 {% for rankpool in leaderboard_rankpool %}
-                                <div class="data input-group mb-3">
-                                        {{rankpool['RANK_POOL']}}
-                                        <input class="checkbox" onchange="rankpool_visibility_checkbox(this.id, this.checked);" type="checkbox" name="rankpoolvisibilityflag" id="{{rankpool['Id']}}" {% if rankpool['RANK_POOL_VISIBILITY_FLAG']==1 %}checked{% endif %}/>
-                                        <input class="text" onchange="rankpool_pseudo_name(this.id, this.value);" type="text" name="rankpool_pseudoname" id="{{rankpool['Id']}}" value="{{rankpool['RANK_POOL_PSEUDONAME']}}"/>
-                                </div>
+                                <tr>
+                                  <td>{{rankpool['RANK_POOL']}}</td>
+                                  <td><input class="checkbox" onchange="rankpool_visibility_checkbox(this.id, this.checked);" type="checkbox" name="rankpoolvisibilityflag" id="{{rankpool['Id']}}" {% if rankpool['RANK_POOL_VISIBILITY_FLAG']==1 %}checked{% endif %}/></td>
+                                  <td><input class="text" onchange="rankpool_pseudo_name(this.id, this.value);" type="text" name="rankpool_pseudoname" id="{{rankpool['Id']}}" value="{{rankpool['RANK_POOL_PSEUDONAME']}}"/></td>
+                                </tr>
                                 {% endfor %}
-                            </div>
-                            <div class="inthemoment_rankpool">
-                                <h5>InTheMoment</h5>
+                            </tbody>
+                        </table>
+                        <table class="table form-control">
+                            <h5 class="bg-info text-dark">InTheMoment</h5>
+                            <thead class="thead-light">
+                                <tr>
+                                  <th scope="col">Rank Pool</th>
+                                  <th scope="col">Visibility</th>
+                                  <th scope="col">Pseudoname</th>
+                                </tr>
+                            </thead>
+                            <tbody>
                                 {% for rankpool in inthemoment_rankpool %}
-                                <div class="data input-group mb-3">
-                                    {{rankpool['RANK_POOL']}}
-                                    <input class="checkbox" onchange="rankpool_visibility_checkbox(this.id, this.checked);" type="checkbox" name="rankpoolvisibilityflag" id="{{rankpool['Id']}}" {% if rankpool['RANK_POOL_VISIBILITY_FLAG']==1 %}checked{% endif %}/>
-                                    <input class="text" onchange="rankpool_pseudo_name(this.id, this.value);" type="text" name="rankpool_pseudoname" id="{{rankpool['Id']}}" value="{{rankpool['RANK_POOL_PSEUDONAME']}}"/>
-                                </div>
+                                <tr>
+                                  <td>{{rankpool['RANK_POOL']}}</td>
+                                  <td><input class="checkbox" onchange="rankpool_visibility_checkbox(this.id, this.checked);" type="checkbox" name="rankpoolvisibilityflag" id="{{rankpool['Id']}}" {% if rankpool['RANK_POOL_VISIBILITY_FLAG']==1 %}checked{% endif %}/></td>
+                                  <td><input class="text" onchange="rankpool_pseudo_name(this.id, this.value);" type="text" name="rankpool_pseudoname" id="{{rankpool['Id']}}" value="{{rankpool['RANK_POOL_PSEUDONAME']}}"/></td>
+                                </tr>
                                 {% endfor %}
-                            </div>
-                        </div>
+                            </tbody>
+                        </table>
+                        <button class="Submit_Rankpool btn btn-secondary btn-sm">Confirm</button>
                     </div>
                 </form>
             </div>
-            <div class="set_leaderboard_parametres form-control mt-2">
+            <div class="set_leaderboard_parametres form-control mt-1">
                 <input class="Heading form-control" onchange="leaderboard_parameter(this.value);" type="text" name="Heading" id="Heading" value="{{Heading}}"/>
-                <button class="Submit_Heading btn btn-info mt-1">Confirm Heading</button>
+                <button class="Submit_Heading btn btn-primary mt-1">Confirm Heading</button>
             </div>
         </div>
         <div class="chairmancircle_IFRAME">
-            <iframe id="chairman_circle" src="/leaderboard_generation" width="100%" height="500px" title="Chairman's Circle"></iframe> 
+            <iframe id="chairman_circle" src="/leaderboard_generation" style="height:550px;width:100%;" title="Chairman's Circle"></iframe> 
             <button class="copy_button btn btn-dark mt-1" onclick="getIframeContent()">Copy Code</button>
         </div>
     </div>

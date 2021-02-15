@@ -42,7 +42,6 @@ function REFRESH_chairman_circle(){
 
 function submit_visible(){
 document.getElementById('submit_BU').style.display='block';
-document.getElementById('upload_config_status').style.display='block';
 }
 
 function rankpool_visibility_checkbox(id, check_status){
