@@ -4,7 +4,7 @@ from flask import url_for, current_app, flash
 from pathlib import Path
 from tool import app
 import csv
-from tool.models import leaderboard, inthemoment, configuration
+from tool.models import leaderboard, inthemoment, configuration, leaderboard_constants
 from tool import db
 import shutil
 
@@ -441,8 +441,32 @@ def get_ChairmanCircle_inthemoment(current_BU_TEAM_LEVEL):
     print("Value of leaderboard_final_data: "+str(inthemoment_final_data))
     return final_data
 
+def initialize_leaderboard_generator():
+    global leaderboard_final_data
+    global inthemoment_final_data
+    leaderboard_final_data=[]
+    inthemoment_final_data=[]
+
 def retrieve_leaderboard_data():
     return leaderboard_final_data
 
 def retrieve_inthemoment_data():
     return inthemoment_final_data
+
+def Update_Leaderboard_Parameter(parameter, parametervalue):
+    print("Function name: Update_Leaderboard_Parameter()")
+    print("Parameter: "+parameter+"  Parameter Value: "+parametervalue)
+    update_query = leaderboard_constants.query.filter_by(Parameter=parameter).first()
+    update_query.parameter_value = parametervalue
+    db.session.commit()
+
+def get_Parameter(Parameter):
+    print("Function name: get_Parameter()")
+    query = "SELECT parameter_value from leaderboard_constants WHERE Parameter="+"'"+Parameter+"'"
+    Parameter_Value=''
+    data = db.session.execute(query)
+
+    for row in data:
+        Parameter_Value=row['parameter_value']
+        
+    return Parameter_Value

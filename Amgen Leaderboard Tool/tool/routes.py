@@ -7,7 +7,7 @@ from werkzeug.utils import secure_filename
 from flask_wtf import FlaskForm
 from flask_wtf.file import FileField, FileRequired
 from tool.models import leaderboard, inthemoment
-from tool.utils import retrieve_leaderboard_data, retrieve_inthemoment_data, get_ChairmanCircle_leaderboard, get_ChairmanCircle_inthemoment, check_file, get_filepath, upload_config, allowed_file, update_configuration_rankpool_pseudoname, update_configuration, import_file_to_database, populate_dropdown, populate_BTL, get_leaderboard_rankpool, get_inthemoment_rankpool, delete_existing_database, create_configuration, delete_existing_configuration, import_configuration_to_database, temp_to_confirm_config, create_configuration_file
+from tool.utils import retrieve_leaderboard_data, get_Parameter, Update_Leaderboard_Parameter, initialize_leaderboard_generator, retrieve_inthemoment_data, get_ChairmanCircle_leaderboard, get_ChairmanCircle_inthemoment, check_file, get_filepath, upload_config, allowed_file, update_configuration_rankpool_pseudoname, update_configuration, import_file_to_database, populate_dropdown, populate_BTL, get_leaderboard_rankpool, get_inthemoment_rankpool, delete_existing_database, create_configuration, delete_existing_configuration, import_configuration_to_database, temp_to_confirm_config, create_configuration_file
 
 @app.route("/", methods=["GET", "POST"])
 @app.route("/input", methods=["GET", "POST"])
@@ -26,6 +26,7 @@ def home():
 
         if 'generate' in request.form:
             if request.form['generate']=='Generate HTML':
+                initialize_leaderboard_generator();
                 return redirect(url_for('config'))
 
         leaderboard_file = request.files['leaderboard']
@@ -78,6 +79,11 @@ def config():
         if request.get_json() != None:
             data = request.get_json()
 
+            if data.get('New_Heading') != None:
+                print("New_Heading_route")
+                new_heading = data['New_Heading']
+                Update_Leaderboard_Parameter('Heading', new_heading)
+
             if data.get('Refresh_config') != None:
                 delete_existing_configuration()
                 create_configuration()
@@ -97,22 +103,26 @@ def config():
         form = populate_BTL(form, str(form.select_BU.data))
         ChairmanCircle_leaderboard = get_ChairmanCircle_leaderboard(current_BU_TEAM_LEVEL)
         ChairmanCircle_inthemoment = get_ChairmanCircle_inthemoment(current_BU_TEAM_LEVEL)
+        Heading = get_Parameter('Heading')
         print("\nINSIDE CONFIGURATOR\n")
         print("Leaderboard: "+str(ChairmanCircle_leaderboard))
         print("Length of Leaderboard list: "+str(len(ChairmanCircle_leaderboard)))
         print("InTheMoment: "+str(ChairmanCircle_inthemoment))
         print("Length of InTheMoment list: "+str(len(ChairmanCircle_inthemoment)))
+        print('Heading: '+Heading)
         print("\nCONFIGURATOR ENDS\n")
         
-        return render_template("configurator.html", form=form, status=status, leaderboard_rankpool=leaderboard_rankpool, inthemoment_rankpool=inthemoment_rankpool)
+        return render_template("configurator.html", form=form, Heading=Heading, status=status, leaderboard_rankpool=leaderboard_rankpool, inthemoment_rankpool=inthemoment_rankpool)
     else:
+        Heading = get_Parameter('Heading')
         form = populate_dropdown(form)
-        return render_template("configurator.html", form=form)
+        return render_template("configurator.html", form=form, Heading=Heading )
 
 @app.route("/leaderboard_generation")
 def generator():
     ChairmanCircle_leaderboard = retrieve_leaderboard_data()
     ChairmanCircle_inthemoment = retrieve_inthemoment_data()
+    Heading = get_Parameter('Heading')
     print("\nINSIDE IFRAME\n")
     print("Inside tempo1 route")
     print("Leaderboard: "+str(ChairmanCircle_leaderboard))
@@ -120,4 +130,4 @@ def generator():
     print("InTheMoment: "+str(ChairmanCircle_inthemoment))
     print("Length of InTheMoment list: "+str(len(ChairmanCircle_inthemoment)))
     print("\nIFRAME ENDS\n")
-    return render_template("leaderboard_generation.html", ChairmanCircle_leaderboard=ChairmanCircle_leaderboard, ChairmanCircle_inthemoment=ChairmanCircle_inthemoment)
+    return render_template("leaderboard_generation.html", Heading=Heading, ChairmanCircle_leaderboard=ChairmanCircle_leaderboard, ChairmanCircle_inthemoment=ChairmanCircle_inthemoment)

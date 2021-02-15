@@ -78,4 +78,19 @@ function getIframeContent() {
     
     //console.log(frameContent)
     //alert("frame content : " + frameContent); 
-} 
+}
+
+function leaderboard_parameter(Heading_Value){
+    fetch('http://localhost:5000/configurator', {
+    method: 'POST', 
+    headers: {
+        'Content-Type': 'application/json'
+    },
+    body: JSON.stringify({
+    New_Heading: Heading_Value
+
+})}).then(results=>{
+    REFRESH_chairman_circle()
+    results.json()
+});
+}

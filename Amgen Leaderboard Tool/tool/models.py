@@ -34,3 +34,8 @@ class configuration(db.Model):
 
     def __repr__(self):
         return f"Leaderboard('{self.RANK_POOL}', '{self.RANK_POOL_PSEUDONAME}', '{self.DATA_TYPE}', '{self.BU_TEAM_LEVEL}', '{self.RANK_POOL_VISIBILITY_FLAG}')"
+
+class leaderboard_constants(db.Model):
+
+    Parameter = db.Column(db.String(120), primary_key=True)
+    parameter_value = db.Column(db.String(500))
