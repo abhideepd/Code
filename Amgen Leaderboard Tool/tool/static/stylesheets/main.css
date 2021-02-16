@@ -69,6 +69,10 @@
 .chairmancircle_IFRAME{
   display:inline-block;
 }
+.chairmancircle_IFRAME iframe{
+  height:550px;
+  width:420px;
+}
 
 .copy_button{
 margin-left:30%;

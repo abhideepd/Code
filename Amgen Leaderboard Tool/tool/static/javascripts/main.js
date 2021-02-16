@@ -102,3 +102,7 @@ function copy_button(){
 function copy_button_reverse(){
     document.getElementById("copy_button").innerHTML="Copy HTML";
 }
+
+function iframe_scroll(scroll_type){
+    document.getElementById("chairman_circle").scrolling=scroll_type;
+}
