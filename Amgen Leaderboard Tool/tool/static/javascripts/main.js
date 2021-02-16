@@ -75,7 +75,7 @@ function getIframeContent() {
     el.select();
     document.execCommand('copy');
     document.body.removeChild(el);
-    
+    //copy_button();
 }
 
 function leaderboard_parameter(parameter, parameter_value){
@@ -95,12 +95,10 @@ function leaderboard_parameter(parameter, parameter_value){
 });
 }
 
-function tooltip() { 
-var tooltip = document.getElementById("myTooltip");
-tooltip.innerHTML = "Code Copied";
+function copy_button(){
+    document.getElementById("copy_button").innerHTML="Copied !";
 }
 
-function tooltip_outFunc() {
-var tooltip = document.getElementById("myTooltip");
-tooltip.innerHTML = "Copy Code to clipboard";
+function copy_button_reverse(){
+    document.getElementById("copy_button").innerHTML="Copy HTML";
 }

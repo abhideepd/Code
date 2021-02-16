@@ -113,9 +113,9 @@
             </div>
         </div>
         <div class="chairmancircle_IFRAME">
-            <iframe id="chairman_circle" src="/leaderboard_generation" style="height:550px;width:100%;" title="Chairman's Circle"></iframe> 
-            <button class="copy_button btn btn-dark mt-1" onclick="getIframeContent(); tooltip();" onmouseout="tooltip_outFunc();">
-                <span class="tooltiptext" id="myTooltip">Copy Code to clipboard</span>
+            <iframe id="chairman_circle" src="/leaderboard_generation" scrolling="auto" style="height:550px;width:420px;" title="Chairman's Circle"></iframe> 
+            <button class="copy_button btn btn-dark mt-1" id="copy_button" onclick="getIframeContent(); copy_button()" onmouseout="copy_button_reverse();">
+                Copy HTML
             </button>
         </div>
     </div>
