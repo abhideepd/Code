@@ -1,0 +1,4 @@
+#main_canvas{
+    background-image: url("resources/Chess_Board.svg");
+    border: 10px solid;
+}
