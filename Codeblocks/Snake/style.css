@@ -1,4 +1,9 @@
 #main_canvas{
-    background-image: url("resources/Chess_Board.svg");
-    border: 10px solid;
+    /*background-image: url("resources/Chess_Board.svg");*/
+    background-color: black;
+    border: 10px solid green;
+    margin: 10px;
+    /*background-image: url("https://cdn.shopify.com/s/files/1/2209/1363/products/Screen-Shot-2017-01-18-at-10.08.06-AM_4f6617dd-4f3f-485a-b604-9994d76312b5_1024x1024.png?v=1535653015");
+    */background-repeat: no-repeat;
+    background-size: cover;
 }
