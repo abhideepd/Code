@@ -7,26 +7,36 @@ function init()
                 x: 1,
                 y: 1,
             },
+            end:{
+                x: 0,
+                y: 0,
+            },
         },
         w: 2500,
         h: 2500,
         margin: '10px',
-        border: '1px solid black',
+        border: '10px solid blue',
     }
 
     game = {
         status : 'start',
         session: '',
-        speed: 50,
+        speed: 120,
     }
 
+    canvas.position.end.x = canvas.w - canvas.position.start.x;
+    canvas.position.end.y = canvas.w - canvas.position.start.y;
     main_canvas = document.getElementById("main_canvas");
     main_canvas.width = canvas.w;
     main_canvas.height = canvas.h;
-    //main_canvas.margin = canvas.margin;
-    //main_canvas.border = canvas.border;
+    main_canvas.style.margin = canvas.margin;
+    main_canvas.style.border = canvas.border;
     
     snake = {
+        head:{
+            x:canvas.position.start.x,
+            y:canvas.position.start.y,
+        },
         cells: [],
         direction: 'right',
         initial_size: 5,
@@ -37,13 +47,13 @@ function init()
         create:function(){
             for(var i=0; i<this.initial_size; i++)
             {
-                this.cells.push({x: canvas.position.start.x+i, y: canvas.position.start.y});
+                this.cells.push({x: i*this.cs, y: canvas.position.start.y});
             }
         },
         draw:function(){
             for(var i=0; i<this.cells.length; i++)
             {
-                pen.fillRect(this.cells[i].x+this.cs, this.cells[i].y+this.cs, this.cs-2, this.cs-2);
+                pen.fillRect(this.cells[i].x, this.cells[i].y, this.cs-2, this.cs-2);
             }
         },
         update:function(){
@@ -51,24 +61,32 @@ function init()
             var headY = this.cells[this.cells.length-1].y;
             var X = headX;
             var Y = headY;
-            var cons = game.speed;//1;//this.cs;
+            var cons = this.cs;
             this.cells.shift();
             if(this.direction=='right')
             {
-                X = headX + cons;
+                X = X + cons;
+                console.log("update:function() -- 'right'");
             }
             else if(this.direction=='left')
             {
-                X = headX - cons;
+                X = X - cons;
+                console.log("update:function() -- 'left'");
             }
             else if(this.direction=='down')
             {
-                Y = headY + cons;
+                Y = Y + cons;   
+                console.log("update:function() -- 'down'");
             }
             else if(this.direction=='up')
             {
-                Y = headY - cons;
+                Y = Y - cons;
+                console.log("update:function() -- 'up'");
             }
+
+            this.head.x = X;
+            this.head.y = Y;
+            console.log("headX: "+this.head.x+"  headY:"+this.head.y);
             this.cells.push({x:X, y:Y});
         }
     }
@@ -84,21 +102,69 @@ function draw()
     snake.draw();
 }
 function update()
-{
-    console.log(snake.cells);
-    if(snake.cells[snake.cells.length-1].x>=canvas.w)
+{   
+    //  Boundry conditionas
+    var cons = snake.cs;
+    if(snake.head.x>=canvas.position.end.x)
+    {
+        console.log("function update() -- 'left'");
+        /*var headX = snake.cells[0].x;
+        var headY = snake.cells[0].y;
+        X = headX - cons;
+        Y = headY;
+        snake.head.x = X;
+        snake.head.y = Y;
+        snake.cells.pop();
+        snake.cells.unshift({x:X, y:Y});*/
         snake.direction = 'left';
-    
-    if(snake.cells[snake.cells.length-1].x<=canvas.position.start.x)
+    }
+
+    else if(snake.head.x<=canvas.position.start.x)
+    {
+        console.log("function update() -- 'right'");
+        /*var headX = snake.cells[snake.cells.length-1].x;
+        var headY = snake.cells[snake.cells.length-1].y;
+        X = headX + cons;
+        Y=headY;
+        snake.head.x = X;
+        snake.head.y = Y;
+        snake.cells.shift();
+        snake.cells.push({x:X, y:Y});*/
         snake.direction = 'right';
+    }
 
-    if(snake.cells[snake.cells.length-1].y>canvas.h)
+    else if(snake.head.y>=canvas.position.end.y)
+    {
+        console.log("function update() -- 'up'");
+        /*var headX = snake.cells[0].x;
+        var headY = snake.cells[0].y;
+        X = headX;
+        Y = headY - cons;
+        snake.head.x = X;
+        snake.head.y = Y;
+        snake.cells.pop();
+        snake.cells.unshift({x:X, y:Y});*/
         snake.direction = 'up';
+    }
     
-    if(snake.cells[0].y<=canvas.position.start.y)
+    else if(snake.head.y<=canvas.position.start.y)
+    {
+        console.log("function update() -- 'down'");
+        /*var headX = snake.cells[snake.cells.length-1].x;
+        var headY = snake.cells[snake.cells.length-1].y;
+        X = headX;
+        Y = headY + cons;
+        snake.head.x = X;
+        snake.head.y = Y;
+        snake.cells.shift();
+        snake.cells.push({x:X, y:Y});*/
         snake.direction = 'down';
+    }
 
-    snake.update();
+    //else
+    //{
+        snake.update();
+    //}
 }
 function gameloop()
 {
@@ -107,7 +173,7 @@ function gameloop()
 }
 function start()
 {
-    game.session = setInterval(gameloop, 100);
+    game.session = setInterval(gameloop, game.speed);
 
     function keyPressed(e)
     {
