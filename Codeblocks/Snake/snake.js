@@ -17,7 +17,7 @@ function init()
     game = {
         status : 'start',
         session: '',
-        speed: 10,
+        speed: 50,
     }
 
     main_canvas = document.getElementById("main_canvas");
@@ -28,7 +28,7 @@ function init()
     
     snake = {
         cells: [],
-        direction: 1,
+        direction: 'right',
         initial_size: 5,
         cs: 100,    // single cell size
         x: canvas.position.start.x,
@@ -37,23 +37,39 @@ function init()
         create:function(){
             for(var i=0; i<this.initial_size; i++)
             {
-                this.cells.push({x: canvas.position.start.x+this.cs*i, y: canvas.position.start.y});
+                this.cells.push({x: canvas.position.start.x+i, y: canvas.position.start.y});
             }
         },
         draw:function(){
             for(var i=0; i<this.cells.length; i++)
             {
-                pen.fillRect(this.cells[i].x, this.cells[i].y, this.cs, this.cs);
+                pen.fillRect(this.cells[i].x+this.cs, this.cells[i].y+this.cs, this.cs-2, this.cs-2);
             }
         },
         update:function(){
-            //initial_x = this.cells[0].x;
-            initial_y = this.cells[0].y;
-            for(var i=0; i<this.cells.length; i++)
+            var headX = this.cells[this.cells.length-1].x;
+            var headY = this.cells[this.cells.length-1].y;
+            var X = headX;
+            var Y = headY;
+            var cons = game.speed;//1;//this.cs;
+            this.cells.shift();
+            if(this.direction=='right')
             {
-                //pen.clearRect(this.cells[i].x, this.cells[i].y, snake.cs, snake.cs);
-                this.cells[i]=({x: (this.cells[i].x+game.speed*this.direction), y:(initial_y)});
+                X = headX + cons;
             }
+            else if(this.direction=='left')
+            {
+                X = headX - cons;
+            }
+            else if(this.direction=='up')
+            {
+                Y = headY + cons;
+            }
+            else if(this.direction=='down')
+            {
+                Y = headY - cons;
+            }
+            this.cells.push({x:X, y:Y});
         }
     }
     
@@ -64,15 +80,23 @@ function init()
 }
 function draw()
 {
+    pen.clearRect(0, 0, canvas.w, canvas.h);
     snake.draw();
 }
 function update()
 {
-    //if(snake.cells[snake.cells.length-1].x>canvas.w)
-      //  snake.direction = -1;
+    console.log(snake.cells);
+    if(snake.cells[snake.cells.length-1].x+snake.cs>=canvas.w)
+        snake.direction = 'left';
     
-    //if(snake.cells[0].x<canvas.position.start)
-      //  snake.direction = 1;
+    if(snake.cells[snake.cells.length-1].x-snake.cs<=canvas.position.start.x)
+        snake.direction = 'right';
+
+    //if(snake.cells[snake.cells.length-1].y+snake.cs>canvas.h)
+        //snake.direction = 'up';
+    
+    //if(snake.cells[0].y<=canvas.position.start.y)
+        //snake.direction = 'down';
 
     snake.update();
 }
@@ -84,6 +108,14 @@ function gameloop()
 function start()
 {
     game.session = setInterval(gameloop, 100);
+
+    function keyPressed(e)
+    {
+        //console.log(e.key);
+        snake.direction = e.key.substring(5, e.key.length).toLowerCase();
+        //console.log(snake.direction);
+    }
+    xyz=document.addEventListener('keydown', keyPressed);
 }
 function stop()
 {
