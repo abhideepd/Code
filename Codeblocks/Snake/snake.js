@@ -61,11 +61,11 @@ function init()
             {
                 X = headX - cons;
             }
-            else if(this.direction=='up')
+            else if(this.direction=='down')
             {
                 Y = headY + cons;
             }
-            else if(this.direction=='down')
+            else if(this.direction=='up')
             {
                 Y = headY - cons;
             }
@@ -86,17 +86,17 @@ function draw()
 function update()
 {
     console.log(snake.cells);
-    if(snake.cells[snake.cells.length-1].x+snake.cs>=canvas.w)
+    if(snake.cells[snake.cells.length-1].x>=canvas.w)
         snake.direction = 'left';
     
-    if(snake.cells[snake.cells.length-1].x-snake.cs<=canvas.position.start.x)
+    if(snake.cells[snake.cells.length-1].x<=canvas.position.start.x)
         snake.direction = 'right';
 
-    //if(snake.cells[snake.cells.length-1].y+snake.cs>canvas.h)
-        //snake.direction = 'up';
+    if(snake.cells[snake.cells.length-1].y>canvas.h)
+        snake.direction = 'up';
     
-    //if(snake.cells[0].y<=canvas.position.start.y)
-        //snake.direction = 'down';
+    if(snake.cells[0].y<=canvas.position.start.y)
+        snake.direction = 'down';
 
     snake.update();
 }
