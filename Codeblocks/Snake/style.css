@@ -7,3 +7,12 @@
     */background-repeat: no-repeat;
     background-size: cover;
 }
+#buttons{
+    text-align:center;
+}
+#buttons input{
+    width: 30%;
+    height: 5%;
+    font-size:100px;
+    margin:20px;
+}
