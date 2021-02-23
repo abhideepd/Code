@@ -6,7 +6,17 @@
         </title>
     </head>
     <body>
-        <div id="sudoku_board"></div>
+        <div class="full">
+            <h1>5Ud0KU</h1>
+            <div id="sudoku_board">
+                
+            </div>
+            <input type="button" value="submit"/>
+            <input type="button" value="refresh" onclick="refresh()"/>
+            <input type="button" value="new board" onclick="generate_board()"/>
+            <input type="button" value="solve for me" onclick="board.solve()"/>
+        </div>
+
         <script src="sudoku.js"></script>
     </body>
 </html>

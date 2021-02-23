@@ -1,0 +1,207 @@
+<html>
+    <head>
+        <style>
+            .full h1{
+                font-family:monospace;
+                font-size:40px;
+            }
+            .full{
+                margin-top:80px;
+                text-align:center;
+            }
+            .full input[type=button]{
+                margin-top:20px;
+                width:90px;
+                height:35px;
+                font-size: 20px;
+                border-radius: 5px;
+                font-family: fantasy;
+                background-color:black;
+                color:beige;
+                border-collapse: collapse;
+                border:1px solid red;
+            }
+            .full input:hover{
+                cursor:pointer;
+            }
+            .row{
+                text-align:center;
+            }
+            .row input {
+                border: 4px solid black;
+                font-family: revert;
+                font-size: 30px;
+                text-align: center;
+                border-collapse: collapse;
+                width: 50px;
+                height: 50px;
+                margin-left: -10px;
+                margin-top: -5px;
+            }
+            .row input:focus{
+                transform:scale(1.1);
+                background-color:aqua;
+            }
+            .row input:disabled{
+                background-color:rgb(206, 197, 197);
+            }
+            .column_separator, .separator{
+                border:2px solid white;
+            }
+            .separator{
+                height:2px;
+            }
+            /* Chrome, Safari, Edge, Opera */
+            input::-webkit-outer-spin-button,
+            input::-webkit-inner-spin-button {
+            -webkit-appearance: none;
+            margin: 0;
+            }
+
+            /* Firefox */
+            input[type=number] {
+            -moz-appearance: textfield;
+            }
+        </style>
+        <title>
+            temp2
+        </title>
+    </head>
+    <body>
+        <div class="full">
+            <h1>5Ud0KU</h1>
+            <div id="sudoku_board">
+                <div class="row">
+                    <input type="number" value="2" disabled/>
+                    <input type="number"/>
+                    <input type="number"/>
+                    <span class="column_separator"></span>
+                    <input type="number"/>
+                    <input type="number"/>
+                    <input type="number"/>
+                    <span class="column_separator"></span>
+                    <input type="number"/>
+                    <input type="number"/>
+                    <input type="number"/>
+                    <span class="column_separator"></span>
+                </div>
+                <div class="row">
+                    <input type="number"/>
+                    <input type="number" value="2" disabled/>
+                    <input type="number"/>
+                    <span class="column_separator"></span>
+                    <input type="number"/>
+                    <input type="number"/>
+                    <input type="number"/>
+                    <span class="column_separator"></span>
+                    <input type="number"/>
+                    <input type="number" value="2" disabled/>
+                    <input type="number"/>
+                    <span class="column_separator"></span>
+                </div>
+                <div class="row">
+                    <input type="number"/>
+                    <input type="number"/>
+                    <input type="number"/>
+                    <span class="column_separator"></span>
+                    <input type="number"/>
+                    <input type="number"/>
+                    <input type="number" value="2" disabled/>
+                    <span class="column_separator"></span>
+                    <input type="number"/>
+                    <input type="number"/>
+                    <input type="number"/>
+                    <span class="column_separator"></span>
+                </div>
+                <div class="separator"></div>
+                <div class="row">
+                    <input type="number"/>
+                    <input type="number"/>
+                    <input type="number"/>
+                    <span class="column_separator"></span>
+                    <input type="number"/>
+                    <input type="number"/>
+                    <input type="number"/>
+                    <span class="column_separator"></span>
+                    <input type="number"/>
+                    <input type="number"/>
+                    <input type="number" value="2" disabled/>
+                    <span class="column_separator"></span>
+                </div>
+                <div class="row">
+                    <input type="number"/>
+                    <input type="number"/>
+                    <input type="number"/>
+                    <span class="column_separator"></span>
+                    <input type="number"/>
+                    <input type="number"/>
+                    <input type="number"/>
+                    <span class="column_separator"></span>
+                    <input type="number" value="2" disabled/>
+                    <input type="number" value="2" disabled/>
+                    <input type="number"/>
+                    <span class="column_separator"></span>
+                </div>
+                <div class="row">
+                    <input type="number"/>
+                    <input type="number"/>
+                    <input type="number"/>
+                    <span class="column_separator"></span>
+                    <input type="number"/>
+                    <input type="number" value="2" disabled/>
+                    <input type="number"/>
+                    <span class="column_separator"></span>
+                    <input type="number"/>
+                    <input type="number"/>
+                    <input type="number"/>
+                    <span class="column_separator"></span>
+                </div>
+                <div class="separator"></div>
+                <div class="row">
+                    <input type="number"/>
+                    <input type="number"/>
+                    <input type="number"/>
+                    <span class="column_separator"></span>
+                    <input type="number"/>
+                    <input type="number"/>
+                    <input type="number"/>
+                    <span class="column_separator"></span>
+                    <input type="number"/>
+                    <input type="number"/>
+                    <input type="number"/>
+                    <span class="column_separator"></span>
+                </div>
+                <div class="row">
+                    <input type="number"/>
+                    <input type="number"/>
+                    <input type="number"/>
+                    <span class="column_separator"></span>
+                    <input type="number"/>
+                    <input type="number"/>
+                    <input type="number"/>
+                    <span class="column_separator"></span>
+                    <input type="number"/>
+                    <input type="number"/>
+                    <input type="number"/>
+                    <span class="column_separator"></span>
+                </div>
+                <div class="row">
+                    <input type="number"/>
+                    <input type="number"/>
+                    <input type="number"/>
+                    <span class="column_separator"></span>
+                    <input type="number"/>
+                    <input type="number"/>
+                    <input type="number"/>
+                    <span class="column_separator"></span>
+                    <input type="number"/>
+                    <input type="number"/>
+                    <input type="number"/>
+                    <span class="column_separator"></span>
+                </div>
+            </div>
+            <input type="button" value="submit"/>
+        </div>
+        <script src="sudoku.js"></script>
+    </body>
+</html>
