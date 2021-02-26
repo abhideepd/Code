@@ -93,6 +93,39 @@ def check_file_content(file, name):
             if len(error)==0:
                 return "success"
             return error
+    elif name.lower()=="temp_calender":
+        with open(file, 'r') as txt_file:
+            first_line=txt_file.readline()
+
+            error=[]
+            if len(first_line)==0:
+                error.append("Input file is empty")
+                return error
+
+            list_of_columns=first_line.split("\t")
+            unique_columns=set(list_of_columns)
+            const=" column missing"
+
+            if "DATE" in unique_columns or "DATE\n" in unique_columns:
+                pass
+            else:
+                error.append("DATE"+const)
+            
+            if "MONTH" in unique_columns or "MONTH\n" in unique_columns:
+                pass
+            else:
+                error.append("MONTH"+const)
+            
+            if "EVENT" in unique_columns or "EVENT\n" in unique_columns:
+                pass
+            else:
+                error.append("EVENT"+const)
+            
+            if len(error)==0:
+                error.append("success")
+                return error
+            return error
+
     else:
         with open(file, 'r') as txt_file:
             first_line=txt_file.readline()
@@ -470,3 +503,42 @@ def get_Parameter(Parameter):
         Parameter_Value=row['parameter_value']
 
     return Parameter_Value
+
+def get_calender_data():
+    print("Function name: get_calender_data()")
+    filename="calender.txt"
+    filename=os.path.join(app.config['UPLOAD_FOLDER'], filename)
+    with open(filename, 'r') as text_file:
+        reader=csv.DictReader(text_file, delimiter='\t')
+
+        calender_list=[]
+        for line in reader:
+            DATE = str(line['DATE'])
+            MONTH = str(line['MONTH']).upper()
+            EVENT = str(line['EVENT'])
+
+            if len(DATE)==1:
+                DATE='0'+DATE
+            
+            if len(MONTH)>3:
+                MONTH=MONTH[0:3]
+            
+            '''temp_list=[]
+            temp_list.append(DATE)
+            temp_list.append(MONTH)
+            temp_list.append(EVENT)'''
+            temp_list={}
+            temp_list['DATE']=DATE
+            temp_list['MONTH']=MONTH
+            temp_list['EVENT']=EVENT
+            calender_list.append(temp_list)
+
+    return calender_list
+
+def confirm_calender():
+    temp = "temp_calender.txt"
+    perm = "calender.txt"
+    temp = os.path.join(app.config['UPLOAD_FOLDER'], temp)
+    perm = os.path.join(app.config['UPLOAD_FOLDER'], perm)
+    os.remove(perm)
+    os.rename(temp, perm)

@@ -1,0 +1,66 @@
+<div class="Calender_Iframe">
+    <style>
+        .opcal_mnth{
+        color:white;
+        font-weight:bold;
+        }
+        
+        .opcal_mnth div{
+        padding: 3px;
+        border:3px solid #0658AA;
+        background-color:#0658AA;
+        border-radius: 10px 0px 0px 10px;
+        }
+        
+        .opcal_dte{
+        color:#0658AA;
+        font-weight:bold;
+        }
+        
+        .opcal_dte div{
+        margin-left: -7px;
+        padding: 3px;
+        border:3px solid #0658AA;
+        border-radius: 0px 10px 10px 0px;
+        }
+        
+        .opcal_evnt div{
+        padding:3px;
+        border:3px solid #fff;
+        margin-left: 10px;
+        }
+        
+        .operations_calendar table{
+        text-align:left;
+        }
+        
+        .operations_calendar{
+        max-height:250px;
+        overflow-y:auto;
+        }
+        
+        hr.opcal_opcal_separator {
+        height: 1px;
+        border-width: 0;
+        background-color: #DADDF5;
+        margin-left: 70px;
+        }
+        
+        td.opcal_dte{
+        padding-left: 5px;
+        }
+    </style>
+
+    <div class="operations_calendar">
+        {% for data in calender_data %}
+        <table>
+            <tr class="calender_opcal_evnt">
+                <td class="opcal_mnth" style="width: 30px;"><div>{{data['DATE']}}</div></td>
+                <td class="opcal_dte" style="width: 50px; text-align: center;"><div>{{data['MONTH']}}</div></td>
+                <td class="opcal_evnt"><div>{{data['EVENT']}}</div></td>
+            </tr>
+        </table>
+        <hr class="opcal_opcal_separator"/>	
+        {% endfor %}
+    </div>
+</div>

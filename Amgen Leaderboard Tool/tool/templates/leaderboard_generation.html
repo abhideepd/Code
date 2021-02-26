@@ -27,6 +27,7 @@
 		
 		.Terr svg {
 			vertical-align: middle;
+			fill: goldenrod;
 		}
 		
 		.carrousel .slidesNavigation {
@@ -212,9 +213,9 @@
 			<ul class="slides">
 				<li class="slide">
 					<div class="tablehead">
-						<div class="rank invisible head">Rank</div>
+						<div class="rank head">Rank</div>
 						<div class="Name head">Name</div>
-						<div class="Terr head">Rank</div>
+						<div class="Terr invisible head">Rank</div>
 					</div>
 					<div class="details">
 						{% if ChairmanCircle_leaderboard|length > 1 %}
@@ -237,7 +238,7 @@
 							{% for row in ChairmanCircle_leaderboard%}
 								{% for sub_row in row[1]%}
 									<div class="row">
-										<div class="rank">Rank {{sub_row[1]}}</div>
+										<div class="rank">{{sub_row[1]}}</div>
 										<div class="Name">{{sub_row[0]}}</div>
 										<div class="Terr">
 											<svg width="16" height="16" fill="currentColor" viewBox="0 0 16 16">
@@ -249,6 +250,9 @@
 								{% endfor %}
 							{% endfor %}
 						{% endif %}
+						<div class="row">
+							<em><span style="font-size:12px">Upto 10 Chairman's Circle leaders are displayed here</span></em>
+						</div>
 					</div>
 				</li>
 				<li class="slide">	
@@ -282,6 +286,9 @@
 							{% endfor %}
 						{% endfor %}
 						{% endif %}
+						<div class="row">
+							<em><span style="font-size:12px">People with biggest rank improvement as compared to the previous month are displayed here</span></em>
+						</div>
 					</div>
 				</li>					
 			</ul>

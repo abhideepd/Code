@@ -106,3 +106,43 @@ function copy_button_reverse(){
 function iframe_scroll(scroll_type){
     document.getElementById("chairman_circle").scrolling=scroll_type;
 }
+
+
+function getIframeContent_1() { 
+
+    var frameObj = document.getElementById('calender'); 
+    var frameContent = frameObj.contentWindow.document.body.innerHTML; 
+
+    var el = document.createElement('textarea');
+    el.value = frameContent;
+
+    el.setAttribute('readonly', '');
+    el.style = {position: 'absolute', left: '-9999px'};
+    document.body.appendChild(el);
+    el.select();
+    document.execCommand('copy');
+    document.body.removeChild(el);
+    //copy_button();
+}
+
+function copy_button_1(){
+    document.getElementById("copy_button_1").innerHTML="Copied !";
+}
+
+function copy_button_reverse_1(){
+    document.getElementById("copy_button_1").innerHTML="Copy HTML";
+}
+
+function iframe_scroll_1(scroll_type){
+    document.getElementById("calender").scrolling=scroll_type;
+}
+
+function submit_visible_1()
+{
+    document.getElementById('generate_calender').style.display='block';
+}
+
+function switch_off_visiblity_1()
+{
+    document.getElementById('generate_calender').style.display='none';
+}

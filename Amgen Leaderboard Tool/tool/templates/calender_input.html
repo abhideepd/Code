@@ -1,0 +1,32 @@
+{% extends "layout.html" %}
+
+{% block Content %}
+
+    {% with messages=get_flashed_messages() %}
+                {% if messages %}
+                    {% for msg in messages  %}
+                        <div class="badge bg-danger text-wrap">{{msg}}</div>
+                    {% endfor %}
+                {% endif %}
+    {% endwith %}
+<div class="calender_widget mt-5">
+    <div class="calender_input form-control">
+        <form method="POST" action="/calender_input" enctype="multipart/form-data">
+            {{form.calender_input.label(class="form-label p-1 rounded-top rounded-bottom bg-info text-white")}} 
+            {{form.calender_input(class="form-control", onchange="submit_visible_1()")}}
+            {{form.generate_calender(class="btn btn-primary btn-sm mt-1", onclick="switch_off_visiblity_1()")}}
+        </form>
+        <a href="{{url_for('calender_document')}}" download>
+            <button type="button" class="btn btn-warning mt-2">
+                Download
+            </button>
+        </a>
+    </div>
+    <div class="calender_IFRAME mt-2">
+        <iframe id="calender" src="/calender_generator" scrolling="no" onmouseover="iframe_scroll_1('auto')" onmouseout="iframe_scroll_1('no')" title="Calender"></iframe> 
+        <button class="copy_button btn btn-dark" id="copy_button_1" onclick="getIframeContent_1(); copy_button_1()" onmouseout="copy_button_reverse_1();">
+            Copy HTML
+        </button>
+    </div>
+</div>
+{% endblock %}

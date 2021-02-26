@@ -30,3 +30,8 @@ class selector(FlaskForm):
     select_BU = SelectField('BU', choices=[])
     select_BU_TEAM_LEVEL = SelectField('BU_TEAM_LEVEL', choices=[])
     submit_BU = SubmitField('Submit BU')
+
+class calender(FlaskForm):
+
+    calender_input=FileField('Calender Input', validators=[FileAllowed(['txt'])])
+    generate_calender=SubmitField('Upload')

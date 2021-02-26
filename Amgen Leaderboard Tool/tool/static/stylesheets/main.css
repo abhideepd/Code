@@ -10,6 +10,10 @@
   display:none;
 }
 
+#generate_calender{
+  display:none;
+}
+
 .Empty{
   font-weight:bold;
   background-color:rgb(128, 22, 15);
@@ -62,11 +66,11 @@
   margin-top:5px;
 }
 
-.Configs{
+.Configs, .calender_input{
   vertical-align:top;
   display:inline-block;
 }
-.chairmancircle_IFRAME{
+.chairmancircle_IFRAME, .calender_IFRAME{
   display:inline-block;
 }
 .chairmancircle_IFRAME iframe{
@@ -74,9 +78,34 @@
   width:420px;
 }
 
+.calender_input{
+  text-align:left;
+  width: auto;
+}
+
+.calender_IFRAME iframe{
+  height:350px;
+  width:420px;
+}
+
+.calender_IFRAME{
+  text-align:center;
+}
+
 .copy_button{
 margin-left:30%;
 }
 .configurator{
   margin:20px;
+}
+.calender_widget{
+  text-align:center;
+}
+
+#copy_button_1{
+  margin-left:10%;
+}
+
+#calender_input{
+  margin-top:-5px;
 }
