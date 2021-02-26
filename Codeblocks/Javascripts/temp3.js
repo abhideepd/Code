@@ -28,3 +28,11 @@ function swap(arr, i, j)
     arr[i]=arr[j];
     arr[j]=temp;
 }
+
+function dropdown(value)
+{
+    document.getElementById('string_permutation').style.display='none';
+    document.getElementById('n_queen').style.display='none';
+    document.getElementById(value).style.display='block';
+    //console.log(prev.id);
+}

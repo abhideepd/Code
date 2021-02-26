@@ -8,13 +8,30 @@
                 padding:100px;
                 text-align:center;
             }
+            #operartion{
+                margin-bottom:10px;
+            }
+            #string_permutation, #n_queen{
+                display:none;
+            }
         </style>
     </head>
     <body>
         <div class="full">
-            <input type="text" id="input_string" onchange="permutation_generator(this.value)"/>
-            <input type="button" value="submit"/>
-            <div id="answer"></div>
+            <label for="operartion" >Choose an operation:</label>
+                <select name="operartion" id="operartion" onchange="dropdown(this.value)">
+                    <option value="Select"></option>
+                    <option value="string_permutation">String permutation</option>
+                    <option value="n_queen">N Queen</option>
+                </select>
+            <div id="string_permutation">
+                <input type="text" id="input_string" onchange="permutation_generator(this.value)"/>
+                <input type="button" value="submit"/>
+                <div id="answer"></div>
+            </div>
+            <div id="n_queen">
+                n_queen
+            </div>
         </div>
         <script src="temp3.js"></script>
     </body>
