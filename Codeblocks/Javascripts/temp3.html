@@ -24,13 +24,18 @@
                     <option value="string_permutation">String permutation</option>
                     <option value="n_queen">N Queen</option>
                 </select>
+            <div id="Select"></div>
             <div id="string_permutation">
+                <label>Enter a word: </label>
                 <input type="text" id="input_string" onchange="permutation_generator(this.value)"/>
                 <input type="button" value="submit"/>
                 <div id="answer"></div>
             </div>
             <div id="n_queen">
-                n_queen
+                <label>Chessboard size: </label>
+                <input type="number" id="input_boardsize" onchange="" min="0" max="10"/>
+                <input type="button" value="submit"/>
+                <div id="answer_board"></div>
             </div>
         </div>
         <script src="temp3.js"></script>
