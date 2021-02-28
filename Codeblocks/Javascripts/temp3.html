@@ -14,6 +14,13 @@
             #string_permutation, #n_queen{
                 display:none;
             }
+            #answer_board{
+                margin-top:20px;
+            }
+            table.center {
+                margin-left: auto; 
+                margin-right: auto;
+            }
         </style>
     </head>
     <body>
@@ -33,7 +40,7 @@
             </div>
             <div id="n_queen">
                 <label>Chessboard size: </label>
-                <input type="number" id="input_boardsize" onchange="" min="0" max="10"/>
+                <input type="number" id="input_boardsize" onchange="n_queen(this.value)" min="0"/>
                 <input type="button" value="submit"/>
                 <div id="answer_board"></div>
             </div>

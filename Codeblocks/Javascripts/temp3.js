@@ -34,5 +34,34 @@ function dropdown(value)
     document.getElementById('string_permutation').style.display='none';
     document.getElementById('n_queen').style.display='none';
     document.getElementById(value).style.display='block';
-    //console.log(prev.id);
+}
+function n_queen(value)
+{
+    create_board(value);
+}
+function create_board(value)
+{
+    var board = "<table class='center' style='border:5px solid black; border-collapse: collapse;'>";
+    var xyz="black";
+    for(var i=1; i<=value; i++)
+    {
+        board = board + "<tr>";
+        for(var j=1; j<=value; j++)
+        {
+            if(xyz=='black')
+            xyz='beige';
+            else
+            xyz='black';
+            board = board +"<td style='width:50px; height:50px; background-color:"+xyz+"'</td>";
+        }
+        board = board +"</tr>";
+
+        if(value%2==0)
+        if(xyz=='black')
+        xyz='beige';
+        else
+        xyz='black';
+    }
+    board=board+"</table>";
+    document.getElementById('answer_board').innerHTML = board;
 }
