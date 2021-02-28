@@ -8,31 +8,71 @@ public class xyz {
 
     public static void main(String[] args) throws IOException {
         BufferedReader x = new BufferedReader(new InputStreamReader(System.in));
-        // String input=x.readLine();
+        // int input=Integer.parseInt(x.readLine());
 
-        String input = "abc";
+        int input = 4;
 
-        char inp[] = input.toCharArray();
-        answer(inp, 0, "");
+        n_queen(input);
     }
 
-    static void answer(char[] arr, int index, String ans) {
-        if (ans.length() == arr.length) {
-            System.out.println(count + ": " + ans);
-            ++count;
-            return;
-        }
+    static void n_queen(int n) {
 
-        for (int i = index; i < arr.length; i++) {
-            swap(arr, i, index);
-            answer(arr, index + 1, ans + arr[index]);
-            swap(arr, i, index);
-        }
+        // return false if board size is less than 4
+        int board[][] = new int[n][n];
+        populate(board, 0, 0);
     }
 
-    static void swap(char[] arr, int a, int b) {
-        char temp = arr[a];
-        arr[a] = arr[b];
-        arr[b] = temp;
+    static boolean isSafe(int[][] board, int x, int y) {
+        int x1, y1;
+
+        // left diognal
+        x1 = x;
+        y1 = y;
+        while ((x1 >= 0) && (y1 >= 0) && (x1 < board.length) && (y1 < board.length)) {
+            if (board[x1][y1] == 1)
+                return false;
+
+            --x1;
+            --y1;
+        }
+
+        // right diognal
+        x1 = x;
+        y1 = y;
+        while ((x1 >= 0) && (y1 >= 0) && (x1 < board.length) && (y1 < board.length)) {
+            if (board[x1][y1] == 1)
+                return false;
+
+            ++x1;
+            --y1;
+        }
+
+        // up
+        x1 = x;
+        y1 = y;
+        while ((x1 >= 0) && (y1 >= 0) && (x1 < board.length) && (y1 < board.length)) {
+            if (board[x1][y1] == 1)
+                return false;
+
+            --y1;
+        }
+
+        return true;
+    }
+
+    static boolean populate(int[][] board, int x, int y) {
+
+        if (y == board.length)
+            return true;
+
+        for (int i = x; i < board.length; i++) {
+            if (populate(board, i, y)) {
+                if (isSafe(board, i, y + 1)) {
+                    board[i][y] = 1;
+                }
+            }
+        }
+
+        return true;
     }
 }
