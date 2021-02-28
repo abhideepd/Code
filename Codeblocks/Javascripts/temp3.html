@@ -5,7 +5,7 @@
         </title>
         <style>
             .full{
-                padding:100px;
+                padding:50px;
                 text-align:center;
             }
             #operartion{
@@ -36,7 +36,8 @@
                 <label>Enter a word: </label>
                 <input type="text" id="input_string" onchange="permutation_generator(this.value)"/>
                 <input type="button" value="submit"/>
-                <div id="answer"></div>
+                <input type="button" value="generate string" onclick="generate_string()"/>
+                <div id="answer" style="max-height:600px; overflow-y: auto; margin-top:20px; border: 2px solid black"></div>
             </div>
             <div id="n_queen">
                 <label>Chessboard size: </label>

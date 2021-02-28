@@ -65,8 +65,8 @@ public class xyz {
         if (y == board.length)
             return true;
 
-        for (int i = x; i < board.length; i++) {
-            if (populate(board, i, y)) {
+        for (int i = y; i < board.length; i++) {
+            if (populate(board, x, i)) {
                 if (isSafe(board, i, y + 1)) {
                     board[i][y] = 1;
                 }
@@ -76,3 +76,14 @@ public class xyz {
         return true;
     }
 }
+
+/*
+1 0 0 0 0 0 0 0
+0 0 1 0 0 0 0 0
+0 0 0 0 1 0 0 0
+0 0 0 0 0 0 1 0
+0 0 0 1 0 0 0 0
+0 0 0 0 0 0 0 0
+0 0 0 0 0 0 0 0
+0 0 0 0 0 0 0 0
+*/

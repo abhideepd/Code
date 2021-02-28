@@ -1,3 +1,4 @@
+
 function permutation_generator(value)
 {
     answerr=document.getElementById('answer');
@@ -8,6 +9,23 @@ function permutation_generator(value)
     answer_generator(answer, 0, arr, '');
     answerr.innerHTML = answer.list;
 }
+
+function generate_string()
+{
+    var string_size = Math.floor((Math.random() * 7) + 1);
+
+    //  Generate String
+    var string = "";
+    for(var i=0; i<string_size; i++)
+    {
+        var x = Math.floor((Math.random() * 26)) + 65;
+        var temp = String.fromCharCode(x);
+        string = string + temp;
+    }
+    document.getElementById('input_string').value = string;
+    permutation_generator(string);
+}
+
 function answer_generator(answer, index, arr, ans_string)
 {
     if(ans_string.length==arr.length)
@@ -22,6 +40,7 @@ function answer_generator(answer, index, arr, ans_string)
         swap(arr, i, index);
     }
 }
+
 function swap(arr, i, j)
 {
     var temp=arr[i];
@@ -35,10 +54,12 @@ function dropdown(value)
     document.getElementById('n_queen').style.display='none';
     document.getElementById(value).style.display='block';
 }
+
 function n_queen(value)
 {
     create_board(value);
 }
+
 function create_board(value)
 {
     var board = "<table class='center' style='border:5px solid black; border-collapse: collapse;'>";
