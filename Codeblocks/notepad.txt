@@ -1,7 +1,6 @@
 Recursion:-
-1.) https://www.youtube.com/watch?v=ht9QAfQpCnQ&ab_channel=ThePrimeagen
-2.) https://www.youtube.com/watch?v=oKndim5-G94&t=539s&ab_channel=V.AntonSpraul
-3.) https://www.youtube.com/watch?v=mz6tAJMVmfM&ab_channel=CS50
+2.) https://www.youtube.com/watch?v=oKndim5-G94&t=539s&ab_channel=V.AntonSpraul -
+3.) https://www.youtube.com/watch?v=mz6tAJMVmfM&ab_channel=CS50 - START
 4.) https://www.youtube.com/watch?v=aCPkszeKRa4&ab_channel=CS50
 5.) https://www.youtube.com/watch?v=22NwdM0GpUw&ab_channel=ComputerScience
 6.) https://www.youtube.com/watch?v=oKndim5-G94&t=539s&ab_channel=V.AntonSpraul
