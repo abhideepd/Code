@@ -11,10 +11,15 @@ boolean Nqueen_solver(x, y, board)
     if(helper_isSafe(x, y, board))
         return true;
     
-    //  calculate x-axis position
-    for(int i=x; i<board.length; i++)
+    else if(y == board.length)
+        return true;
+    
+    else
     {
-        if(Nqueen_solver(x, y, board))
-            Nqueen_solver(0, y+1, board)
+        for(int i=x; i<board.length; i++)
+        {
+            if(Nqueen_solver(x, y, board))
+                Nqueen_solver(0, y+1, board)
+        }
     }
 }
