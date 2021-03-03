@@ -86,3 +86,4 @@ function create_board(value)
     board=board+"</table>";
     document.getElementById('answer_board').innerHTML = board;
 }
+dropdown('string_permutation');

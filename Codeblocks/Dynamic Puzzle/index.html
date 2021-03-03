@@ -12,7 +12,7 @@
     </head>
     <body>
         <div class="dynamic_puzzle">
-            <input type="number" id="input_puzzle_boardsize" onchange="main(this.value)" min="0"/>
+            <input type="number" id="input_puzzle_boardsize" onchange="main(this.value)" onkeydown="keypress(event)" min="0" value="4" autofocus />
             <div id="puzzle" class="puzzle">
                 <!--input type="number" id="input_puzzle_boardsize" onchange="main(this.value)" min="0"/-->
             </div>
